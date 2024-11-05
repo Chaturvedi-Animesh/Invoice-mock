@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="620df97783a1921038c8f4a6feaad3a2" label="PO Line Items" max_length="40" name="x_1097202_invoices_po_line_items" type="collection">
+        <element label="Invoice For" max_length="32" name="invoice_for" reference="x_1097202_invoices_invoice" type="reference"/>
+        <element label="WBS Element" max_length="40" name="wbs_element" type="string"/>
+        <element label="Tax Code" max_length="40" name="tax_code" type="string"/>
+        <element label="PO Text" max_length="40" name="po_text" type="string"/>
+        <element label="Purchase Order" max_length="40" name="purchase_order" type="string"/>
+        <element label="PO Item no." max_length="40" name="po_item_no" type="string"/>
+        <element label="Reference Doc" max_length="40" name="reference_doc" type="string"/>
+        <element label="GL Code" max_length="40" name="gl_code" type="string"/>
+        <element label="Qty." max_length="40" name="qty" type="string"/>
+        <element label="Order Unit" max_length="40" name="order_unit" type="string"/>
+        <element label="Profit Center" max_length="40" name="profit_center" type="string"/>
+        <element label="Amount" max_length="40" name="amount" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="S/N" max_length="40" name="number" type="string"/>
+        <element label="Text" max_length="40" name="text" type="string"/>
+        <element label="Asset" max_length="40" name="asset" type="string"/>
+        <index name="index">
+            <element name="invoice_for"/>
+        </index>
+    </element>
+</database>

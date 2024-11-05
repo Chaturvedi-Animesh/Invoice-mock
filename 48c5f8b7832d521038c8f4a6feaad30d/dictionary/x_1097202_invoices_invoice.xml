@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3fc83cbb832d521038c8f4a6feaad35c" extends="task" label="Invoice" max_length="40" name="x_1097202_invoices_invoice" type="collection">
+        <element label="Total Line Item" max_length="40" name="total_line_item" type="string"/>
+        <element choice="3" label="Application Status" max_length="40" name="application_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="Draft"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="1" value="Pending Approval"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="Rejected"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="Approved"/>
+            </choice>
+        </element>
+        <element choice="1" default="Posting Pending" label="Post Flag" max_length="40" name="post_flag" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Posting Pending" sequence="1" value="Posting Pending"/>
+                <element inactive_on_update="false" label="Posting Failed" sequence="2" value="Posting Failed"/>
+                <element inactive_on_update="false" label="Posted" sequence="0" value="Posted"/>
+            </choice>
+        </element>
+        <element label="Invoice No." max_length="40" name="invoice_no" type="string"/>
+        <element label="Vendor Code" max_length="32" name="vendor_code" reference="x_1097202_invoices_vendor" type="reference"/>
+        <element label="Total Amount Without Tax" max_length="20" name="total_amount_without_tax" type="price"/>
+        <element choice="3" label="Trade / Non Trade" max_length="40" name="trade_non_trade" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Trade" sequence="0" value="Trade"/>
+                <element inactive_on_update="false" label="Non Trade" sequence="1" value="Non Trade"/>
+            </choice>
+        </element>
+        <element label="Tax Amount" max_length="40" name="tax_amount" type="string"/>
+        <element label="Amount" max_length="20" name="amount" type="currency"/>
+        <element label="PO Line Item Sub Total" max_length="40" name="po_line_item_sub_total" type="string"/>
+        <element label="GL Line Item Sub Total" max_length="40" name="gl_line_item_sub_total" type="string"/>
+        <element label="Adv Amt" max_length="255" name="adv_amt" type="currency2"/>
+        <element choice="3" label="Division name" max_length="40" name="division_name" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="PSV" sequence="0" value="PSV"/>
+            </choice>
+        </element>
+        <element default="INVO23005120" label="Reference no." max_length="40" name="reference_no" type="string"/>
+        <element choice="3" label="Profit Center" max_length="40" name="profit_center" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="EC Team" sequence="0" value="EC Team"/>
+            </choice>
+        </element>
+        <element default="0" label="Revision no." max_length="255" name="revision_no" type="integer"/>
+        <element choice="1" label="Advance No.(if any)" max_length="40" name="advance_no_if_any" type="choice">
+            <choice/>
+        </element>
+        <element label="Posting Date" max_length="255" name="posting_date" type="glide_date"/>
+        <element label="New Field 1" max_length="4000" name="new_field_1" type="simple_name_values"/>
+        <element choice="3" label="Department Name" max_length="40" name="department_name" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="EC Team" sequence="0" value="EC Team"/>
+            </choice>
+        </element>
+        <element label="PO / Non PO" max_length="40" name="po_non_po" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Non PO" sequence="1" value="Non PO"/>
+                <element inactive_on_update="false" label="PO" sequence="0" value="PO"/>
+            </choice>
+        </element>
+        <element choice="3" label="Nature of Expense" max_length="40" name="nature_of_expense" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="A&amp;P expense" sequence="0" value="A&amp;P expense"/>
+            </choice>
+        </element>
+        <element label="Tax Code" max_length="40" name="tax_code" type="string"/>
+        <element label="Text" max_length="40" name="text" type="string"/>
+        <element label="Balance Amount" max_length="40" name="balance_amount" type="string"/>
+        <element choice="3" label="Document Type" max_length="40" name="document_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Invoice" sequence="0" value="Invoice"/>
+            </choice>
+        </element>
+        <element label="Currency" max_length="32" name="currency" reference="fx_currency" type="reference"/>
+        <element label="Invoice Date" max_length="255" name="invoice_date" type="glide_date"/>
+        <element label="Invoice Amount (Incl. Tax)" max_length="20" name="invoice_amount_incl_tax" type="price"/>
+    </element>
+</database>
