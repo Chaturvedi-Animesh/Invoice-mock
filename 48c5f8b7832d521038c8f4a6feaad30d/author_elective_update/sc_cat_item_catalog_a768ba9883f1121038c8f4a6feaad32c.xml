@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="New Invoice">f005be1483f1121038c8f4a6feaad324</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-07 08:32:59</sys_created_on>
+        <sys_id>a768ba9883f1121038c8f4a6feaad32c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.New Invoice</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_a768ba9883f1121038c8f4a6feaad32c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-07 08:32:59</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</application>
+        <file_path/>
+        <instance_id>b94ad51f1bf08e587d9d2f8dee4bcbf0</instance_id>
+        <instance_name>dev241317</instance_name>
+        <name>sc_cat_item_catalog_a768ba9883f1121038c8f4a6feaad32c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="New Invoice">f005be1483f1121038c8f4a6feaad324</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-07 08:32:59</sys_created_on><sys_id>a768ba9883f1121038c8f4a6feaad32c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.New Invoice</sys_name><sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package><sys_policy/><sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope><sys_update_name>sc_cat_item_catalog_a768ba9883f1121038c8f4a6feaad32c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-07 08:32:59</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1483076230</payload_hash>
+        <record_name>Service Catalog.New Invoice</record_name>
+        <reverted_from/>
+        <source>07bffd3b83a1921038c8f4a6feaad3aa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-07 08:32:59</sys_created_on>
+        <sys_id>6368ba9883f1121038c8f4a6feaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19305c15fd70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-07 08:32:59</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>6368ba989af1121087ee62d6a7c33130</update_guid>
+        <update_guid_history>6368ba989af1121087ee62d6a7c33130:1483076230</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.New Invoice">e33ab25c83f1121038c8f4a6feaad35f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-07 08:40:54</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>184da76994664cb486241e771e929509</sys_id>
+        <sys_metadata>a768ba9883f1121038c8f4a6feaad32c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.New Invoice</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_parent display_value="New Invoice">f005be1483f1121038c8f4a6feaad324</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_scope_delete display_value="">06eacfb531f84c0c80adc050aaeca810</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_a768ba9883f1121038c8f4a6feaad32c</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_a768ba9883f1121038c8f4a6feaad32c">6368ba9883f1121038c8f4a6feaad331</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-07 08:40:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

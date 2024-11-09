@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Total Summary" section_id="9fcb054c83b1d21038c8f4a6feaad397" sys_domain="global" table="x_1097202_invoices_invoice" version="3" view="workspace-invoice-workspace-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>po_line_item_sub_total</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-06 05:59:54</sys_created_on>
+            <sys_id>dbcb054c83b1d21038c8f4a6feaad399</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Total Summary" display_value="Total Summary" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">9fcb054c83b1d21038c8f4a6feaad397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-06 05:59:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gl_line_item_sub_total</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-06 05:59:54</sys_created_on>
+            <sys_id>dbcb054c83b1d21038c8f4a6feaad39a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Total Summary" display_value="Total Summary" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">9fcb054c83b1d21038c8f4a6feaad397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-06 05:59:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_line_item</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-06 05:59:54</sys_created_on>
+            <sys_id>d3cb054c83b1d21038c8f4a6feaad39a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Total Summary" display_value="Total Summary" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">9fcb054c83b1d21038c8f4a6feaad397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-06 05:59:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>balance_amount</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-06 05:59:54</sys_created_on>
+            <sys_id>d3cb054c83b1d21038c8f4a6feaad39b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Total Summary" display_value="Total Summary" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">9fcb054c83b1d21038c8f4a6feaad397</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-06 05:59:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Total Summary</caption>
+            <header>false</header>
+            <name>x_1097202_invoices_invoice</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-06 05:59:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9fcb054c83b1d21038c8f4a6feaad397</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1097202_invoices_invoice</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+            <sys_update_name>sys_ui_section_9fcb054c83b1d21038c8f4a6feaad397</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-06 05:59:54</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Invoice Workspace 0" name="workspace-invoice-workspace-0">28cbcd0cb5b1d210eb7aabb8a6081ec4</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

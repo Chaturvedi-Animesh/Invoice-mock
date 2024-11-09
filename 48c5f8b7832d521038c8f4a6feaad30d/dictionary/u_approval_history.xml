@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a5ae1e948371121038c8f4a6feaad3c9" extends="task" label="Approval History" max_length="40" name="u_approval_history" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Comment" max_length="40" name="x_1097202_invoices_comment" type="string"/>
+    </element>
+</database>

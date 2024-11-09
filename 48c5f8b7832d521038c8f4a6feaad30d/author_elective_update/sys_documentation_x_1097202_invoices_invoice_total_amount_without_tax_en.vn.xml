@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation action="DELETE" element="total_amount_without_tax" label="Total Amount Without Tax" language="en.VN" table="x_1097202_invoices_invoice">
+        <sys_documentation action="DELETE">
+            <element>total_amount_without_tax</element>
+            <help/>
+            <hint/>
+            <label>Total Amount Without Tax</label>
+            <language>en.VN</language>
+            <name>x_1097202_invoices_invoice</name>
+            <plural>Total Amount Without Taxes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-06 03:03:44</sys_created_on>
+            <sys_id>76736c4483fd921038c8f4a6feaad39c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Total Amount Without Tax</sys_name>
+            <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+            <sys_update_name>sys_documentation_x_1097202_invoices_invoice_total_amount_without_tax_en.VN</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-06 03:03:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</application>
+        <file_path/>
+        <instance_id>b94ad51f1bf08e587d9d2f8dee4bcbf0</instance_id>
+        <instance_name>dev241317</instance_name>
+        <name>sys_documentation_x_1097202_invoices_invoice_total_amount_without_tax_en.VN</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="total_amount_without_tax" label="Total Amount Without Tax" language="en.VN" table="x_1097202_invoices_invoice"><sys_documentation action="INSERT_OR_UPDATE"><element>total_amount_without_tax</element><help/><hint/><label>Total Amount Without Tax</label><language>en.VN</language><name>x_1097202_invoices_invoice</name><plural>Total Amount Without Taxes</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-06 03:03:44</sys_created_on><sys_id>76736c4483fd921038c8f4a6feaad39c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Total Amount Without Tax</sys_name><sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package><sys_policy/><sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope><sys_update_name>sys_documentation_x_1097202_invoices_invoice_total_amount_without_tax_en.VN</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-11-06 03:03:44</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+        <payload_hash>-1389386375</payload_hash>
+        <record_name>Invoice.Total Amount Without Tax</record_name>
+        <reverted_from/>
+        <source>07bffd3b83a1921038c8f4a6feaad3aa</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-06 03:03:44</sys_created_on>
+        <sys_id>be736c4483fd921038c8f4a6feaad3a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192ff6d93c90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-06 03:03:44</sys_updated_on>
+        <type>Field Label</type>
+        <update_guid>76736c44dffd9210da0e683e1a250a9f</update_guid>
+        <update_guid_history>76736c44dffd9210da0e683e1a250a9f:-1389386375</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-06 06:33:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_documentation">sys_documentation</sys_db_object>
+        <sys_id>20f86a574be34ff29c0fcfdc9345a604</sys_id>
+        <sys_metadata>76736c4483fd921038c8f4a6feaad39c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Total Amount Without Tax</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_parent display_value="">2a52097b836d521038c8f4a6feaad37b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_scope_delete display_value="">06eacfb531f84c0c80adc050aaeca810</sys_scope_delete>
+        <sys_update_name>sys_documentation_x_1097202_invoices_invoice_total_amount_without_tax_en.VN</sys_update_name>
+        <sys_update_version display_value="sys_documentation_x_1097202_invoices_invoice_total_amount_without_tax_en.VN">be736c4483fd921038c8f4a6feaad3a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-06 06:33:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

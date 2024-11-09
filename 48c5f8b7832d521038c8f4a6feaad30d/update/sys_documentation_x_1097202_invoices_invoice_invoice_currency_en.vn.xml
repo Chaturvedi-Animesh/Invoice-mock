@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="invoice_currency" label="Invoice Currency" language="en.VN" table="x_1097202_invoices_invoice">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>invoice_currency</element>
+            <help/>
+            <hint/>
+            <label>Invoice Currency</label>
+            <language>en.VN</language>
+            <name>x_1097202_invoices_invoice</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-06 05:26:25</sys_created_on>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_name>Invoice Currency</sys_name>
+            <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+            <sys_update_name>sys_documentation_x_1097202_invoices_invoice_invoice_currency_en.VN</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-06 05:26:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

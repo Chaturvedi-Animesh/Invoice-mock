@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas">
+    <par_dashboard_canvas action="INSERT_OR_UPDATE">
+        <dashboard display_value="Invoice Workspace">60cbcd0cecb1d2107f3dc2f156a448c8</dashboard>
+        <dashboard_tab display_value="Tab">a4cbcd0cf9b1d210ca910cf1b3b0dac6</dashboard_tab>
+        <layout>[{"sys_id":"68cbcd0c3bb1d21023b96f9e4b2343c6","x":0,"y":0,"w":47,"h":3,"component_id":"1f6e0643eca7a637e36bd7833549ec9e","component_props":"{\"variant\":\"header-primary\",\"label\":\"Happening Now\",\"wontWrap\":false,\"hasNoMargin\":false,\"level\":\"1\",\"filterConfigurations\":[],\"noDebounce\":\"\",\"id\":\"variant\",\"value\":\"header-primary\",\"propLabel\":\"Style\"}","can_edit":true},{"sys_id":"eccbcd0c6cb1d210d897d2f3056c0fc6","x":0,"y":3,"w":48,"h":18,"component_id":"2b1c080881e05dc63b917044290b233f","component_props":"{\"table\":\"x_1097202_invoices_invoice\",\"fixedQuery\":\"\",\"listTitle\":\"Invoices\",\"columns\":\"number,document_type,po_non_po,trade_non_trade,state\",\"query\":\"\",\"groupByField\":\"\",\"hideViewAll\":false,\"hideHighlightedValues\":false,\"highlightedValueConfigId\":\"\",\"hideHighlightContent\":false,\"highlightContent\":{\"patterns\":[],\"color\":\"\"},\"hideLinks\":false,\"wordWrap\":false,\"overrideWordWrapUserPref\":false,\"maxCharLimit\":4000,\"hideEmptyStateImage\":false,\"hidePersonalization\":true,\"hideDotwalk\":true,\"hideColumnReorder\":true,\"hideRowSelector\":false,\"hideColumnGrouping\":true,\"hideColumnResizing\":true,\"hideColumnFiltering\":true,\"hideColumnSorting\":false,\"hideHeader\":false,\"hideTitle\":false,\"hideTitleRowCount\":false,\"hideLastRefreshedText\":false,\"hideRefreshButton\":false,\"hideInlineEditing\":true,\"noDebounce\":true,\"id\":\"columns\",\"value\":\"number,document_type,po_non_po,trade_non_trade,state\",\"propLabel\":\"Columns\"}","can_edit":true}]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-06 05:59:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a0cbcd0c63b1d210b1aa6d8c4f676bc7</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>par_dashboard_canvas_a0cbcd0c63b1d210b1aa6d8c4f676bc7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-06 06:54:31</sys_updated_on>
+    </par_dashboard_canvas>
+</record_update>

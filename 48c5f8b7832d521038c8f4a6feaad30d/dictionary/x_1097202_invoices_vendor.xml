@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="5e1609bf836d521038c8f4a6feaad37d" label="Vendor" max_length="40" name="x_1097202_invoices_vendor" type="collection">
-        <element label="Bank Account" max_length="40" name="bank_account" type="string"/>
+        <element default="01234567890" label="Bank Account" max_length="40" name="bank_account" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Vendor Code" max_length="40" name="number" type="string"/>
-        <element label="Bank Address" max_length="40" name="bank_address" type="string"/>
-        <element label="Bank Branch" max_length="40" name="bank_branch" type="string"/>
-        <element label="Vendor Full Name" max_length="40" name="vendor_full_name" type="string"/>
-        <element label="Bank name" max_length="40" name="bank_name" type="string"/>
-        <element label="Account Holder" max_length="40" name="account_holder" type="string"/>
+        <element default="Thang Long" label="Bank Address" max_length="40" name="bank_address" read_only="true" type="string"/>
+        <element default="Thang Long" label="Bank Branch" max_length="40" name="bank_branch" read_only="true" type="string"/>
+        <element default="Vendor A" label="Vendor Full Name" max_length="40" name="vendor_full_name" read_only="true" type="string"/>
+        <element default="Vietnam Bank" label="Bank name" max_length="40" name="bank_name" read_only="true" type="string"/>
+        <element default="Account Holder Tst" label="Account Holder" max_length="40" name="account_holder" read_only="true" type="string"/>
     </element>
 </database>

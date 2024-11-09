@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Invoice Workspace">accbcd0c0bb1d210bca1809f0b9a6dce</page>
+        <required_translations>[ {
+  "message" : "New Invoice",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-06 05:59:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>24cbcd0c62b1d210c4e7c7458596b3bf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_ux_page_property_24cbcd0c62b1d210c4e7c7458596b3bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-06 05:59:52</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1097202_invoices.accbcd0c0bb1d210bca1809f0b9a6dce.root.global.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Invoice"},"routeInfo":{"route":"record","fields":{"table":"x_1097202_invoices_invoice","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1097202_invoices_invoice","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=24cbcd0c62b1d210c4e7c7458596b3bf"/>
+</record_update>

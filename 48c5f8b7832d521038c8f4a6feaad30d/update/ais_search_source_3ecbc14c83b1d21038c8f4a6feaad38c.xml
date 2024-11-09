@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_source">
+    <ais_search_source action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <datasource display_value="">x_1097202_invoices_invoice</datasource>
+        <has_dynamic_filters>false</has_dynamic_filters>
+        <name>Invoice</name>
+        <sys_class_name>ais_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-06 05:59:52</sys_created_on>
+        <sys_id>3ecbc14c83b1d21038c8f4a6feaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Invoice</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>ais_search_source_3ecbc14c83b1d21038c8f4a6feaad38c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-06 05:59:52</sys_updated_on>
+    </ais_search_source>
+</record_update>

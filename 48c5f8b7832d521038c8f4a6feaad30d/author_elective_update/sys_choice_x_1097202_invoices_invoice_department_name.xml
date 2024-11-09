@@ -34,5 +34,24 @@
             <sys_updated_on>2024-11-05 10:34:11</sys_updated_on>
             <value>EC Team</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>department_name</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>(SC) SC</label>
+            <language>en.VN</language>
+            <name>x_1097202_invoices_invoice</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-11-06 03:45:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-11-06 03:45:13</sys_updated_on>
+            <value>sc_sc</value>
+        </sys_choice>
     </sys_choice>
 </record_update>
