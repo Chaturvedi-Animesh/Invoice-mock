@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1097202_invoices.CreateInvoice</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>CreateInvoice</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var CreateInvoice = Class.create();
+CreateInvoice.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    type: 'CreateInvoice',
+
+    validateExcelValues: function() {
+        var attachmentID = this.getParameter('sysparm_attachmentID');
+
+        if (!attachmentID) {
+            return false;
+        }
+
+        var attachmentGR = new GlideRecord('sys_attachment');
+        if (!attachmentGR.get(attachmentID)) {
+            return false;
+        }
+
+        var gsa = new GlideSysAttachment();
+        var attachmentData = gsa.getContentStream(attachmentID);
+
+        var excelParser = new sn_impex.GlideExcelParser();
+        excelParser.parse(attachmentData);
+        var nonEmptyCount = 0;
+        while (excelParser.next()) {
+            var rowValue = excelParser.getRow();
+            var vendorColVal = rowValue["Vendor Code"];
+            if (vendorColVal != null && vendorColVal.trim() != "") {
+                nonEmptyCount++;
+            }
+        }
+        return nonEmptyCount > 0;
+    },
+
+    createInvoiceRecord: function(attachmentID,invoiceType) {
+
+        return attachmentID + " " + invoiceType;
+
+    }
+
+
+
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-21 14:40:12</sys_created_on>
+        <sys_id>1f42984dc38a121044643eec050131ca</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>CreateInvoice</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_script_include_1f42984dc38a121044643eec050131ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 12:37:14</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>1f42984dc38a121044643eec050131ca</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-21 14:40:12</sys_created_on>
+        <sys_id>4bb2504dc38a121044643eec050131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-21 14:40:12</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

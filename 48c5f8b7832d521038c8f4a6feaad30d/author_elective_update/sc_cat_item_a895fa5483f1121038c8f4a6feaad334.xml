@@ -130,7 +130,7 @@
         <update_guid_history>92e5f294f3f11210c7e5724e79519f2d:1698118353,9dd57294ecf11210002cf7b63dec7270:1006077442,94d5329479f112100bf50f39eb7a8bea:1046046755,2095fa54e3f112105aecb1c9528ab75c:1086016068,2895fa546af11210764bc6e2cadee253:-23112890</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="New Invoice">73e7ba5883f1121038c8f4a6feaad3af</sys_audit_delete>
+        <sys_audit_delete display_value="">73e7ba5883f1121038c8f4a6feaad3af</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-07 08:30:49</sys_created_on>

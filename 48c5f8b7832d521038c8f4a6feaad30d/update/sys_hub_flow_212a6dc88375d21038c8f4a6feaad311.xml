@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>212a6dc88375d21038c8f4a6feaad311</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>eInvoice Approval Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
         <sys_update_name>sys_hub_flow_212a6dc88375d21038c8f4a6feaad311</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-06 08:32:01</sys_updated_on>
+        <sys_updated_on>2024-11-10 12:56:17</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow>
@@ -538,11 +538,11 @@
         <sys_created_on>2024-11-06 08:12:57</sys_created_on>
         <sys_id>d04a6d0c8375d21038c8f4a6feaad3c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_212a6dc88375d21038c8f4a6feaad311_table_name_en.VN</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-06 08:12:57</sys_updated_on>
         <url/>
@@ -561,11 +561,11 @@
         <sys_created_on>2024-11-06 08:12:57</sys_created_on>
         <sys_id>dc4a6d0c8375d21038c8f4a6feaad3c1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_212a6dc88375d21038c8f4a6feaad311_current_en.VN</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-06 08:12:57</sys_updated_on>
         <url/>
@@ -1067,11 +1067,11 @@
         <sys_created_on>2024-11-06 08:32:00</sys_created_on>
         <sys_id>2f9eedc083b5d21038c8f4a6feaad381</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_139eedc083b5d21038c8f4a6feaad35d_current_en.VN</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-06 08:32:00</sys_updated_on>
         <url/>
@@ -1090,11 +1090,11 @@
         <sys_created_on>2024-11-06 08:32:00</sys_created_on>
         <sys_id>eb9eedc083b5d21038c8f4a6feaad388</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_139eedc083b5d21038c8f4a6feaad35d_table_name_en.VN</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-11-06 08:32:00</sys_updated_on>
         <url/>
@@ -1106,14 +1106,14 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>212a6dc88375d21038c8f4a6feaad311</sys_id>
         <latest_snapshot>139eedc083b5d21038c8f4a6feaad35d</latest_snapshot>
-        <compiler_build>glide-xanadu-07-02-2024__patch2-09-25-2024_10-06-2024_2304.zip</compiler_build>
+        <compiler_build>glide-xanadu-07-02-2024__patch3-10-23-2024_11-01-2024_2230.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=212a6dc88375d21038c8f4a6feaad311^sys_idNOT INb39e210483b5d21038c8f4a6feaad308"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"b39e210483b5d21038c8f4a6feaad308","name":"plan","plan_signature":null}}</plan>
         <plan_id>212a6dc88375d21038c8f4a6feaad311</plan_id>
-        <snapshot>5982b1c883b5d21038c8f4a6feaad304</snapshot>
+        <snapshot>8cd99f95c33d121044643eec05013160</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-06 08:32:01</sys_created_on>
         <sys_domain>global</sys_domain>

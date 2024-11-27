@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1097202_invoices.ExcelProcessor</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>ExcelProcessor</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var ExcelProcessor = Class.create();
+ExcelProcessor.prototype = {
+    initialize: function() {},
+
+    processExcel: function(attachmentSysId) {
+        var attachment = new GlideSysAttachment();
+        var excelData = attachment.getContentStream(attachmentSysId);
+        if (!excelData) {
+            return;
+        }
+
+        var parser = new sn_impex.GlideExcelParser();
+        parser.parse(excelData);
+
+        while (parser.next()) {
+            var rowValue = parser.getRow();
+            if (!rowValue) {
+                continue;
+            }
+
+            var targetRecord = new GlideRecord('x_1097202_invoices_invoice');
+            targetRecord.initialize();
+            targetRecord.po_non_po = rowValue['PO / Non PO'] || '';
+            targetRecord.vendor_code = this.getVendorSysID(rowValue['Vendor Code']);
+            targetRecord.trade_non_trade = rowValue['Trade / Non Trade'] || '';
+            targetRecord.insert();
+        }
+    },
+
+    getVendorSysID: function(vendorCode) {
+        if (!vendorCode) {
+            return null;
+        }
+
+        var vendorRecord = new GlideRecord('x_1097202_invoices_vendor');
+        vendorRecord.addQuery('number', vendorCode);
+        vendorRecord.query();
+
+        if (vendorRecord.next()) {
+            return vendorRecord.sys_id;
+        }
+        return null;
+    },
+
+    type: 'ExcelProcessor'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-25 04:36:54</sys_created_on>
+        <sys_id>0bde224ec302121044643eec050131a2</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>ExcelProcessor</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_script_include_0bde224ec302121044643eec050131a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-25 05:43:17</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>0bde224ec302121044643eec050131a2</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-25 04:36:53</sys_created_on>
+        <sys_id>780fee0ec302121044643eec050131f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-25 04:36:53</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

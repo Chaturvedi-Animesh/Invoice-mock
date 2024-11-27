@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1097202_invoices.CreateInvoiceUtil</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>Util Class for creating new Invoice record.</description>
+        <mobile_callable>false</mobile_callable>
+        <name>CreateInvoiceUtil</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var CreateInvoiceUtil = Class.create();
+CreateInvoiceUtil.prototype = {
+    initialize: function() {},
+
+    validateExcelValues: function(attachmentID) {
+        if (!attachmentID) {
+            return "No attachment ID provided.";
+        }
+        // Add logic to validate Excel values here
+        return "Hello SNOW, attachment ID: " + attachmentID;
+    },
+
+    type: 'CreateInvoiceUtil'
+};
+]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-21 13:22:17</sys_created_on>
+        <sys_id>5670c4c5c34a121044643eec05013146</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>CreateInvoiceUtil</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_script_include_5670c4c5c34a121044643eec05013146</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-21 14:24:40</sys_updated_on>
+    </sys_script_include>
+    <sys_es_latest_script action="DELETE">
+        <id>5670c4c5c34a121044643eec05013146</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-21 13:22:16</sys_created_on>
+        <sys_id>69e040c5c34a121044643eec050131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-21 13:22:16</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</application>
+        <file_path/>
+        <instance_id>63d4c980db3e3dd439639027c596195b</instance_id>
+        <instance_name>dev223172</instance_name>
+        <name>sys_script_include_5670c4c5c34a121044643eec05013146</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1097202_invoices.CreateInvoiceUtil&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;Util Class for creating new Invoice record.&lt;/description&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;CreateInvoiceUtil&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var CreateInvoiceUtil = Class.create();
+CreateInvoiceUtil.prototype = {
+    initialize: function() {},
+
+    validateExcelValues: function(attachmentID) {
+        if (!attachmentID) {
+            return "No attachment ID provided.";
+        }
+        // Add logic to validate Excel values here
+        return "Hello SNOW, attachment ID: " + attachmentID;
+    },
+
+    type: 'CreateInvoiceUtil'
+};
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-11-21 13:22:17&lt;/sys_created_on&gt;&lt;sys_id&gt;5670c4c5c34a121044643eec05013146&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;CreateInvoiceUtil&lt;/sys_name&gt;&lt;sys_package display_value="Invoices" source="x_1097202_invoices"&gt;48c5f8b7832d521038c8f4a6feaad30d&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Invoices"&gt;48c5f8b7832d521038c8f4a6feaad30d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_5670c4c5c34a121044643eec05013146&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-11-21 14:24:40&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;5670c4c5c34a121044643eec05013146&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-11-21 13:22:16&lt;/sys_created_on&gt;&lt;sys_id&gt;69e040c5c34a121044643eec050131fb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-11-21 13:22:16&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2122667032</payload_hash>
+        <record_name>CreateInvoiceUtil</record_name>
+        <reverted_from/>
+        <source>2d911719c3f9121044643eec050131c9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-21 14:24:40</sys_created_on>
+        <sys_id>7f2f4c09c38a121044643eec050131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1934f1c63e10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-21 14:24:40</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>f32f4c09ef8a1210a7fffe7dc0dcf9df</update_guid>
+        <update_guid_history>f32f4c09ef8a1210a7fffe7dc0dcf9df:2122667032,355e0809218a1210d53996eae23fe5b3:505753089,edfb0445a68a12108ca96c66d0a6b89b:-1961277040,ce25004dfa4a1210c9495675c775d1c3:-208056057,193180c5db4a1210b67069144cb37828:1567426570,cae0ccc5af4a1210d0503763b4428157:267884359</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-21 14:38:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>1fe3efc82e7b41a0960788a9db41bee4</sys_id>
+        <sys_metadata>5670c4c5c34a121044643eec05013146</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CreateInvoiceUtil</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_scope_delete display_value="">06eacfb531f84c0c80adc050aaeca810</sys_scope_delete>
+        <sys_update_name>sys_script_include_5670c4c5c34a121044643eec05013146</sys_update_name>
+        <sys_update_version display_value="sys_script_include_5670c4c5c34a121044643eec05013146">7f2f4c09c38a121044643eec050131df</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-21 14:38:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

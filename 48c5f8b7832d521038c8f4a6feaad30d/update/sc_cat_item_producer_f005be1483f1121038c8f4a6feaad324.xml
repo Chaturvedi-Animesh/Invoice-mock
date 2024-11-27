@@ -13,7 +13,7 @@
         <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p>Click here to download the <a href="https://www.google.com/" rel="nofollow">template</a></p>]]></description>
+        <description/>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <flow_designer_flow/>
@@ -31,7 +31,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>New Invoice</name>
+        <name>Upload Invoice</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>false</no_cart_v2>
@@ -80,7 +80,8 @@
 * Don't use `current.setValue('sys_class_name', 'xxx')` as this will trigger reparent flow and can cause data loss
 * Avoid `current.setAbortAction()` and generate a separate record
 * Use `producer.var1` to access variables
-*/]]></script>
+*/
+]]></script>
         <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
@@ -89,14 +90,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-07 08:18:02</sys_created_on>
         <sys_id>f005be1483f1121038c8f4a6feaad324</sys_id>
-        <sys_mod_count>21</sys_mod_count>
-        <sys_name>New Invoice</sys_name>
+        <sys_mod_count>98</sys_mod_count>
+        <sys_name>Upload Invoice</sys_name>
         <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
         <sys_update_name>sc_cat_item_producer_f005be1483f1121038c8f4a6feaad324</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-11-07 17:06:04</sys_updated_on>
+        <sys_updated_on>2024-11-26 03:32:43</sys_updated_on>
         <table_name>x_1097202_invoices_record_producer_input</table_name>
         <taxonomy_topic/>
         <template/>
@@ -104,7 +105,7 @@
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>21</version>
+        <version>98</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
@@ -130,4 +131,15 @@
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>f005be1483f1121038c8f4a6feaad324</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-20 08:14:39</sys_created_on>
+        <sys_id>06e0712cc306121044643eec050131e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-20 08:14:39</sys_updated_on>
+        <table>sc_cat_item_producer</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

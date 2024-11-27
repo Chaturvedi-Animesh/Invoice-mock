@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>100</order>
+        <published_ref/>
+        <question display_value="Single Invoice / Multiple Invoice">87fbf0ddc30a121044643eec0501312c</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 12:22:32</sys_created_on>
+        <sys_id>15cc7011c34a121044643eec050131d8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Single</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>question_choice_15cc7011c34a121044643eec050131d8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 12:22:57</sys_updated_on>
+        <text>Single</text>
+        <value>single</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=15cc7011c34a121044643eec050131d8"/>
+</record_update>

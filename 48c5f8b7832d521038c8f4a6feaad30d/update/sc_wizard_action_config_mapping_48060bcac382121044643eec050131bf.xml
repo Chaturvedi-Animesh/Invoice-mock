@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_wizard_action_config_mapping">
+    <sc_wizard_action_config_mapping action="INSERT_OR_UPDATE">
+        <hide_action>true</hide_action>
+        <sys_class_name>sc_wizard_action_config_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-25 06:17:20</sys_created_on>
+        <sys_id>48060bcac382121044643eec050131bf</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Create New Invoice.Submit</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sc_wizard_action_config_mapping_48060bcac382121044643eec050131bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-25 06:23:02</sys_updated_on>
+        <wizard display_value="Create New Invoice">2549548fc3b5121044643eec05013179</wizard>
+        <wizard_action_config display_value="Submit">b4d583cac382121044643eec05013118</wizard_action_config>
+    </sc_wizard_action_config_mapping>
+</record_update>

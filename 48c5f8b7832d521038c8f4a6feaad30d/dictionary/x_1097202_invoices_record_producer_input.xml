@@ -1,16 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="1628a868833d121038c8f4a6feaad3a8" label="Record Producer Input" max_length="40" name="x_1097202_invoices_record_producer_input" type="collection">
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element choice="3" label="Trade / Non Trade" max_length="40" name="trade_non_trade" type="choice">
+        <element choice="3" label="Single / Multiple" max_length="40" name="single_multiple" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Non Trade" sequence="1" value="non_trade"/>
-                <element inactive_on_update="false" label="Trade" sequence="0" value="trade"/>
+                <element inactive_on_update="false" label="Multiple" sequence="1" value="multiple"/>
+                <element inactive_on_update="false" label="Single" sequence="0" value="single"/>
             </choice>
         </element>
         <element choice="3" label="PO / Non PO" max_length="40" name="po_non_po" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Non-PO" sequence="1" value="non_po"/>
                 <element inactive_on_update="false" label="PO" sequence="0" value="po"/>
+            </choice>
+        </element>
+        <element label="Attachment" max_length="40" name="attachment" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" label="Trade / Non Trade" max_length="40" name="trade_non_trade" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Trade" sequence="0" value="trade"/>
+                <element inactive_on_update="false" label="Non Trade" sequence="1" value="non_trade"/>
             </choice>
         </element>
     </element>

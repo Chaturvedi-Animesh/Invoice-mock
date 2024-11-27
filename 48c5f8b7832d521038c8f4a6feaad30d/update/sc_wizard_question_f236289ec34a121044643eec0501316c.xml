@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_wizard_question">
+    <sc_wizard_question action="INSERT_OR_UPDATE">
+        <item_option_new display_value="Single Invoice / Multiple Invoice">87fbf0ddc30a121044643eec0501312c</item_option_new>
+        <map_to_set>false</map_to_set>
+        <order>0</order>
+        <question_or_set>Single Invoice / Multiple Invoice</question_or_set>
+        <set/>
+        <sys_class_name>sc_wizard_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-25 13:17:54</sys_created_on>
+        <sys_id>f236289ec34a121044643eec0501316c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Single / Multiple</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sc_wizard_question_f236289ec34a121044643eec0501316c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-25 13:17:54</sys_updated_on>
+        <wizard_section display_value="">be266092c38a121044643eec0501316a</wizard_section>
+    </sc_wizard_question>
+</record_update>

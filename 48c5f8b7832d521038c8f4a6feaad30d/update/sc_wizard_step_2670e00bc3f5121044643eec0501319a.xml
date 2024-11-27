@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_wizard_step">
+    <sc_wizard_step action="INSERT_OR_UPDATE">
+        <custom>false</custom>
+        <feedback/>
+        <hide_footer>true</hide_footer>
+        <hide_on_review>true</hide_on_review>
+        <hide_on_template>true</hide_on_template>
+        <macroponent/>
+        <name>Template</name>
+        <order>100</order>
+        <short_description/>
+        <sys_class_name>sc_wizard_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-15 10:32:47</sys_created_on>
+        <sys_id>2670e00bc3f5121044643eec0501319a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Template</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sc_wizard_step_2670e00bc3f5121044643eec0501319a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-26 03:28:34</sys_updated_on>
+        <template_feedback/>
+        <use_same_feedback_in_template>true</use_same_feedback_in_template>
+        <wizard display_value="Create New Invoice">2549548fc3b5121044643eec05013179</wizard>
+    </sc_wizard_step>
+    <sys_translated_text action="delete_multiple" query="documentkey=2670e00bc3f5121044643eec0501319a"/>
+</record_update>

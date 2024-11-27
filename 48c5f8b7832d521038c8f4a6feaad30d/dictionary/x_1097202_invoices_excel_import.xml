@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="cf1a7b5ac34a521044643eec05013148" extends="sys_import_set_row" label="Excel Import" max_length="40" name="x_1097202_invoices_excel_import" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Withholding Tax Code 3" label="Withholding Tax Code 3" max_length="40" name="u_withholding_tax_code_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Item Text" label="Item Text" max_length="40" name="u_item_text" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Vendor Code" label="Vendor Code" max_length="40" name="u_vendor_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Withholding Tax Type 5" label="Withholding Tax Type 5" max_length="40" name="u_withholding_tax_type_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Tax Description (Vietnamese)" label="Tax Description (Vietnamese)" max_length="40" name="u_tax_description__vietnamese_" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Process No" label="Process No" max_length="40" name="u_process_no" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Total Amount" label="Total Amount" max_length="40" name="u_total_amount" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Withholding Tax Code 5" label="Withholding Tax Code 5" max_length="40" name="u_withholding_tax_code_5" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Posting Date" label="Posting Date" max_length="40" name="u_posting_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Baseline Date" label="Baseline Date" max_length="40" name="u_baseline_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Nature Expense" label="Nature Expense" max_length="40" name="u_nature_expense" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Tax ID" label="Tax ID" max_length="40" name="u_tax_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Withholding Tax Type 3" label="Withholding Tax Type 3" max_length="40" name="u_withholding_tax_type_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Currency" label="Currency" max_length="40" name="u_currency" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Amount Before Tax" label="Amount Before Tax" max_length="40" name="u_amount_before_tax" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=WBS Number" label="WBS Number" max_length="40" name="u_wbs_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Material Group" label="Material Group" max_length="40" name="u_material_group" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Profit Center" label="Profit Center" max_length="40" name="u_profit_center" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Exchange Rate" label="Exchange Rate" max_length="40" name="u_exchange_rate" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Withholding Tax Type 1" label="Withholding Tax Type 1" max_length="40" name="u_withholding_tax_type_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Tax Code" label="Tax Code" max_length="40" name="u_tax_code" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Withholding Tax Type 4" label="Withholding Tax Type 4" max_length="40" name="u_withholding_tax_type_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Withholding Tax Code 4" label="Withholding Tax Code 4" max_length="40" name="u_withholding_tax_code_4" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Tax Amount" label="Tax Amount" max_length="40" name="u_tax_amount" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Trade/Non Trade" label="Trade/Non Trade" max_length="40" name="u_trade_non_trade" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=GL Account" label="GL Account" max_length="40" name="u_gl_account" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Expense Amount" label="Expense Amount" max_length="40" name="u_expense_amount" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Header Text" label="Header Text" max_length="40" name="u_header_text" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sub Vendor Name" label="Sub Vendor Name" max_length="40" name="u_sub_vendor_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Withholding Tax Type 2" label="Withholding Tax Type 2" max_length="40" name="u_withholding_tax_type_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Invoice Number" label="Invoice Number" max_length="40" name="u_invoice_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sub Vendor Tax ID" label="Sub Vendor Tax ID" max_length="40" name="u_sub_vendor_tax_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=WBS Element" label="WBS Element" max_length="40" name="u_wbs_element" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Vendor Name" label="Vendor Name" max_length="40" name="u_vendor_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Assignment" label="Assignment" max_length="40" name="u_assignment" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=WHT Required" label="WHT Required" max_length="40" name="u_wht_required" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Business Place" label="Business Place" max_length="40" name="u_business_place" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Priority Type" label="Priority Type" max_length="40" name="u_priority_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Withholding Tax Code 2" label="Withholding Tax Code 2" max_length="40" name="u_withholding_tax_code_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Document Date" label="Document Date" max_length="40" name="u_document_date" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Withholding Tax Code 1" label="Withholding Tax Code 1" max_length="40" name="u_withholding_tax_code_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=eIAF" label="eIAF" max_length="40" name="u_eiaf" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Document Type" label="Document Type" max_length="40" name="u_document_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Company Code" label="Company Code" max_length="40" name="u_company_code" type="string"/>
+    </element>
+</database>

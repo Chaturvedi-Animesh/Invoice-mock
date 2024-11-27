@@ -6,13 +6,13 @@
             <sys_created_on>2024-11-06 05:59:54</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>53cbc14c83b1d21038c8f4a6feaad346</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>53cb054c83b1d21038c8f4a6feaad373</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1097202_invoices_invoice" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">93cbc14c83b1d21038c8f4a6feaad340</sys_ui_form>
-            <sys_ui_section caption="General Details" display_value="General Details" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">93cbc14c83b1d21038c8f4a6feaad344</sys_ui_section>
+            <sys_ui_section caption="Vendor Details" display_value="Vendor Details" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">13cb054c83b1d21038c8f4a6feaad372</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-06 05:59:54</sys_updated_on>
+            <sys_updated_on>2024-11-15 10:05:46</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
@@ -20,13 +20,13 @@
             <sys_created_on>2024-11-06 05:59:54</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d7cb054c83b1d21038c8f4a6feaad353</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>57cb054c83b1d21038c8f4a6feaad379</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1097202_invoices_invoice" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">93cbc14c83b1d21038c8f4a6feaad340</sys_ui_form>
-            <sys_ui_section caption="Document Details" display_value="Document Details" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">97cb054c83b1d21038c8f4a6feaad352</sys_ui_section>
+            <sys_ui_section caption="Invoice Details" display_value="Invoice Details" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">17cb054c83b1d21038c8f4a6feaad378</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-06 05:59:54</sys_updated_on>
+            <sys_updated_on>2024-11-15 10:05:46</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
@@ -34,41 +34,13 @@
             <sys_created_on>2024-11-06 05:59:54</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>53cb054c83b1d21038c8f4a6feaad373</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1097202_invoices_invoice" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">93cbc14c83b1d21038c8f4a6feaad340</sys_ui_form>
-            <sys_ui_section caption="Vendor Details" display_value="Vendor Details" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">13cb054c83b1d21038c8f4a6feaad372</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-06 05:59:54</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-06 05:59:54</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>57cb054c83b1d21038c8f4a6feaad379</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_overrides/>
-            <sys_ui_form display_value="x_1097202_invoices_invoice" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">93cbc14c83b1d21038c8f4a6feaad340</sys_ui_form>
-            <sys_ui_section caption="Invoice Details" display_value="Invoice Details" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">17cb054c83b1d21038c8f4a6feaad378</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-06 05:59:54</sys_updated_on>
-        </sys_ui_form_section>
-        <sys_ui_form_section action="INSERT_OR_UPDATE">
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-06 05:59:54</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
             <sys_id>dfcb054c83b1d21038c8f4a6feaad398</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_1097202_invoices_invoice" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">93cbc14c83b1d21038c8f4a6feaad340</sys_ui_form>
             <sys_ui_section caption="Total Summary" display_value="Total Summary" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">9fcb054c83b1d21038c8f4a6feaad397</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-06 05:59:54</sys_updated_on>
+            <sys_updated_on>2024-11-15 10:05:46</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1097202_invoices_invoice</name>

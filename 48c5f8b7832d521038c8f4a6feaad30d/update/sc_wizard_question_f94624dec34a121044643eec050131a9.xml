@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_wizard_question">
+    <sc_wizard_question action="INSERT_OR_UPDATE">
+        <item_option_new display_value="Upload a file">35d0e80bc3f5121044643eec050131a4</item_option_new>
+        <map_to_set>false</map_to_set>
+        <order>0</order>
+        <question_or_set>Upload a file</question_or_set>
+        <set/>
+        <sys_class_name>sc_wizard_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-25 13:18:04</sys_created_on>
+        <sys_id>f94624dec34a121044643eec050131a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Upload a file</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sc_wizard_question_f94624dec34a121044643eec050131a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-25 13:18:04</sys_updated_on>
+        <wizard_section display_value="">be266092c38a121044643eec0501316a</wizard_section>
+    </sc_wizard_question>
+</record_update>

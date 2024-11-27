@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Approve Ui page for invoice</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    alert("before Param line 5");
+    // Get the 'trigger_action' parameter from the URL
+    var url = new GlideURL(window.location.href);
+    var triggerAction = url.getParam('trigger_action');
+    //var triggerAction = getParameterByName('trigger_action'); // Get from URL
+    alert("before Param" + triggerAction);
+    // If the URL has the parameter to trigger the UI Action
+    if (triggerAction === 'true') {
+        alert('Inside parameter');
+        var sys_id = g_form.getUniqueValue(); // Get the Sys ID of the current record
+
+        // Call a Script Include to trigger the UI Action (or execute directly)
+        var dialog = new GlideDialogWindow("restore_file_dialog");
+        dialog.setTitle("Are you sure to approve");
+        dialog.setSize(600, 600);
+        var queryType = "initial";
+        dialog.setPreference('query_type', queryType); //to identify first slot query
+        // dialog.setPreference('appt_id', g_form.getValue('number'));
+        // dialog.setPreference('start_date', g_form.getValue('u_start_date'));
+        // dialog.setPreference('end_date', g_form.getValue('u_end_date'));
+        dialog.removeCloseDecoration(); //Remove the close icon on the UI page
+        dialog.render();
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-27 04:13:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>924cbcbec342d21044643eec05013102</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Approve Ui page for invoice</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_script_client_924cbcbec342d21044643eec05013102</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-27 04:45:25</sys_updated_on>
+        <table>x_1097202_invoices_invoice</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="PO / Non PO">571da820837d121038c8f4a6feaad310</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-07 17:04:07</sys_created_on>
+        <sys_id>8f6d2060837d121038c8f4a6feaad312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Non PO</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>question_choice_8f6d2060837d121038c8f4a6feaad312</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-07 17:04:07</sys_updated_on>
+        <text>Non PO</text>
+        <value>non_po</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=8f6d2060837d121038c8f4a6feaad312"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</application>
+        <file_path/>
+        <instance_id>63d4c980db3e3dd439639027c596195b</instance_id>
+        <instance_name>dev223172</instance_name>
+        <name>question_choice_8f6d2060837d121038c8f4a6feaad312</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="PO / Non PO">571da820837d121038c8f4a6feaad310</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-07 17:04:07</sys_created_on>
+        <sys_id>8f6d2060837d121038c8f4a6feaad312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Non PO</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>question_choice_8f6d2060837d121038c8f4a6feaad312</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-07 17:04:07</sys_updated_on>
+        <text>Non PO</text>
+        <value>non_po</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=8f6d2060837d121038c8f4a6feaad312"/>
+</record_update>]]></payload>
+        <payload_hash>196028785</payload_hash>
+        <record_name>Non PO</record_name>
+        <reverted_from/>
+        <source>5351db59c3f9121044643eec05013119</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-10 12:56:15</sys_created_on>
+        <sys_id>15715b99c3f9121044643eec05013106</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19316257b220000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-10 12:56:15</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>d1715b99acf912108f7403b02337ab06</update_guid>
+        <update_guid_history>d1715b99acf912108f7403b02337ab06:196028785</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Non PO">7fcbbc9dc30a121044643eec050131d5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-22 12:18:08</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>164f1f79563a4066aeaeb1b287195bb9</sys_id>
+        <sys_metadata>8f6d2060837d121038c8f4a6feaad312</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Non PO</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_scope_delete display_value="">06eacfb531f84c0c80adc050aaeca810</sys_scope_delete>
+        <sys_update_name>question_choice_8f6d2060837d121038c8f4a6feaad312</sys_update_name>
+        <sys_update_version display_value="question_choice_8f6d2060837d121038c8f4a6feaad312">15715b99c3f9121044643eec05013106</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-22 12:18:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
