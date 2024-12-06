@@ -16,7 +16,7 @@ CreateInvoice.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 
     validateExcelValues: function() {
         var attachmentID = this.getParameter('sysparm_attachmentID');
-
+        var vendorType = this.getParameter('sysparm_vendor');
         if (!attachmentID) {
             return false;
         }
@@ -32,37 +32,115 @@ CreateInvoice.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         var excelParser = new sn_impex.GlideExcelParser();
         excelParser.parse(attachmentData);
         var nonEmptyCount = 0;
+        var obj = [];
+        var obj1 = {};
+        var obj2 = {};
+        //    while (excelParser.next()) {
+
+        //        var rowValue = excelParser.getRow();
+        //         gs.info('rakesh line 26' + JSON.stringify(rowValue));
+        //         var vendorColVal = rowValue["Vendor Code"];
+        //         var PriorityVal = rowValue["Priority Type"];
+        //         gs.info('rakesh line 28' + vendorColVal);
+        //         if (PriorityVal == "" || PriorityVal == "null" || PriorityVal == null) {
+        //             obj.push({
+        //                 "process_no": rowValue["Process No"].toString(),
+        //                 "header": "Priority Type"
+        //             });
+        //         }
+        //         if (vendorColVal == "" || vendorColVal == "null" || vendorColVal == null) {
+        //             obj.push({
+        //                 "process_no": rowValue["Process No"].toString(),
+        //                 "header": "Vendor Code"
+        //             });
+
+        //             /* if (obj2 != '') {
+        //                  obj.push(obj2);
+        //              }*/
+        //         }
+        //     }
+        //     if (obj != '') {
+        //         return JSON.stringify(obj);
+        //     } else {
+        //         var copyAtt = new GlideSysAttachment();
+        //         copyAtt.copy('incident', 'd71f7935c0a8016700802b64c67c11c6', 'sys_data_source', '04876492c38a121044643eec0501313e');
+
+        //     }
         while (excelParser.next()) {
+
             var rowValue = excelParser.getRow();
+            gs.info('rakesh line 26' + JSON.stringify(rowValue));
             var vendorColVal = rowValue["Vendor Code"];
+            var PriorityVal = rowValue["Priority Type"];
+            gs.info('rakesh line 28' + vendorColVal);
             if (vendorColVal != null && vendorColVal.trim() != "") {
                 nonEmptyCount++;
+            } else {
+                gs.info('rakesh line 33' + rowValue["Process No"]);
+                obj.push("Process No" + "-" + rowValue["Process No"] + "-" + "Vendor Code is Missing");
+                gs.info('rakesh line 36' + obj);
+                //return obj;
+            }
+            if (PriorityVal != null && PriorityVal.trim() != "") {
+                nonEmptyCount++;
+            } else {
+                gs.info('rakesh line 33' + rowValue["Process No"]);
+                obj.push("Process No" + "-" + rowValue["Process No"] + "-" + "Priority Type is Missing");
+                gs.info('rakesh line 36' + obj);
+                //return obj;
             }
         }
-        return nonEmptyCount > 0;
+        if (obj != '') {
+            return obj.toString();
+        } else {
+            return '';
+
+        }
     },
 
-    createInvoiceRecord: function(attachmentID,invoiceType) {
+    createrecords: function() {
+        gs.info("line 91");
+        var arr = [];
+        var attachmentID = this.getParameter('sysparm_attachmentID');
+        var gsa = new GlideSysAttachment();
+        var attachmentData = gsa.getContentStream(attachmentID);
+        var excelParser = new sn_impex.GlideExcelParser();
+        excelParser.parse(attachmentData);
+        while (excelParser.next()) {
+            var rowValue = excelParser.getRow();
+            arr.push(rowValue);
+        }
+        for (var i = 0; i < arr.length; i++) {
+            gs.info("inside line 104");
+            gs.info(arr[i]["Process No"]);
+            var invoicedata = new GlideRecord('x_1097202_invoices_invoice');
+            invoicedata.initialize();
+            invoicedata.vendor_code = arr[i]["Vendor Code"];
+            invoicedata.invoice_no = arr[i]["Invoice Number"];
+            var getSys_id = invoicedata.insert();
+            var childinvoicedata = new GlideRecord('x_1097202_invoices_po_line_items');
+            childinvoicedata.initialize();
+            childinvoicedata.tax_code = arr[i]["Tax Code"];
+            childinvoicedata.amount = arr[i]["Amount Before Tax"];
+            childinvoicedata.invoice_for = getSys_id;
+            childinvoicedata.insert();
+        }
 
-        return attachmentID + " " + invoiceType;
-
-    }
-
-
+    },
 
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-21 14:40:12</sys_created_on>
         <sys_id>1f42984dc38a121044643eec050131ca</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_name>CreateInvoice</sys_name>
         <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
         <sys_update_name>sys_script_include_1f42984dc38a121044643eec050131ca</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-22 12:37:14</sys_updated_on>
+        <sys_updated_on>2024-12-06 08:44:03</sys_updated_on>
     </sys_script_include>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
         <id>1f42984dc38a121044643eec050131ca</id>

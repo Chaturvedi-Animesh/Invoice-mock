@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "7cac5d4077343110c9d933c1fa5a99a6": {},
+    "table": "x_1097202_invoices_invoice",
+    "filter": "stateIN2,1^state=2"
+}</macroponent_config>
+        <screen display_value="Default">ca616a19c392121044643eec0501314c</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-05 05:57:43</sys_created_on>
+        <sys_id>46616a19c392121044643eec05013151</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_46616a19c392121044643eec05013151</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-05 06:27:24</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

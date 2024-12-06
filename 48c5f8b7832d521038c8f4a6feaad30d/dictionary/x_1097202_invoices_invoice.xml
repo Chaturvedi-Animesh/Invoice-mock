@@ -70,7 +70,7 @@
             </choice>
         </element>
         <element default="1264000" label="Tax Amount" max_length="38" name="tax_amount" read_only="true" type="currency"/>
-        <element default="PO" label="PO / Non PO" max_length="40" name="po_non_po" read_only="true" type="choice">
+        <element default="PO" label="PO / Non PO" max_length="40" name="po_non_po" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Non PO" sequence="1" value="Non PO"/>
                 <element inactive_on_update="false" label="PO" sequence="0" value="PO"/>

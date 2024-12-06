@@ -4,7 +4,7 @@
         <attributes/>
         <cat_item display_value="Upload Invoice">f005be1483f1121038c8f4a6feaad324</cat_item>
         <category/>
-        <choice_direction>across</choice_direction>
+        <choice_direction>down</choice_direction>
         <choice_field/>
         <choice_table/>
         <conversational_label/>
@@ -26,7 +26,7 @@
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <hidden>false</hidden>
+        <hidden>true</hidden>
         <include_none>false</include_none>
         <instructions/>
         <layout>normal</layout>
@@ -37,20 +37,20 @@
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
         <macro/>
-        <macroponent/>
+        <macroponent display_value="4 and 8 (Container)">45c9398153071010e6bcddeeff7b1288</macroponent>
         <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>single_multiple</name>
+        <name>error</name>
         <not_available_conversation>false</not_available_conversation>
-        <order/>
+        <order>400</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Single Invoice / Multiple Invoice</question_text>
-        <read_only>false</read_only>
+        <question_text>Invoice Errors</question_text>
+        <read_only>true</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
@@ -77,20 +77,20 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-11-22 12:22:12</sys_created_on>
-        <sys_id>87fbf0ddc30a121044643eec0501312c</sys_id>
+        <sys_created_on>2024-12-05 11:52:48</sys_created_on>
+        <sys_id>6972fb9dc31a121044643eec0501319b</sys_id>
         <sys_mod_count>8</sys_mod_count>
-        <sys_name>Single Invoice / Multiple Invoice</sys_name>
+        <sys_name>Invoice Errors</sys_name>
         <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
-        <sys_update_name>item_option_new_87fbf0ddc30a121044643eec0501312c</sys_update_name>
+        <sys_update_name>item_option_new_6972fb9dc31a121044643eec0501319b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-05 10:52:05</sys_updated_on>
+        <sys_updated_on>2024-12-06 08:26:03</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>3</type>
+        <type>2</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -98,7 +98,7 @@
         <validate_regex/>
         <variable_name/>
         <variable_set/>
-        <variable_width/>
+        <variable_width>100</variable_width>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
@@ -106,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=87fbf0ddc30a121044643eec0501312c"/>
-    <fx_price action="delete_multiple" query="id=87fbf0ddc30a121044643eec0501312c"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=6972fb9dc31a121044643eec0501319b"/>
+    <fx_price action="delete_multiple" query="id=6972fb9dc31a121044643eec0501319b"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="VND">a17182e30a0a0b5400f8d381df90246f</currency>
         <field>price_if_checked</field>
-        <id>87fbf0ddc30a121044643eec0501312c</id>
+        <id>6972fb9dc31a121044643eec0501319b</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-11-22 12:22:12</sys_created_on>
-        <sys_id>a7bc7011c34a121044643eec05013124</sys_id>
+        <sys_created_on>2024-12-05 11:52:49</sys_created_on>
+        <sys_id>3fa27311c35a121044643eec05013108</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-22 12:22:12</sys_updated_on>
+        <sys_updated_on>2024-12-05 11:52:49</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -129,17 +129,28 @@
         <amount>0</amount>
         <currency display_value="VND">a17182e30a0a0b5400f8d381df90246f</currency>
         <field>rec_price_if_checked</field>
-        <id>87fbf0ddc30a121044643eec0501312c</id>
+        <id>6972fb9dc31a121044643eec0501319b</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-11-22 12:22:12</sys_created_on>
-        <sys_id>e3bc7011c34a121044643eec05013123</sys_id>
+        <sys_created_on>2024-12-05 11:52:49</sys_created_on>
+        <sys_id>7fa27311c35a121044643eec05013107</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-22 12:22:12</sys_updated_on>
+        <sys_updated_on>2024-12-05 11:52:49</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>6972fb9dc31a121044643eec0501319b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-05 12:35:19</sys_created_on>
+        <sys_id>ea6cf31dc35a121044643eec05013180</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-05 12:35:19</sys_updated_on>
+        <table>item_option_new</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

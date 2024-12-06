@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="INSERT_OR_UPDATE">
+        <decision_table display_value="Invoice Decision Table">36caad0c8375d21038c8f4a6feaad31e</decision_table>
+        <label>Approver1: Business Operation GM, Approver2: Business Operation Manager</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-02 11:29:21</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>328058e4c35a121044643eec05013175</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approver1: Business Operation GM, Approver2: Business Operation Manager</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_decision_multi_result_328058e4c35a121044643eec05013175</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-02 11:29:21</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="delete_multiple" query="document_key=328058e4c35a121044643eec05013175"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>328058e4c35a121044643eec05013175</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-02 11:29:21</sys_created_on>
+        <sys_id>7280d428c35a121044643eec05013129</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-02 11:29:21</sys_updated_on>
+        <value>cf97ef9dc37d121044643eec05013185</value>
+        <variable display_value="Approver2">84fb65cc8375d21038c8f4a6feaad361</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>328058e4c35a121044643eec05013175</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-02 11:29:21</sys_created_on>
+        <sys_id>be80d428c35a121044643eec05013128</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-02 11:29:21</sys_updated_on>
+        <value>f3a76f5dc37d121044643eec0501313e</value>
+        <variable display_value="Approver1">08fb65cc8375d21038c8f4a6feaad34d</variable>
+    </sys_variable_value>
+</record_update>

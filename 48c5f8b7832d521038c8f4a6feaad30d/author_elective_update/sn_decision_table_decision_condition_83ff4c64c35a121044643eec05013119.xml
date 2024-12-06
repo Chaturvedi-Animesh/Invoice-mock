@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition">
+    <sn_decision_table_decision_condition action="DELETE">
+        <decision_input display_value="department_code">66ff48a4c35a121044643eec05013162</decision_input>
+        <decision_table display_value="Invoice Decision Table delta">5eff08e4c35a121044643eec050131a2</decision_table>
+        <default_operator>=</default_operator>
+        <description/>
+        <field/>
+        <field_label/>
+        <field_parent_table/>
+        <label>department_code</label>
+        <order>100</order>
+        <parent display_value="">d4fb258c8375d21038c8f4a6feaad34d</parent>
+        <reference/>
+        <sys_class_name>sn_decision_table_decision_condition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-02 11:26:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>83ff4c64c35a121044643eec05013119</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sn_decision_table_decision_condition_83ff4c64c35a121044643eec05013119</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-02 11:26:55</sys_updated_on>
+        <type display_value="String">747127c1bf3320001875647fcf0739e0</type>
+    </sn_decision_table_decision_condition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</application>
+        <file_path/>
+        <instance_id>63d4c980db3e3dd439639027c596195b</instance_id>
+        <instance_name>dev223172</instance_name>
+        <name>sn_decision_table_decision_condition_83ff4c64c35a121044643eec05013119</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_decision_table_decision_condition"><sn_decision_table_decision_condition action="INSERT_OR_UPDATE"><decision_input display_value="department_code">66ff48a4c35a121044643eec05013162</decision_input><decision_table display_value="Invoice Decision Table delta">5eff08e4c35a121044643eec050131a2</decision_table><default_operator>=</default_operator><description/><field/><field_label/><field_parent_table/><label>department_code</label><order>100</order><parent display_value="">d4fb258c8375d21038c8f4a6feaad34d</parent><reference/><sys_class_name>sn_decision_table_decision_condition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-02 11:26:55</sys_created_on><sys_domain>global</sys_domain><sys_id>83ff4c64c35a121044643eec05013119</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package><sys_policy/><sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope><sys_update_name>sn_decision_table_decision_condition_83ff4c64c35a121044643eec05013119</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 11:26:55</sys_updated_on><type display_value="String">747127c1bf3320001875647fcf0739e0</type></sn_decision_table_decision_condition></record_update>]]></payload>
+        <payload_hash>-1320895006</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>2d911719c3f9121044643eec050131c9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-02 11:26:55</sys_created_on>
+        <sys_id>83ff4c64c35a121044643eec0501311c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193871f998e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-02 11:26:55</sys_updated_on>
+        <type>Decision Condition</type>
+        <update_guid>87ff4c649a5a12105196d59e7a2c3b1b</update_guid>
+        <update_guid_history>87ff4c649a5a12105196d59e7a2c3b1b:-1320895006</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">8b809028c35a121044643eec05013108</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-02 11:29:22</sys_created_on>
+        <sys_db_object display_value="" name="sn_decision_table_decision_condition">sn_decision_table_decision_condition</sys_db_object>
+        <sys_id>2223b73fe4104e4089ac96fdc7cac900</sys_id>
+        <sys_metadata>83ff4c64c35a121044643eec05013119</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_scope_delete display_value="">06eacfb531f84c0c80adc050aaeca810</sys_scope_delete>
+        <sys_update_name>sn_decision_table_decision_condition_83ff4c64c35a121044643eec05013119</sys_update_name>
+        <sys_update_version display_value="sn_decision_table_decision_condition_83ff4c64c35a121044643eec05013119">83ff4c64c35a121044643eec0501311c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-02 11:29:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

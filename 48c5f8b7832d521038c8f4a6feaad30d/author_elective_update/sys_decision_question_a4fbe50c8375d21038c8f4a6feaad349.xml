@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="DELETE">
+        <active>true</active>
+        <answer>d8fb258c8375d21038c8f4a6feaad352</answer>
+        <condition table="var__m_sys_decision_input_36caad0c8375d21038c8f4a6feaad31e">u_department_code=EC Team^EQ<item endquery="false" field="u_department_code" goto="false" newquery="false" operator="=" or="false" value="EC Team"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="Invoice Decision Table">36caad0c8375d21038c8f4a6feaad31e</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_36caad0c8375d21038c8f4a6feaad31e</input_table>
+        <label>Invoice Decision Table_100</label>
+        <marked_for_deletion>true</marked_for_deletion>
+        <order>100</order>
+        <sys_class_name>sys_decision_question</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-06 08:20:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a4fbe50c8375d21038c8f4a6feaad349</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Invoice Decision Table_100</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_decision_question_a4fbe50c8375d21038c8f4a6feaad349</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-02 11:29:14</sys_updated_on>
+    </sys_decision_question>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</application>
+        <file_path/>
+        <instance_id>63d4c980db3e3dd439639027c596195b</instance_id>
+        <instance_name>dev223172</instance_name>
+        <name>sys_decision_question_a4fbe50c8375d21038c8f4a6feaad349</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question"><sys_decision_question action="INSERT_OR_UPDATE"><active>true</active><answer>d8fb258c8375d21038c8f4a6feaad352</answer><condition table="var__m_sys_decision_input_36caad0c8375d21038c8f4a6feaad31e">u_department_code=EC Team^EQ<item endquery="false" field="u_department_code" goto="false" newquery="false" operator="=" or="false" value="EC Team"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><decision_table display_value="Invoice Decision Table">36caad0c8375d21038c8f4a6feaad31e</decision_table><default_answer>false</default_answer><input_table>var__m_sys_decision_input_36caad0c8375d21038c8f4a6feaad31e</input_table><label>Invoice Decision Table_100</label><marked_for_deletion>true</marked_for_deletion><order>100</order><sys_class_name>sys_decision_question</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-11-06 08:20:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a4fbe50c8375d21038c8f4a6feaad349</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Invoice Decision Table_100</sys_name><sys_overrides/><sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package><sys_policy/><sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope><sys_update_name>sys_decision_question_a4fbe50c8375d21038c8f4a6feaad349</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-02 11:29:14</sys_updated_on></sys_decision_question></record_update>]]></payload>
+        <payload_hash>1103225988</payload_hash>
+        <record_name>Invoice Decision Table_100</record_name>
+        <reverted_from/>
+        <source>2d911719c3f9121044643eec050131c9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-02 11:29:14</sys_created_on>
+        <sys_id>49809428c35a121044643eec0501315c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1938721babb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-02 11:29:14</sys_updated_on>
+        <type>Decision</type>
+        <update_guid>cd809428865a1210a1cca9a7d0713b5b</update_guid>
+        <update_guid_history>cd809428865a1210a1cca9a7d0713b5b:1103225988,ed715b9993f912103b37601e8ec42764:681353413</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-02 11:29:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_question">sys_decision_question</sys_db_object>
+        <sys_id>c750bcc10c5b43e9a81796f5ca429c31</sys_id>
+        <sys_metadata>a4fbe50c8375d21038c8f4a6feaad349</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Invoice Decision Table_100</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_scope_delete display_value="">06eacfb531f84c0c80adc050aaeca810</sys_scope_delete>
+        <sys_update_name>sys_decision_question_a4fbe50c8375d21038c8f4a6feaad349</sys_update_name>
+        <sys_update_version display_value="sys_decision_question_a4fbe50c8375d21038c8f4a6feaad349">49809428c35a121044643eec0501315c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-02 11:29:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

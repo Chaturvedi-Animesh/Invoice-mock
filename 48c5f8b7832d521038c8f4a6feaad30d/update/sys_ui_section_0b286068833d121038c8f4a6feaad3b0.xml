@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-07 16:41:11</sys_created_on>
-            <sys_id>07286068833d121038c8f4a6feaad3b4</sys_id>
+            <sys_created_on>2024-12-05 05:36:40</sys_created_on>
+            <sys_id>b19c96ddc352121044643eec05013126</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_record_producer_input" sys_domain="global" view="Default view">0b286068833d121038c8f4a6feaad3b0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-07 16:41:11</sys_updated_on>
+            <sys_updated_on>2024-12-05 05:36:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>po_non_po</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-07 16:42:11</sys_created_on>
-            <sys_id>a56860a8833d121038c8f4a6feaad395</sys_id>
+            <sys_created_on>2024-12-05 05:36:40</sys_created_on>
+            <sys_id>399c96ddc352121044643eec05013126</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_record_producer_input" sys_domain="global" view="Default view">0b286068833d121038c8f4a6feaad3b0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-07 16:42:11</sys_updated_on>
+            <sys_updated_on>2024-12-05 05:36:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,27 @@
             <element>trade_non_trade</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2024-11-07 16:43:29</sys_created_on>
-            <sys_id>70b828a8833d121038c8f4a6feaad3f7</sys_id>
+            <sys_created_on>2024-12-05 05:36:40</sys_created_on>
+            <sys_id>bd9c96ddc352121044643eec05013126</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_record_producer_input" sys_domain="global" view="Default view">0b286068833d121038c8f4a6feaad3b0</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-07 16:43:29</sys_updated_on>
+            <sys_updated_on>2024-12-05 05:36:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>attachment</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-05 05:36:40</sys_created_on>
+            <sys_id>359c96ddc352121044643eec05013127</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_record_producer_input" sys_domain="global" view="Default view">0b286068833d121038c8f4a6feaad3b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-05 05:36:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

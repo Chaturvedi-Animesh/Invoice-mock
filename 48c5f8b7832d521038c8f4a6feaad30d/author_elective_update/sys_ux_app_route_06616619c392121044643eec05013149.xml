@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Invoice Workspace App Config">60cbcd0ca5b1d2100936c53e042817ce</app_config>
+        <description/>
+        <extension_point/>
+        <fields>table,filter</fields>
+        <icon/>
+        <name>Chart List</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>chart-list</route_type>
+        <screen_type display_value="Chart List">0e616619c392121044643eec05013145</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-05 05:57:42</sys_created_on>
+        <sys_id>06616619c392121044643eec05013149</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Chart List</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_ux_app_route_06616619c392121044643eec05013149</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-05 05:57:42</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=06616619c392121044643eec05013149"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</application>
+        <file_path/>
+        <instance_id>63d4c980db3e3dd439639027c596195b</instance_id>
+        <instance_name>dev223172</instance_name>
+        <name>sys_ux_app_route_06616619c392121044643eec05013149</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Invoice Workspace App Config">60cbcd0ca5b1d2100936c53e042817ce</app_config><description/><extension_point/><fields>table,filter</fields><icon/><name>Chart List</name><optional_parameters/><order>0</order><parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>chart-list</route_type><screen_type display_value="Chart List">0e616619c392121044643eec05013145</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-05 05:57:42</sys_created_on><sys_id>06616619c392121044643eec05013149</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Chart List</sys_name><sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package><sys_policy/><sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope><sys_update_name>sys_ux_app_route_06616619c392121044643eec05013149</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-05 05:57:42</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=06616619c392121044643eec05013149"/></record_update>]]></payload>
+        <payload_hash>910728123</payload_hash>
+        <record_name>Chart List</record_name>
+        <reverted_from/>
+        <source>2d911719c3f9121044643eec050131c9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-05 05:57:42</sys_created_on>
+        <sys_id>82616a19c392121044643eec05013148</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193956547c80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-05 05:57:42</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>46616a1911921210d5fe70d99f682347</update_guid>
+        <update_guid_history>46616a1911921210d5fe70d99f682347:910728123</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-05 08:34:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>08b28de126a54e40a8ea12dc8cc0c210</sys_id>
+        <sys_metadata>06616619c392121044643eec05013149</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Chart List</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_scope_delete display_value="">06eacfb531f84c0c80adc050aaeca810</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_06616619c392121044643eec05013149</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_06616619c392121044643eec05013149">82616a19c392121044643eec05013148</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-05 08:34:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
