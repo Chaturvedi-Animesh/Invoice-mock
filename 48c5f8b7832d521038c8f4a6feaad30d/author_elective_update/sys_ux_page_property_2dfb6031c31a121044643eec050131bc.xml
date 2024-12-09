@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="Delegate Experience">afeb20fdc3d6121044643eec05013171</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-06 10:41:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>2dfb6031c31a121044643eec050131bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_ux_page_property_2dfb6031c31a121044643eec050131bc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-06 10:41:32</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1097202_invoices.afeb20fdc3d6121044643eec05013171.root.global.chrome_header</unique_name>
+        <value>{
+    "privatePage": {
+        "userPrefsEnabled": false,
+        "searchEnabled": false,
+        "currentScreenLinkConfiguration": {},
+        "globalTools": {
+            "collapsingMenuId": 0,
+            "primaryItems": [],
+            "secondaryItems": []
+        }
+    },
+    "publicPage": {
+        "menuEnabled": false,
+        "searchEnabled": false,
+        "logoRoute": {},
+        "actionButtons": []
+    }
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=2dfb6031c31a121044643eec050131bc"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</application>
+        <file_path/>
+        <instance_id>63d4c980db3e3dd439639027c596195b</instance_id>
+        <instance_name>dev223172</instance_name>
+        <name>sys_ux_page_property_2dfb6031c31a121044643eec050131bc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="Delegate Experience">afeb20fdc3d6121044643eec05013171</page><required_translations>[ ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-06 10:41:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>2dfb6031c31a121044643eec050131bc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package><sys_policy/><sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope><sys_update_name>sys_ux_page_property_2dfb6031c31a121044643eec050131bc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-06 10:41:32</sys_updated_on><type>json</type><unique_name>x_1097202_invoices.afeb20fdc3d6121044643eec05013171.root.global.chrome_header</unique_name><value>{
+    "privatePage": {
+        "userPrefsEnabled": false,
+        "searchEnabled": false,
+        "currentScreenLinkConfiguration": {},
+        "globalTools": {
+            "collapsingMenuId": 0,
+            "primaryItems": [],
+            "secondaryItems": []
+        }
+    },
+    "publicPage": {
+        "menuEnabled": false,
+        "searchEnabled": false,
+        "logoRoute": {},
+        "actionButtons": []
+    }
+}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=2dfb6031c31a121044643eec050131bc"/></record_update>]]></payload>
+        <payload_hash>493079234</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>2d911719c3f9121044643eec050131c9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-06 10:41:32</sys_created_on>
+        <sys_id>a1fb6031c31a121044643eec050131c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1939b8f7db20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-06 10:41:32</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>65fb6031ae1a12104bb5c3f7d3ba10bf</update_guid>
+        <update_guid_history>65fb6031ae1a12104bb5c3f7d3ba10bf:493079234</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-06 14:41:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>38201515f1434393bc005e4e27a3ef39</sys_id>
+        <sys_metadata>2dfb6031c31a121044643eec050131bc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_scope_delete display_value="">06eacfb531f84c0c80adc050aaeca810</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_2dfb6031c31a121044643eec050131bc</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_2dfb6031c31a121044643eec050131bc">a1fb6031c31a121044643eec050131c0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-06 14:41:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

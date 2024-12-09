@@ -22,7 +22,7 @@
     if (isLoading || newValue === '') {
         return;
     }
-    alert(g_form.getValue('single_multiple'));
+    //alert(newValue);
     var ga = new GlideAjax('x_1097202_invoices.CreateInvoice');
     ga.addParam('sysparm_name', 'validateExcelValues');
     ga.addParam('sysparm_attachmentID', newValue);
@@ -32,7 +32,7 @@
     function parseRestorationDateResult(response) {
         var answer = response.responseXML.documentElement.getAttribute("answer");
         //var getanswer = answer.replaceAll(',', '\n');
-        //alert(getanswer);
+        alert(answer);
         g_form.clearValue('error');
         var getanswer = answer.split(',');
         //alert(getanswer);
@@ -50,8 +50,9 @@
             //}
             g_form.clearValue('upload_a_file');
         } else {
-            //alert("line 31");
-            parseRestorationDateResults();
+           // alert("line 31");
+            //parseRestorationDateResults();
+            g_form.setDisplay('error', false);
             /*var ga = new GlideAjax('x_1097202_invoices.CreateInvoice');
             ga.addParam('sysparm_name', 'createrecords');
             ga.addParam('sysparm_attachmentID', newValue);
@@ -70,13 +71,14 @@ function parseRestorationDateResults() {
     g_form.setDisplay('error', false);
     var ga = new GlideAjax('x_1097202_invoices.CreateInvoice');
     ga.addParam('sysparm_name', 'createrecords');
-    ga.addParam('sysparm_attachmentID', newValue);
-    ga.getXML(parseRestorationDateResults);
+    ga.addParam('sysparm_attachmentID', g_form.getValue('upload_a_file'));
+    ga.addParam('sysparm_vendor', g_form.getValue('single_multiple'));
+    ga.getXML(parseRestorationDateResultss);
 
 
-    function parseRestorationDateResults(response) {
+    function parseRestorationDateResultss(response) {
+        alert("line 63");
         var answer = response.responseXML.documentElement.getAttribute("answer");
-        // alert(answer);
     }
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
@@ -85,7 +87,7 @@ function parseRestorationDateResults() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e5fa0805c38a121044643eec0501319d</sys_id>
-        <sys_mod_count>57</sys_mod_count>
+        <sys_mod_count>69</sys_mod_count>
         <sys_name>Validate Uploaded Excel</sys_name>
         <sys_overrides/>
         <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
@@ -93,7 +95,7 @@ function parseRestorationDateResults() {
         <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
         <sys_update_name>catalog_script_client_e5fa0805c38a121044643eec0501319d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-06 08:41:47</sys_updated_on>
+        <sys_updated_on>2024-12-09 08:30:10</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

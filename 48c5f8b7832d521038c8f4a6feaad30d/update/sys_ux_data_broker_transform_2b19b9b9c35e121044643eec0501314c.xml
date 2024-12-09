@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_1097202_invoices.User Current Delegation Status</api_name>
+        <batch_exclude>false</batch_exclude>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>User Current Delegation Status</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+    "name": "recordSysId",&#13;
+    "label": "Record Sys ID",&#13;
+    "description": "Enter the sys_id of the record",&#13;
+    "readOnly": false,&#13;
+    "fieldType": "string",&#13;
+    "mandatory": true,&#13;
+    "defaultValue": ""&#13;
+  }&#13;
+]</props>
+        <required_translations>[ {
+  "message" : "Enter the sys_id of the record",
+  "comment" : ""
+}, {
+  "message" : "Record Sys ID",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+   
+    var sysId = input.recordSysId;
+
+   
+    var gr = new GlideRecord('sys_user_delegate');
+    gr.addQuery('user', sysId); 
+    gr.addQuery('starts', '<=', new GlideDateTime()); 
+    gr.addQuery('ends', '>=', new GlideDateTime()); 
+    gr.query();
+
+    // Check if an active delegation exists
+    if (gr.next()) {
+        return "Delegate to " + gr.getDisplayValue('delegate'); // Delegate user
+    }
+
+    // No active delegation found
+    return "Not delegated";
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-06 16:20:08</sys_created_on>
+        <sys_id>2b19b9b9c35e121044643eec0501314c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>User Current Delegation Status</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_2b19b9b9c35e121044643eec0501314c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-09 06:13:14</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=2b19b9b9c35e121044643eec0501314c"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>2b19b9b9c35e121044643eec0501314c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-06 16:20:07</sys_created_on>
+        <sys_id>1179f1f5c35e121044643eec050131d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-06 16:20:07</sys_updated_on>
+        <table>sys_ux_data_broker_transform</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

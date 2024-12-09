@@ -8,71 +8,54 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="Upload Invoice">f005be1483f1121038c8f4a6feaad324</cat_item>
-        <cat_variable/>
+        <cat_variable>IO:87fbf0ddc30a121044643eec0501312c</cat_variable>
         <condition/>
         <description/>
         <field/>
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>Validate attachment on submit</name>
+        <name>Invoice Type</name>
         <order/>
         <published_ref/>
-        <script><![CDATA[function onSubmit() {
-    var attachmentID = g_form.getValue('upload_a_file');
-    if (!attachmentID) {
-        g_form.addErrorMessage("Please attach a file.");
-        return false;
-    }
-    //alert('Submit is exxecuting');
-    var ga = new GlideAjax('x_1097202_invoices.CreateInvoice');
-    ga.addParam('sysparm_name', 'createrecords');
-    ga.addParam('sysparm_attachmentID', g_form.getValue('upload_a_file'));
-    ////alert(g_form.getValue('upload_a_file'));
-    ga.addParam('sysparm_vendor', g_form.getValue('single_multiple'));
-    //alert(g_form.getValue('single_multiple'));
-    ga.getXML(parseRestorationDateResultss);
-
-
-    function parseRestorationDateResultss(response) {
-        var answer = response.responseXML.documentElement.getAttribute("answer");
-        if (answer != '') {
-            g_form.addInfoMessage('Invoices Uploaded Successfully');
-            return true;
-
-        }
-    }
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+      return;
+   }
+    g_form.clearValue('upload_a_file');
+	g_form.clearValue('error');
+   
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-11-22 10:21:49</sys_created_on>
+        <sys_created_on>2024-12-09 05:25:10</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>41d0e41dc386121044643eec05013135</sys_id>
-        <sys_mod_count>37</sys_mod_count>
-        <sys_name>Validate attachment on submit</sys_name>
+        <sys_id>2d0003e6c3da121044643eec050131a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Invoice Type</sys_name>
         <sys_overrides/>
         <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
-        <sys_update_name>catalog_script_client_41d0e41dc386121044643eec05013135</sys_update_name>
+        <sys_update_name>catalog_script_client_2d0003e6c3da121044643eec050131a5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-09 06:25:11</sys_updated_on>
+        <sys_updated_on>2024-12-09 05:25:10</sys_updated_on>
         <table/>
-        <type>onSubmit</type>
+        <type>onChange</type>
         <ui_type>10</ui_type>
         <va_supported>true</va_supported>
         <variable_set/>
         <view/>
     </catalog_script_client>
     <sys_es_latest_script action="INSERT_OR_UPDATE">
-        <id>41d0e41dc386121044643eec05013135</id>
+        <id>2d0003e6c3da121044643eec050131a5</id>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-11-22 10:21:48</sys_created_on>
-        <sys_id>4c3160ddc386121044643eec050131bc</sys_id>
+        <sys_created_on>2024-12-09 05:25:09</sys_created_on>
+        <sys_id>00504fa6c3da121044643eec0501310b</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-22 10:21:48</sys_updated_on>
+        <sys_updated_on>2024-12-09 05:25:09</sys_updated_on>
         <table>catalog_script_client</table>
         <use_es_latest>false</use_es_latest>
     </sys_es_latest_script>

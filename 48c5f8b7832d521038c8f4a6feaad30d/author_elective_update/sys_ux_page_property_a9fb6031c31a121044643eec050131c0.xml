@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_footer</name>
+        <page display_value="Delegate Experience">afeb20fdc3d6121044643eec05013171</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-06 10:41:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>a9fb6031c31a121044643eec050131c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_ux_page_property_a9fb6031c31a121044643eec050131c0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-06 10:41:32</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1097202_invoices.afeb20fdc3d6121044643eec05013171.root.global.chrome_footer</unique_name>
+        <value>{
+    "public_page": {
+        "enable_footer_topbar": false,
+        "footer_topbar_options": {},
+        "enable_footer_bar": false,
+        "footer_bar_options": {}
+    }
+}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=a9fb6031c31a121044643eec050131c0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</application>
+        <file_path/>
+        <instance_id>63d4c980db3e3dd439639027c596195b</instance_id>
+        <instance_name>dev223172</instance_name>
+        <name>sys_ux_page_property_a9fb6031c31a121044643eec050131c0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_footer</name><page display_value="Delegate Experience">afeb20fdc3d6121044643eec05013171</page><required_translations>[ ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-12-06 10:41:32</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>a9fb6031c31a121044643eec050131c0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_footer</sys_name><sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package><sys_policy/><sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope><sys_update_name>sys_ux_page_property_a9fb6031c31a121044643eec050131c0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-12-06 10:41:32</sys_updated_on><type>json</type><unique_name>x_1097202_invoices.afeb20fdc3d6121044643eec05013171.root.global.chrome_footer</unique_name><value>{
+    "public_page": {
+        "enable_footer_topbar": false,
+        "footer_topbar_options": {},
+        "enable_footer_bar": false,
+        "footer_bar_options": {}
+    }
+}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=a9fb6031c31a121044643eec050131c0"/></record_update>]]></payload>
+        <payload_hash>466013091</payload_hash>
+        <record_name>chrome_footer</record_name>
+        <reverted_from/>
+        <source>2d911719c3f9121044643eec050131c9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-06 10:41:32</sys_created_on>
+        <sys_id>e9fba031c31a121044643eec0501314b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1939b8f7dd50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-06 10:41:32</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>edfba0311b1a12107704af5f8bfff64a</update_guid>
+        <update_guid_history>edfba0311b1a12107704af5f8bfff64a:466013091</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-06 14:41:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>7b271283e3074cdb927ae033d14fede1</sys_id>
+        <sys_metadata>a9fb6031c31a121044643eec050131c0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_scope_delete display_value="">06eacfb531f84c0c80adc050aaeca810</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_a9fb6031c31a121044643eec050131c0</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_a9fb6031c31a121044643eec050131c0">e9fba031c31a121044643eec0501314b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-06 14:41:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
