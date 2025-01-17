@@ -40,7 +40,7 @@
 
     // Check if an active delegation exists
     if (gr.next()) {
-        return "Delegate to " + gr.getDisplayValue('delegate'); // Delegate user
+        return "Delegated to " + gr.getDisplayValue('delegate'); // Delegate user
     }
 
     // No active delegation found
@@ -50,14 +50,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-06 16:20:08</sys_created_on>
         <sys_id>2b19b9b9c35e121044643eec0501314c</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>User Current Delegation Status</sys_name>
         <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
         <sys_update_name>sys_ux_data_broker_transform_2b19b9b9c35e121044643eec0501314c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-09 06:13:14</sys_updated_on>
+        <sys_updated_on>2024-12-10 06:08:17</sys_updated_on>
     </sys_ux_data_broker_transform>
     <sys_translated_text action="delete_multiple" query="documentkey=2b19b9b9c35e121044643eec0501314c"/>
     <sys_es_latest_script action="INSERT_OR_UPDATE">

@@ -24,22 +24,20 @@
         g_form.addErrorMessage("Please attach a file.");
         return false;
     }
-    //alert('Submit is exxecuting');
     var ga = new GlideAjax('x_1097202_invoices.CreateInvoice');
     ga.addParam('sysparm_name', 'createrecords');
     ga.addParam('sysparm_attachmentID', g_form.getValue('upload_a_file'));
-    ////alert(g_form.getValue('upload_a_file'));
     ga.addParam('sysparm_vendor', g_form.getValue('single_multiple'));
-    //alert(g_form.getValue('single_multiple'));
-    ga.getXML(parseRestorationDateResultss);
-
+    ga.getXMLAnswer(parseRestorationDateResultss);
 
     function parseRestorationDateResultss(response) {
-        var answer = response.responseXML.documentElement.getAttribute("answer");
+        var answer = JSON.parse(response);
         if (answer != '') {
-            g_form.addInfoMessage('Invoices Uploaded Successfully');
+            //var msg = 'Invoices Uploaded Successfully' + '\n' + "Vendor Records :" + answer.vendorRecord + '\n' + "Invoice Records :" + answer.invoiceRecord;
+			var msg = 'Invoices Uploaded Successfully' + '\n' +"Invoice Records :" + answer.invoiceRecord;
+            g_form.addInfoMessage(msg);
+            //g_form.addInfoMessage('Invoices Uploaded Successfully');
             return true;
-
         }
     }
 }]]></script>
@@ -49,7 +47,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>41d0e41dc386121044643eec05013135</sys_id>
-        <sys_mod_count>37</sys_mod_count>
+        <sys_mod_count>57</sys_mod_count>
         <sys_name>Validate attachment on submit</sys_name>
         <sys_overrides/>
         <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
@@ -57,7 +55,7 @@
         <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
         <sys_update_name>catalog_script_client_41d0e41dc386121044643eec05013135</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-09 06:25:11</sys_updated_on>
+        <sys_updated_on>2024-12-16 05:30:47</sys_updated_on>
         <table/>
         <type>onSubmit</type>
         <ui_type>10</ui_type>

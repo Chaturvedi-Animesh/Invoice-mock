@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Summary Invoice Information" section_id="cbd17f73c392d21044643eec05013168" sys_domain="global" table="x_1097202_invoices_invoice" version="3" view="workspace-invoice-workspace-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>currenc1</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-13 06:14:03</sys_created_on>
+            <sys_id>d7d17f73c392d21044643eec05013195</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Summary Invoice Information" display_value="Summary Invoice Information" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">cbd17f73c392d21044643eec05013168</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-13 06:14:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_invoice_amount_before_tax</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-13 06:14:03</sys_created_on>
+            <sys_id>57d17f73c392d21044643eec05013196</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Summary Invoice Information" display_value="Summary Invoice Information" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">cbd17f73c392d21044643eec05013168</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-13 06:14:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_tax_amount</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-13 06:14:03</sys_created_on>
+            <sys_id>5fd17f73c392d21044643eec05013196</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Summary Invoice Information" display_value="Summary Invoice Information" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">cbd17f73c392d21044643eec05013168</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-13 06:14:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>total_invoice_amount_after_tax</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-13 06:14:03</sys_created_on>
+            <sys_id>57d17f73c392d21044643eec05013197</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Summary Invoice Information" display_value="Summary Invoice Information" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">cbd17f73c392d21044643eec05013168</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-13 06:14:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-13 06:14:03</sys_created_on>
+            <sys_id>5fd17f73c392d21044643eec05013197</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Summary Invoice Information" display_value="Summary Invoice Information" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">cbd17f73c392d21044643eec05013168</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-13 06:14:03</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>posting_dat0</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-13 06:14:03</sys_created_on>
+            <sys_id>57d17f73c392d21044643eec05013198</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Summary Invoice Information" display_value="Summary Invoice Information" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">cbd17f73c392d21044643eec05013168</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-13 06:14:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>wht_requied</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-13 06:14:03</sys_created_on>
+            <sys_id>5fd17f73c392d21044643eec05013198</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Summary Invoice Information" display_value="Summary Invoice Information" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">cbd17f73c392d21044643eec05013168</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-13 06:14:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tex0</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-13 06:14:03</sys_created_on>
+            <sys_id>57d17f73c392d21044643eec05013199</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Summary Invoice Information" display_value="Summary Invoice Information" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">cbd17f73c392d21044643eec05013168</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-13 06:14:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Summary Invoice Information</caption>
+            <header>false</header>
+            <name>x_1097202_invoices_invoice</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-13 06:14:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cbd17f73c392d21044643eec05013168</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1097202_invoices_invoice</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+            <sys_update_name>sys_ui_section_cbd17f73c392d21044643eec05013168</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-13 06:14:02</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Invoice Workspace 0" name="workspace-invoice-workspace-0">28cbcd0cb5b1d210eb7aabb8a6081ec4</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

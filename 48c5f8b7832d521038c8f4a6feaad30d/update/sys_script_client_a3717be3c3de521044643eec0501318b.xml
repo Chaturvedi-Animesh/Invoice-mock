@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>hide section</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    g_form.setDisplay('single_multiple', false);
+    // alert(g_form.getValue('single_multiple'));
+    if (g_form.getValue('single_multiple') == "false") {
+        //  alert("line 6");
+        g_form.setSectionDisplay('invoice_details', false);
+        g_form.setSectionDisplay('summary_invoiceinformation', true);
+        g_form.setSectionDisplay('total_summary', false);
+    } else {
+        //alert("line 11");
+        g_form.setSectionDisplay('total_summary', true);
+        g_form.setSectionDisplay('summary_invoiceinformation', false);
+        g_form.setSectionDisplay('invoice_details', true);
+        g_form.hideRelatedList('x_1097202_invoices_invoice_items');
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-12 11:34:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a3717be3c3de521044643eec0501318b</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>hide section</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_script_client_a3717be3c3de521044643eec0501318b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-16 05:29:31</sys_updated_on>
+        <table>x_1097202_invoices_invoice</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

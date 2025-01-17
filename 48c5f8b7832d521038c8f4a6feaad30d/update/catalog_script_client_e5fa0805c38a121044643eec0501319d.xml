@@ -31,12 +31,22 @@
 
     function parseRestorationDateResult(response) {
         var answer = response.responseXML.documentElement.getAttribute("answer");
+        var parse = JSON.parse(answer);
         //var getanswer = answer.replaceAll(',', '\n');
-        alert(answer);
+        // alert(parse.vendorTypes);
+        // alert(parse.errors);
+        if (parse.vendorTypes != '1') {
+            //alert("18");
+            g_form.clearValue('single_multiple');
+            g_form.setValue('single_multiple', 'multiple');
+        } else if (parse.vendorTypes == '1') {
+            g_form.clearValue('single_multiple');
+            g_form.setValue('single_multiple', 'single');
+        }
         g_form.clearValue('error');
-        var getanswer = answer.split(',');
+        var getanswer = parse.errors.split(',');
         //alert(getanswer);
-        if (answer != '') {
+        if (getanswer != '') {
             // alert("line 18");
             g_form.setVisible('error', true);
             g_form.setDisplay('error', true);
@@ -50,7 +60,7 @@
             //}
             g_form.clearValue('upload_a_file');
         } else {
-           // alert("line 31");
+            // alert("line 31");
             //parseRestorationDateResults();
             g_form.setDisplay('error', false);
             /*var ga = new GlideAjax('x_1097202_invoices.CreateInvoice');
@@ -87,7 +97,7 @@ function parseRestorationDateResults() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e5fa0805c38a121044643eec0501319d</sys_id>
-        <sys_mod_count>69</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_name>Validate Uploaded Excel</sys_name>
         <sys_overrides/>
         <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
@@ -95,7 +105,7 @@ function parseRestorationDateResults() {
         <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
         <sys_update_name>catalog_script_client_e5fa0805c38a121044643eec0501319d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-09 08:30:10</sys_updated_on>
+        <sys_updated_on>2024-12-10 06:22:27</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

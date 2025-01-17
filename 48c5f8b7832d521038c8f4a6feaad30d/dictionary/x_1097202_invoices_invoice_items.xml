@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c9281be3c35e521044643eec050131b9" label="Invoice Items" max_length="40" name="x_1097202_invoices_invoice_items" type="collection">
+        <element label="Amount (Before Tax)" max_length="40" name="amount_before_tax" type="string"/>
+        <element label="Tax Code" max_length="40" name="tax_code" type="string"/>
+        <element label="Invoice No" max_length="40" name="invoice_no" type="string"/>
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <element label="Amount (After Tax)" max_length="40" name="amount_after_tax" type="string"/>
+        <element label="Tax Amount" max_length="40" name="tax_amount" type="string"/>
+        <element label="Invoice Date" max_length="40" name="invoice_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Parent Invoice" max_length="32" name="parent_invoice" reference="x_1097202_invoices_invoice" type="reference"/>
+        <element default="Invoice" label="Invoice Type" max_length="40" name="invoice_type" type="string"/>
+        <index name="index">
+            <element name="parent_invoice"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

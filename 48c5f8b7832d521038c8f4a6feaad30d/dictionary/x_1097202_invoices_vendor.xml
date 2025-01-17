@@ -4,7 +4,9 @@
         <element default="Account Holder Tst" label="Account Holder" max_length="40" name="account_holder" read_only="true" type="string"/>
         <element default="01234567890" label="Bank Account" max_length="40" name="bank_account" read_only="true" type="string"/>
         <element default="Thang Long" label="Bank Branch" max_length="40" name="bank_branch" read_only="true" type="string"/>
+        <element label="Partner Bank Type" max_length="40" name="partner_bank_type" read_only="true" type="string"/>
         <element default="Vendor A" label="Vendor Full Name" max_length="40" name="vendor_full_name" read_only="true" type="string"/>
+        <element label="Tax Registration Number " max_length="40" name="tax_registration_number" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Vendor Code" max_length="40" name="number" type="string"/>
         <element default="Vietnam Bank" label="Bank name" max_length="40" name="bank_name" read_only="true" type="string"/>
     </element>

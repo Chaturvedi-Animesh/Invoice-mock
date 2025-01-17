@@ -42,6 +42,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-11-15 10:05:46</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-12-13 06:14:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57d17f73c392d21044643eec0501316c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1097202_invoices_invoice" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">93cbc14c83b1d21038c8f4a6feaad340</sys_ui_form>
+            <sys_ui_section caption="Summary Invoice Information" display_value="Summary Invoice Information" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">cbd17f73c392d21044643eec05013168</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-12-13 06:14:03</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_1097202_invoices_invoice</name>
             <roles/>
