@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="reference_doc" label="Tax Amount" language="en" table="x_1097202_invoices_po_line_items">
+    <sys_documentation element="reference_doc" label="Withholding Tax Code 3" language="en" table="x_1097202_invoices_po_line_items">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>reference_doc</element>
             <help/>
             <hint/>
-            <label>Tax Amount</label>
+            <label>Withholding Tax Code 3</label>
             <language>en</language>
             <name>x_1097202_invoices_po_line_items</name>
-            <plural>Tax Amounts</plural>
+            <plural>Withholding Tax Code 3s</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-11-05 15:04:09</sys_created_on>
-            <sys_mod_count>8</sys_mod_count>
-            <sys_name>Tax Amount</sys_name>
+            <sys_mod_count>11</sys_mod_count>
+            <sys_name>Withholding Tax Code 3</sys_name>
             <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
             <sys_policy/>
             <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
             <sys_update_name>sys_documentation_x_1097202_invoices_po_line_items_reference_doc_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-12-11 09:13:33</sys_updated_on>
+            <sys_updated_on>2025-01-29 09:00:15</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

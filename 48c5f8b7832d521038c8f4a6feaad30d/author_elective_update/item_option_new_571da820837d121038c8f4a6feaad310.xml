@@ -306,7 +306,7 @@
         <update_guid_history>85711b9916f9121067a1f1eceae6c1a9:2102637984</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="PO / Non PO">3fcbbc9dc30a121044643eec050131b8</sys_audit_delete>
+        <sys_audit_delete display_value="">3fcbbc9dc30a121044643eec050131b8</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-22 12:18:08</sys_created_on>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New section 1" section_id="62a2bda0c3d71210c5d75242b401317d" sys_domain="global" table="x_1097202_invoices_invoice" version="3" view="workspace-invoice-workspace-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>12M.x_1097202_invoices_invoice.x_1097202_invoices_invoice_items.parent_invoice</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-21 11:40:50</sys_created_on>
+            <sys_id>a6a2bda0c3d71210c5d75242b4013193</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">62a2bda0c3d71210c5d75242b401317d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-21 11:40:50</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New section 1</caption>
+            <header>false</header>
+            <name>x_1097202_invoices_invoice</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-21 11:40:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>62a2bda0c3d71210c5d75242b401317d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1097202_invoices_invoice</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+            <sys_update_name>sys_ui_section_62a2bda0c3d71210c5d75242b401317d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-21 11:40:50</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace Invoice Workspace 0" name="workspace-invoice-workspace-0">28cbcd0cb5b1d210eb7aabb8a6081ec4</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</application>
+        <file_path/>
+        <instance_id>3185c048db32f9d4b1eb9027c596191d</instance_id>
+        <instance_name>dev222928</instance_name>
+        <name>sys_ui_section_62a2bda0c3d71210c5d75242b401317d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New section 1" section_id="62a2bda0c3d71210c5d75242b401317d" sys_domain="global" table="x_1097202_invoices_invoice" version="3" view="workspace-invoice-workspace-0"><sys_ui_element action="INSERT_OR_UPDATE"><element>12M.x_1097202_invoices_invoice.x_1097202_invoices_invoice_items.parent_invoice</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-21 11:40:50</sys_created_on><sys_id>a6a2bda0c3d71210c5d75242b4013193</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New section 1" display_value="New section 1" name="x_1097202_invoices_invoice" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">62a2bda0c3d71210c5d75242b401317d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-21 11:40:50</sys_updated_on><sys_user/><type>list</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New section 1</caption><header>false</header><name>x_1097202_invoices_invoice</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-01-21 11:40:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>62a2bda0c3d71210c5d75242b401317d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1097202_invoices_invoice</sys_name><sys_overrides/><sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package><sys_policy/><sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope><sys_update_name>sys_ui_section_62a2bda0c3d71210c5d75242b401317d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-01-21 11:40:50</sys_updated_on><sys_user/><title>false</title><view display_value="Workspace Invoice Workspace 0" name="workspace-invoice-workspace-0">28cbcd0cb5b1d210eb7aabb8a6081ec4</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1057161523</payload_hash>
+        <record_name>Invoice</record_name>
+        <reverted_from/>
+        <source>4fa15090c3171210c5d75242b4013172</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 11:40:50</sys_created_on>
+        <sys_id>e2a2bda0c3d71210c5d75242b4013196</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19488aa4ff20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 11:40:50</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>6aa2bda07dd71210b053389d3a2eab95</update_guid>
+        <update_guid_history>6aa2bda07dd71210b053389d3a2eab95:1057161523</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-21 12:07:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>006fff00844440a08003094328c88400</sys_id>
+        <sys_metadata>62a2bda0c3d71210c5d75242b401317d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New section 1</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_parent display_value="Invoice">3fc83cbb832d521038c8f4a6feaad35c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_scope_delete display_value="">06eacfb531f84c0c80adc050aaeca810</sys_scope_delete>
+        <sys_update_name>sys_ui_section_62a2bda0c3d71210c5d75242b401317d</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_62a2bda0c3d71210c5d75242b401317d">e2a2bda0c3d71210c5d75242b4013196</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-21 12:07:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

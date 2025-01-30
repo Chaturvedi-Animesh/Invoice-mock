@@ -512,7 +512,7 @@
                         {
                             "conditional": {
                                 "type": "JSON_LITERAL",
-                                "value": null
+                                "value": true
                             },
                             "extensionPoint": null,
                             "icon": "",
@@ -643,6 +643,10 @@
                             "type": "local"
                         },
                         {
+                            "conditional": {
+                                "type": "JSON_LITERAL",
+                                "value": true
+                            },
                             "icon": null,
                             "id": "approval_history",
                             "label": {
@@ -1644,7 +1648,7 @@
                                             "eventMappings": [],
                                             "isHidden": {
                                                 "type": "JSON_LITERAL",
-                                                "value": null
+                                                "value": true
                                             },
                                             "preset": null,
                                             "propertyValues": {
@@ -5819,7 +5823,73 @@
                                                                     },
                                                                     "propertyValues": {},
                                                                     "slot": null,
-                                                                    "styles": null
+                                                                    "styles": {}
+                                                                },
+                                                                {
+                                                                    "definition": {
+                                                                        "id": "4335ba6dca80378f7ba7a67cd6667bec",
+                                                                        "type": "MACROPONENT"
+                                                                    },
+                                                                    "elementId": "subheading",
+                                                                    "elementLabel": "Subheading",
+                                                                    "eventMappings": [],
+                                                                    "extensionPoints": [],
+                                                                    "isHero": false,
+                                                                    "isHidden": {
+                                                                        "operation": {
+                                                                            "left": {
+                                                                                "operation": {
+                                                                                    "left": {
+                                                                                        "binding": {
+                                                                                            "address": [
+                                                                                                "record",
+                                                                                                "form",
+                                                                                                "header",
+                                                                                                "subHeadingValue"
+                                                                                            ]
+                                                                                        },
+                                                                                        "type": "DATA_OUTPUT_BINDING"
+                                                                                    },
+                                                                                    "operator": "EQUAL",
+                                                                                    "right": {
+                                                                                        "type": "JSON_LITERAL",
+                                                                                        "value": ""
+                                                                                    }
+                                                                                },
+                                                                                "type": "BINARY"
+                                                                            },
+                                                                            "operator": "OR",
+                                                                            "right": {
+                                                                                "operation": {
+                                                                                    "operand": {
+                                                                                        "binding": {
+                                                                                            "address": [
+                                                                                                "record",
+                                                                                                "form",
+                                                                                                "header",
+                                                                                                "subHeadingValue"
+                                                                                            ]
+                                                                                        },
+                                                                                        "type": "DATA_OUTPUT_BINDING"
+                                                                                    },
+                                                                                    "operator": "NOT"
+                                                                                },
+                                                                                "type": "UNARY"
+                                                                            }
+                                                                        },
+                                                                        "type": "BINARY"
+                                                                    },
+                                                                    "isNonDestructive": false,
+                                                                    "items": [],
+                                                                    "overrides": null,
+                                                                    "preset": {
+                                                                        "controllerElementId": "record",
+                                                                        "disabledEventTargetIds": [],
+                                                                        "id": "9586ab8504f82b150ece43f8152c4f25"
+                                                                    },
+                                                                    "propertyValues": {},
+                                                                    "slot": null,
+                                                                    "styles": {}
                                                                 }
                                                             ],
                                                             "layout": {
@@ -5839,6 +5909,12 @@
                                                                                 "margin-left": "0.25rem",
                                                                                 "margin-right": "1rem"
                                                                             }
+                                                                        },
+                                                                        {
+                                                                            "element_id": "subheading",
+                                                                            "styles": {
+                                                                                "margin-top": "0.5rem"
+                                                                            }
                                                                         }
                                                                     ],
                                                                     "root": null,
@@ -5853,6 +5929,7 @@
                                                                 "version": "3.0.0"
                                                             }
                                                         },
+                                                        "preset": null,
                                                         "propertyValues": {
                                                             "ariaRegionHeadingLevel": {
                                                                 "type": "JSON_LITERAL",
@@ -5870,81 +5947,23 @@
                                                                 "type": "JSON_LITERAL",
                                                                 "value": ""
                                                             },
+                                                            "hideEmptyStateUi": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": true
+                                                            },
                                                             "includeAriaHeading": {
                                                                 "type": "JSON_LITERAL",
                                                                 "value": false
+                                                            },
+                                                            "slotWrapperBehavior": {
+                                                                "type": "JSON_LITERAL",
+                                                                "value": "fullheight"
                                                             },
                                                             "type": {
                                                                 "type": "JSON_LITERAL",
                                                                 "value": "section"
                                                             }
                                                         },
-                                                        "slot": null,
-                                                        "styles": null
-                                                    },
-                                                    {
-                                                        "definition": {
-                                                            "id": "4335ba6dca80378f7ba7a67cd6667bec",
-                                                            "type": "MACROPONENT"
-                                                        },
-                                                        "elementId": "subheading",
-                                                        "elementLabel": "Subheading",
-                                                        "eventMappings": [],
-                                                        "extensionPoints": [],
-                                                        "isHero": false,
-                                                        "isHidden": {
-                                                            "operation": {
-                                                                "left": {
-                                                                    "operation": {
-                                                                        "left": {
-                                                                            "binding": {
-                                                                                "address": [
-                                                                                    "record",
-                                                                                    "form",
-                                                                                    "header",
-                                                                                    "subHeadingValue"
-                                                                                ]
-                                                                            },
-                                                                            "type": "DATA_OUTPUT_BINDING"
-                                                                        },
-                                                                        "operator": "EQUAL",
-                                                                        "right": {
-                                                                            "type": "JSON_LITERAL",
-                                                                            "value": ""
-                                                                        }
-                                                                    },
-                                                                    "type": "BINARY"
-                                                                },
-                                                                "operator": "OR",
-                                                                "right": {
-                                                                    "operation": {
-                                                                        "operand": {
-                                                                            "binding": {
-                                                                                "address": [
-                                                                                    "record",
-                                                                                    "form",
-                                                                                    "header",
-                                                                                    "subHeadingValue"
-                                                                                ]
-                                                                            },
-                                                                            "type": "DATA_OUTPUT_BINDING"
-                                                                        },
-                                                                        "operator": "NOT"
-                                                                    },
-                                                                    "type": "UNARY"
-                                                                }
-                                                            },
-                                                            "type": "BINARY"
-                                                        },
-                                                        "isNonDestructive": false,
-                                                        "items": [],
-                                                        "overrides": null,
-                                                        "preset": {
-                                                            "controllerElementId": "record",
-                                                            "disabledEventTargetIds": [],
-                                                            "id": "9586ab8504f82b150ece43f8152c4f25"
-                                                        },
-                                                        "propertyValues": {},
                                                         "slot": null,
                                                         "styles": null
                                                     },
@@ -6121,12 +6140,6 @@
                                                                 }
                                                             },
                                                             {
-                                                                "element_id": "subheading",
-                                                                "styles": {
-                                                                    "margin-top": "0.5rem"
-                                                                }
-                                                            },
-                                                            {
                                                                 "element_id": "secondary_items",
                                                                 "styles": {
                                                                     "max-width": "200%",
@@ -6145,6 +6158,7 @@
                                                     "version": "3.0.0"
                                                 }
                                             },
+                                            "preset": null,
                                             "propertyValues": {
                                                 "ariaRegionHeadingLevel": {
                                                     "type": "JSON_LITERAL",
@@ -6162,9 +6176,17 @@
                                                     "type": "JSON_LITERAL",
                                                     "value": ""
                                                 },
+                                                "hideEmptyStateUi": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": true
+                                                },
                                                 "includeAriaHeading": {
                                                     "type": "JSON_LITERAL",
                                                     "value": false
+                                                },
+                                                "slotWrapperBehavior": {
+                                                    "type": "JSON_LITERAL",
+                                                    "value": "fullheight"
                                                 },
                                                 "type": {
                                                     "type": "JSON_LITERAL",
@@ -6211,6 +6233,7 @@
                                         "version": "3.0.0"
                                     }
                                 },
+                                "preset": null,
                                 "propertyValues": {
                                     "ariaRegionHeadingLevel": {
                                         "type": "JSON_LITERAL",
@@ -6228,9 +6251,17 @@
                                         "type": "JSON_LITERAL",
                                         "value": ""
                                     },
+                                    "hideEmptyStateUi": {
+                                        "type": "JSON_LITERAL",
+                                        "value": true
+                                    },
                                     "includeAriaHeading": {
                                         "type": "JSON_LITERAL",
                                         "value": false
+                                    },
+                                    "slotWrapperBehavior": {
+                                        "type": "JSON_LITERAL",
+                                        "value": "fullheight"
                                     },
                                     "type": {
                                         "type": "JSON_LITERAL",
@@ -6267,6 +6298,7 @@
                             "version": "3.0.0"
                         }
                     },
+                    "preset": null,
                     "propertyValues": {
                         "ariaRegionHeadingLevel": {
                             "type": "JSON_LITERAL",
@@ -6284,9 +6316,17 @@
                             "type": "JSON_LITERAL",
                             "value": ""
                         },
+                        "hideEmptyStateUi": {
+                            "type": "JSON_LITERAL",
+                            "value": true
+                        },
                         "includeAriaHeading": {
                             "type": "JSON_LITERAL",
                             "value": false
+                        },
+                        "slotWrapperBehavior": {
+                            "type": "JSON_LITERAL",
+                            "value": "fullheight"
                         },
                         "type": {
                             "type": "JSON_LITERAL",
@@ -9236,14 +9276,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-06 05:59:52</sys_created_on>
         <sys_id>8bcbc14c83b1d21038c8f4a6feaad3c2</sys_id>
-        <sys_mod_count>52</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_name>Invoice Record Page</sys_name>
         <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
         <sys_update_name>sys_ux_macroponent_8bcbc14c83b1d21038c8f4a6feaad3c2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-26 12:15:26</sys_updated_on>
+        <sys_updated_on>2025-01-29 04:54:19</sys_updated_on>
     </sys_ux_macroponent>
     <sys_translated_text action="delete_multiple" query="documentkey=8bcbc14c83b1d21038c8f4a6feaad3c2"/>
     <sys_translated_text action="INSERT_OR_UPDATE">

@@ -45,7 +45,7 @@
         <update_guid_history>aa42a04b22f5121025ebe2c55fb365b1:1399906585</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Upload a file">38c8d852c34a121044643eec050131e4</sys_audit_delete>
+        <sys_audit_delete display_value="">38c8d852c34a121044643eec050131e4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-25 12:18:55</sys_created_on>

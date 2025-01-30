@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
     <sys_user_role_contains action="INSERT_OR_UPDATE">
-        <contains display_value="u_approval_history_user" name="u_approval_history_user">3d732f19c37d121044643eec05013115</contains>
+        <contains display_value="">3d732f19c37d121044643eec05013115</contains>
         <role display_value="x_1097202_invoices.approver" name="x_1097202_invoices.approver">8ddc6d0083b5d21038c8f4a6feaad334</role>
         <sys_class_name>sys_user_role_contains</sys_class_name>
         <sys_created_by>admin</sys_created_by>

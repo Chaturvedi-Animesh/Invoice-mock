@@ -20,6 +20,25 @@
             <element>department_name</element>
             <hint/>
             <inactive>false</inactive>
+            <label>ACSD</label>
+            <language>en</language>
+            <name>x_1097202_invoices_invoice</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-01-22 11:33:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-01-22 11:33:24</sys_updated_on>
+            <value>ACSD</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>department_name</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>EC Team</label>
             <language>en</language>
             <name>x_1097202_invoices_invoice</name>

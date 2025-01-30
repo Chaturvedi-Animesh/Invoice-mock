@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="DELETE">
+        <decision_table display_value="Invoice Decision Table">36caad0c8375d21038c8f4a6feaad31e</decision_table>
+        <label>Approver1: Business Operation GM, Approver2: Business Operation Manager</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-06 08:20:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d8fb258c8375d21038c8f4a6feaad352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approver1: Business Operation GM, Approver2: Business Operation Manager</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_decision_multi_result_d8fb258c8375d21038c8f4a6feaad352</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-06 08:20:19</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="DELETE" query="document_key=d8fb258c8375d21038c8f4a6feaad352"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>d8fb258c8375d21038c8f4a6feaad352</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-06 08:20:19</sys_created_on>
+        <sys_id>14fb258c8375d21038c8f4a6feaad354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-06 08:20:19</sys_updated_on>
+        <value>198f742f8329121038c8f4a6feaad379</value>
+        <variable display_value="Approver2">84fb65cc8375d21038c8f4a6feaad361</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_decision_multi_result</document>
+        <document_key>d8fb258c8375d21038c8f4a6feaad352</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-06 08:20:19</sys_created_on>
+        <sys_id>98fb258c8375d21038c8f4a6feaad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-06 08:20:19</sys_updated_on>
+        <value>c9af3c2f8329121038c8f4a6feaad395</value>
+        <variable display_value="Approver1">08fb65cc8375d21038c8f4a6feaad34d</variable>
+    </sys_variable_value>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</application>
+        <file_path/>
+        <instance_id>3185c048db32f9d4b1eb9027c596191d</instance_id>
+        <instance_name>dev222928</instance_name>
+        <name>sys_decision_multi_result_d8fb258c8375d21038c8f4a6feaad352</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_multi_result">
+    <sys_decision_multi_result action="INSERT_OR_UPDATE">
+        <decision_table display_value="Invoice Decision Table">36caad0c8375d21038c8f4a6feaad31e</decision_table>
+        <label>Approver1: Business Operation GM, Approver2: Business Operation Manager</label>
+        <result_elements/>
+        <sys_class_name>sys_decision_multi_result</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-06 08:20:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d8fb258c8375d21038c8f4a6feaad352</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approver1: Business Operation GM, Approver2: Business Operation Manager</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_decision_multi_result_d8fb258c8375d21038c8f4a6feaad352</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-06 08:20:19</sys_updated_on>
+    </sys_decision_multi_result>
+    <sys_variable_value action="delete_multiple" query="document_key=d8fb258c8375d21038c8f4a6feaad352"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>d8fb258c8375d21038c8f4a6feaad352</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-06 08:20:19</sys_created_on>
+        <sys_id>14fb258c8375d21038c8f4a6feaad354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-06 08:20:19</sys_updated_on>
+        <value>198f742f8329121038c8f4a6feaad379</value>
+        <variable display_value="Approver2">84fb65cc8375d21038c8f4a6feaad361</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_decision_multi_result</document>
+        <document_key>d8fb258c8375d21038c8f4a6feaad352</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-06 08:20:19</sys_created_on>
+        <sys_id>98fb258c8375d21038c8f4a6feaad353</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-06 08:20:19</sys_updated_on>
+        <value>c9af3c2f8329121038c8f4a6feaad395</value>
+        <variable display_value="Approver1">08fb65cc8375d21038c8f4a6feaad34d</variable>
+    </sys_variable_value>
+</record_update>]]></payload>
+        <payload_hash>1221437627</payload_hash>
+        <record_name>Approver1: Business Operation GM, Approver2: Business Operation Manager</record_name>
+        <reverted_from/>
+        <source>bd515c90c3171210c5d75242b401318c</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-20 09:57:55</sys_created_on>
+        <sys_id>11819414c3171210c5d75242b40131a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1948325b9280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-20 09:57:55</sys_updated_on>
+        <type>Decision Table Multiple Result</type>
+        <update_guid>dd819414ba171210f7832072215b969f</update_guid>
+        <update_guid_history>dd819414ba171210f7832072215b969f:1221437627</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 07:24:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_decision_multi_result">sys_decision_multi_result</sys_db_object>
+        <sys_id>1ab1ab19f0db40db890573188fd7b4e1</sys_id>
+        <sys_metadata>d8fb258c8375d21038c8f4a6feaad352</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Approver1: Business Operation GM, Approver2: Business Operation Manager</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_scope_delete display_value="">06eacfb531f84c0c80adc050aaeca810</sys_scope_delete>
+        <sys_update_name>sys_decision_multi_result_d8fb258c8375d21038c8f4a6feaad352</sys_update_name>
+        <sys_update_version display_value="sys_decision_multi_result_d8fb258c8375d21038c8f4a6feaad352">11819414c3171210c5d75242b40131a0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 07:24:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -20,7 +20,7 @@
             <element>division_name</element>
             <hint/>
             <inactive>false</inactive>
-            <label>PSV</label>
+            <label>PV</label>
             <language>en</language>
             <name>x_1097202_invoices_invoice</name>
             <sequence>0</sequence>
@@ -29,10 +29,10 @@
             <sys_created_on>2024-11-05 10:34:11</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-11-05 10:34:11</sys_updated_on>
-            <value>PSV</value>
+            <sys_updated_on>2025-01-22 11:32:11</sys_updated_on>
+            <value>PV</value>
         </sys_choice>
     </sys_choice>
 </record_update>

@@ -4,6 +4,22 @@
         <active>true</active>
         <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
+    g_modal.showFields({
+        title: "Approve",
+        fields: [{
+            type: 'textarea',
+            name: 'work_notes',
+            label: getMessage('Comments'),
+            mandatory: false
+        }],
+        size: 'lg'
+    }).then(function(fieldValues) {
+        var ga = new GlideAjax('updateApprovalHistroyRecordsfromUI');
+        ga.addParam('sysparm_name', 'updateApprovalHistory');
+        ga.addParam('sysparm_inc_parent', g_form.getUniqueValue());
+        ga.addParam('sysparm_inc_comments', fieldValues.updatedFields[0].value);
+        ga.getXMLAnswer(function(response) {});
+    });
 
 }]]></client_script_v2>
         <comments/>
@@ -28,20 +44,20 @@
         <list_style/>
         <messages/>
         <name>Approve</name>
-        <onclick>testUIPage()</onclick>
+        <onclick/>
         <order>100</order>
-        <script><![CDATA[ function testUIPage() {
- var dialog = new GlideDialogWindow("restore_file_dialog");
-        dialog.setTitle("Are you sure to approve");
-        dialog.setSize(600, 600);
-        var queryType = "initial";
-        dialog.setPreference('query_type', queryType); //to identify first slot query
-       // dialog.setPreference('appt_id', g_form.getValue('number'));
-       // dialog.setPreference('start_date', g_form.getValue('u_start_date'));
-       // dialog.setPreference('end_date', g_form.getValue('u_end_date'));
-        dialog.removeCloseDecoration(); //Remove the close icon on the UI page
-        dialog.render();
- }]]></script>
+        <script><![CDATA[//  function testUIPage() {
+//  var dialog = new GlideDialogWindow("restore_file_dialog");
+//         dialog.setTitle("Are you sure to approve");
+//         dialog.setSize(600, 600);
+//         var queryType = "initial";
+//         dialog.setPreference('query_type', queryType); //to identify first slot query
+//        // dialog.setPreference('appt_id', g_form.getValue('number'));
+//        // dialog.setPreference('start_date', g_form.getValue('u_start_date'));
+//        // dialog.setPreference('end_date', g_form.getValue('u_end_date'));
+//         dialog.removeCloseDecoration(); //Remove the close icon on the UI page
+//         dialog.render();
+//  }]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -52,7 +68,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>111d654083b5d21038c8f4a6feaad3dd</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Approve</sys_name>
         <sys_overrides/>
         <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
@@ -60,7 +76,7 @@
         <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
         <sys_update_name>sys_ui_action_111d654083b5d21038c8f4a6feaad3dd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-27 04:09:55</sys_updated_on>
+        <sys_updated_on>2025-01-22 10:46:17</sys_updated_on>
         <table>x_1097202_invoices_invoice</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

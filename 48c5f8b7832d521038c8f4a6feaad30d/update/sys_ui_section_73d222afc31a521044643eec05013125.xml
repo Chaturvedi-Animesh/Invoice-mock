@@ -8,7 +8,7 @@
             <sys_id>4ff226afc31a521044643eec0501317a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="sys_user_delegate" sys_domain="global" view="5752cbce851112108a7c81b65f878916">73d222afc31a521044643eec05013125</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user_delegate" sys_domain="global" view="5641dfecdc1212104f34465061b06aad">73d222afc31a521044643eec05013125</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-12-12 05:50:57</sys_updated_on>
             <sys_user/>
@@ -22,7 +22,7 @@
             <sys_id>47f226afc31a521044643eec0501317b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="sys_user_delegate" sys_domain="global" view="5752cbce851112108a7c81b65f878916">73d222afc31a521044643eec05013125</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user_delegate" sys_domain="global" view="5641dfecdc1212104f34465061b06aad">73d222afc31a521044643eec05013125</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-12-12 05:50:57</sys_updated_on>
             <sys_user/>
@@ -36,7 +36,7 @@
             <sys_id>4ff226afc31a521044643eec0501317b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="sys_user_delegate" sys_domain="global" view="5752cbce851112108a7c81b65f878916">73d222afc31a521044643eec05013125</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user_delegate" sys_domain="global" view="5641dfecdc1212104f34465061b06aad">73d222afc31a521044643eec05013125</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-12-12 05:50:57</sys_updated_on>
             <sys_user/>
@@ -50,7 +50,7 @@
             <sys_id>47f226afc31a521044643eec0501317c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="sys_user_delegate" sys_domain="global" view="5752cbce851112108a7c81b65f878916">73d222afc31a521044643eec05013125</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user_delegate" sys_domain="global" view="5641dfecdc1212104f34465061b06aad">73d222afc31a521044643eec05013125</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-12-12 05:50:57</sys_updated_on>
             <sys_user/>
@@ -64,7 +64,7 @@
             <sys_id>4ff226afc31a521044643eec0501317c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="sys_user_delegate" sys_domain="global" view="5752cbce851112108a7c81b65f878916">73d222afc31a521044643eec05013125</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="sys_user_delegate" sys_domain="global" view="5641dfecdc1212104f34465061b06aad">73d222afc31a521044643eec05013125</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2024-12-12 05:50:57</sys_updated_on>
             <sys_user/>
@@ -92,7 +92,7 @@
             <sys_updated_on>2024-12-12 05:50:27</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Workspace" name="workspace">5752cbce851112108a7c81b65f878916</view>
+            <view display_value="Workspace" name="workspace">5641dfecdc1212104f34465061b06aad</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

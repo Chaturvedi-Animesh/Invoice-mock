@@ -306,7 +306,7 @@
         <update_guid_history>8d711b9911f9121075033885320ad1a5:1028625117</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Upload the Invoice">afcbf89dc30a121044643eec05013153</sys_audit_delete>
+        <sys_audit_delete display_value="">afcbf89dc30a121044643eec05013153</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-22 12:18:07</sys_created_on>

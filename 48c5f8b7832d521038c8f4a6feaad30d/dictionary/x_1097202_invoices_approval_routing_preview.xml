@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d294e2fcc35f5210c5d75242b4013106" label="Approval Routing Preview" max_length="40" name="x_1097202_invoices_approval_routing_preview" type="collection">
+        <element label="Approval Group" max_length="32" name="approval_group" reference="sys_user_group" type="reference"/>
+        <element label="Parent" max_length="32" name="parent" reference="x_1097202_invoices_invoice" type="reference"/>
+        <element label="Approver" max_length="32" name="approver" reference="sys_user" type="reference"/>
+        <element label="Level" max_length="40" name="level" type="string"/>
+        <index name="index">
+            <element name="approval_group"/>
+        </index>
+        <index name="index2">
+            <element name="approver"/>
+        </index>
+        <index name="index3">
+            <element name="parent"/>
+        </index>
+    </element>
+</database>

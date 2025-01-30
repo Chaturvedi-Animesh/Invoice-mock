@@ -1,8 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="3fc83cbb832d521038c8f4a6feaad35c" extends="task" label="Invoice" max_length="40" name="x_1097202_invoices_invoice" text_index="true" type="collection">
+        <element choice="3" default="Non Trade" label="Trade / Non Trade" max_length="40" name="trade_non_trade" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Trade" sequence="0" value="Trade"/>
+                <element inactive_on_update="false" label="Non Trade" sequence="1" value="Non Trade"/>
+            </choice>
+        </element>
         <element choice="1" label="Advance No.(if any)" max_length="40" name="advance_no_if_any" read_only="true" type="choice">
             <choice/>
         </element>
+        <element default="0.00" label="Balance Amount" max_length="38" name="balance_amount" read_only="true" type="currency"/>
+        <element choice="3" default="PV" label="Division Name" max_length="40" name="division_name" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="PV" sequence="0" value="PV"/>
+            </choice>
+        </element>
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Invoice Date" max_length="255" name="invoice_date" read_only="true" type="glide_date" use_dynamic_default="true"/>
+        <element default="INVO23005120" label="Reference no." max_length="40" name="reference_no" read_only="true" type="string"/>
+        <element label="New Field 1" max_length="4000" name="new_field_1" type="simple_name_values"/>
+        <element choice="1" default="Posting Pending" label="Post Flag" max_length="40" name="post_flag" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Posting Failed" sequence="2" value="Posting Failed"/>
+                <element inactive_on_update="false" label="Posted" sequence="0" value="Posted"/>
+                <element inactive_on_update="false" label="Posting Pending" sequence="1" value="Posting Pending"/>
+            </choice>
+        </element>
+        <element default="0" label="Revision no." max_length="255" name="revision_no" read_only="true" type="integer"/>
+        <element label="Text" max_length="40" name="text" read_only="true" type="string"/>
+        <element label="Vendor Code" max_length="32" name="vendor_code" read_only="true" reference="x_1097202_invoices_vendor" type="reference"/>
+        <element label="Applicant Name" max_length="32" name="applicant_name" reference="sys_user" type="reference"/>
+        <element default="itil" label="Role" max_length="32" name="role" reference="sys_user_role" type="reference"/>
+        <element label="Currency" max_length="32" name="currenc1" read_only="true" reference="fx_currency" type="reference"/>
+        <element choice="3" default="Invoice" label="Document Type" max_length="40" name="document_type" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Invoice" sequence="0" value="Invoice"/>
+            </choice>
+        </element>
+        <element default="VND" label="Currency" max_length="32" name="currenc0" read_only="true" reference="fx_currency" type="reference"/>
+        <element label="DStamp" max_length="40" name="dstamp" type="string"/>
+        <element default="15,800,000" label="PO Line Item Sub Total" max_length="38" name="po_line_item_sub_tota0" read_only="true" type="currency"/>
+        <element label="Next Reviewer" max_length="4000" name="next_reviewer" reference="sys_user" type="glide_list"/>
+        <element label="Posting Date" max_length="255" name="posting_dat0" read_only="true" type="glide_date"/>
+        <element label="Profit Center Id" max_length="40" name="profit_center_id" type="string"/>
+        <element label="single/multiple" max_length="40" name="single_multiple" type="string"/>
+        <element default="Conditional" label="LevelType" max_length="40" name="leveltype" type="string"/>
+        <element default="1264000" label="Tax Amount" max_length="38" name="tax_amount" read_only="true" type="currency"/>
+        <element label="Total Amount Without Tax" max_length="38" name="total_amount_without_tax" read_only="true" type="currency"/>
+        <element label="Sequence No" max_length="40" name="sequence_no" type="string"/>
+        <element default="0" label="Total Invoice Amount After Tax" max_length="40" name="total_invoice_amount_after_tax" read_only="true" type="string"/>
+        <element label="WHT Requied" max_length="40" name="wht_requied" read_only="true" type="string"/>
+        <element label="Amount" max_length="20" name="amount" type="currency"/>
+        <element label="GL Line Item Sub Total" max_length="20" name="gl_line_item_sub_total" read_only="true" type="currency"/>
+        <element label="Currency" max_length="32" name="currency" read_only="true" reference="fx_currency" type="reference"/>
+        <element label="PO Line Item Sub Total" max_length="20" name="po_line_item_sub_total" read_only="true" type="currency"/>
+        <element default="eInvoice" label="Application" max_length="40" name="application" type="string"/>
+        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Posting Date" max_length="255" name="posting_date" read_only="true" type="glide_date" use_dynamic_default="true"/>
+        <element default="1A23BBA212" label="Invoice No." max_length="40" name="invoice_no" read_only="true" type="string"/>
+        <element default="V4 - Sample Tax Code 8%" label="Tax Code" max_length="40" name="tax_code" read_only="true" type="string"/>
+        <element default="0" label="Total Invoice Amount Before Tax" max_length="40" name="total_invoice_amount_before_tax" read_only="true" type="string"/>
+        <element default="No" label="IsOptions" max_length="40" name="isoptions" type="string"/>
+        <element default="Auto" label="ApprovalType" max_length="40" name="approvaltype" type="string"/>
+        <element label="CC" max_length="40" name="cc" type="string"/>
+        <element label="Invoice Currency" max_length="40" name="invoice_currency" read_only="true" reference="fx_currency" type="reference"/>
         <element choice="3" default="Pending Approval" label="Application Status" max_length="40" name="application_status" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Approved" sequence="2" value="Approved"/>
@@ -11,79 +70,34 @@
                 <element inactive_on_update="false" label="Pending Approval" sequence="1" value="Pending Approval"/>
             </choice>
         </element>
-        <element choice="3" label="Division name" max_length="40" name="division_name" read_only="true" type="choice">
+        <element choice="3" default="ACSD" label="Department Name" max_length="40" name="department_name" read_only="true" type="choice">
             <choice>
-                <element inactive_on_update="false" label="PSV" sequence="0" value="PSV"/>
-            </choice>
-        </element>
-        <element label="Invoice Currency" max_length="40" name="invoice_currency" read_only="true" reference="fx_currency" type="reference"/>
-        <element label="New Field 1" max_length="4000" name="new_field_1" type="simple_name_values"/>
-        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Posting Date" max_length="255" name="posting_date" read_only="true" type="glide_date" use_dynamic_default="true"/>
-        <element default="0" label="Total Invoice Amount Before Tax" max_length="40" name="total_invoice_amount_before_tax" read_only="true" type="string"/>
-        <element default="V4 - Sample Tax Code 8%" label="Tax Code" max_length="40" name="tax_code" read_only="true" type="string"/>
-        <element label="Text" max_length="40" name="tex0" read_only="true" type="string"/>
-        <element choice="3" default="Non Trade" label="Trade / Non Trade" max_length="40" name="trade_non_trade" read_only="true" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Trade" sequence="0" value="Trade"/>
-                <element inactive_on_update="false" label="Non Trade" sequence="1" value="Non Trade"/>
-            </choice>
-        </element>
-        <element label="single/multiple" max_length="40" name="single_multiple" type="string"/>
-        <element default="javascript:gs.now()" dynamic_default_value="fb7553e85f220100a9ad2572f2b477b4" label="Invoice Date" max_length="255" name="invoice_date" read_only="true" type="glide_date" use_dynamic_default="true"/>
-        <element default="0.00" label="Balance Amount" max_length="38" name="balance_amount" read_only="true" type="currency"/>
-        <element choice="3" default="Invoice" label="Document Type" max_length="40" name="document_type" read_only="true" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Invoice" sequence="0" value="Invoice"/>
-            </choice>
-        </element>
-        <element default="INVO23005120" label="Reference no." max_length="40" name="reference_no" read_only="true" type="string"/>
-        <element default="15,800,000" label="PO Line Item Sub Total" max_length="38" name="po_line_item_sub_tota0" read_only="true" type="currency"/>
-        <element label="Text" max_length="40" name="text" read_only="true" type="string"/>
-        <element label="Posting Date" max_length="255" name="posting_dat0" read_only="true" type="glide_date"/>
-        <element choice="3" label="Profit Center" max_length="40" name="profit_center" read_only="true" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="EC Team" sequence="0" value="EC Team"/>
-            </choice>
-        </element>
-        <element label="Vendor Code" max_length="32" name="vendor_code" read_only="true" reference="x_1097202_invoices_vendor" type="reference"/>
-        <element default="VND" label="Currency" max_length="32" name="currenc0" read_only="true" reference="fx_currency" type="reference"/>
-        <element label="WHT Requied" max_length="40" name="wht_requied" read_only="true" type="string"/>
-        <element label="GL Line Item Sub Total" max_length="20" name="gl_line_item_sub_total" read_only="true" type="currency"/>
-        <element default="1A23BBA212" label="Invoice No." max_length="40" name="invoice_no" read_only="true" type="string"/>
-        <element label="PO Line Item Sub Total" max_length="20" name="po_line_item_sub_total" read_only="true" type="currency"/>
-        <element label="Total Amount Without Tax" max_length="38" name="total_amount_without_tax" read_only="true" type="currency"/>
-        <element default="0" label="Revision no." max_length="255" name="revision_no" read_only="true" type="integer"/>
-        <element default="0" label="Total Tax Amount" max_length="40" name="total_tax_amount" read_only="true" type="string"/>
-        <element label="Amount" max_length="20" name="amount" type="currency"/>
-        <element choice="3" label="Department Name" max_length="40" name="department_name" read_only="true" type="choice">
-            <choice>
+                <element inactive_on_update="false" label="ACSD" value="ACSD"/>
                 <element inactive_on_update="false" label="EC Team" sequence="0" value="EC Team"/>
                 <element inactive_on_update="false" label="(SC) SC" language="en.VN" sequence="1" value="sc_sc"/>
             </choice>
         </element>
         <element default="17064000" label="Invoice Amount (Incl. Tax)" max_length="20" name="invoice_amount_incl_tax" read_only="true" type="currency"/>
+        <element choice="3" default="ACSD" label="Profit Center" max_length="40" name="profit_center" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="EC Team" sequence="0" value="EC Team"/>
+                <element inactive_on_update="false" label="ACSD" sequence="1" value="ACSD"/>
+            </choice>
+        </element>
         <element choice="3" default="A&amp;P expense" label="Nature of Expense" max_length="40" name="nature_of_expense" read_only="true" type="choice">
             <choice>
                 <element inactive_on_update="false" label="A&amp;P expense" sequence="0" value="A&amp;P expense"/>
             </choice>
         </element>
-        <element label="Currency" max_length="32" name="currency" read_only="true" reference="fx_currency" type="reference"/>
-        <element choice="1" default="Posting Pending" label="Post Flag" max_length="40" name="post_flag" read_only="true" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Posted" sequence="0" value="Posted"/>
-                <element inactive_on_update="false" label="Posting Pending" sequence="1" value="Posting Pending"/>
-                <element inactive_on_update="false" label="Posting Failed" sequence="2" value="Posting Failed"/>
-            </choice>
-        </element>
-        <element default="0" label="Total Invoice Amount After Tax" max_length="40" name="total_invoice_amount_after_tax" read_only="true" type="string"/>
-        <element default="1264000" label="Tax Amount" max_length="38" name="tax_amount" read_only="true" type="currency"/>
         <element default="PO" label="PO / Non PO" max_length="40" name="po_non_po" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Non PO" sequence="1" value="Non PO"/>
                 <element inactive_on_update="false" label="PO" sequence="0" value="PO"/>
+                <element inactive_on_update="false" label="Non PO" sequence="1" value="Non PO"/>
             </choice>
         </element>
+        <element label="ID" max_length="40" name="id" type="string"/>
         <element default="15800000" label="Total Line Item" max_length="38" name="total_line_item" read_only="true" type="currency"/>
-        <element label="Currency" max_length="32" name="currenc1" read_only="true" reference="fx_currency" type="reference"/>
+        <element default="0" label="Total Tax Amount" max_length="40" name="total_tax_amount" read_only="true" type="string"/>
+        <element label="Text" max_length="40" name="tex0" read_only="true" type="string"/>
     </element>
 </database>
