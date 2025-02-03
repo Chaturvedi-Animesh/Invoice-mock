@@ -15,219 +15,26 @@ CreateInvoiceDupli.prototype = Object.extendsObject(global.AbstractAjaxProcessor
     type: 'CreateInvoiceDupli',
 
     validateExcelValues: function() {
-        var attachmentID = this.getParameter('sysparm_attachmentID');
+		var attachmentID = this.getParameter('sysparm_attachmentID');
         var vendorType = this.getParameter('sysparm_vendor');
         if (!attachmentID) {
             return false;
         }
 
-        var attachmentGR = new GlideRecord('sys_attachment');
-        if (!attachmentGR.get(attachmentID)) {
-            return false;
-        }
+		var sa = new GlideSysAttachment();
+       var inputStream = sa.getContentStream(attachmentID);
+       if (!inputStream) {
+           gs.error('No content found in the CSV file.');
+           return;
+       }
+       var reader = new GlideTextReader(inputStream);
+	   var csvContent = '';
+       var line;
+       while ((line = reader.readLine()) !== null) {
+           csvContent += line + '\n';
+       }
 
-        var gsa = new GlideSysAttachment();
-        var attachmentData = gsa.getContentStream(attachmentID);
 
-        var excelParser = new sn_impex.GlideExcelParser();
-        excelParser.parse(attachmentData);
-        var headers = excelParser.getColumnHeaders();
-        gs.info("inside line 24" + headers);
-        var nonEmptyCount = 0;
-        var vendorCode = '';
-        var vendorLength = [];
-        var obj = [];
-        var arr = [];
-        var obj1 = {};
-        var obj2 = {};
-        var pattern = /^[0-9]*$/;
-        var regexp = /^(19|20)\d\d[-](0[1-9]|1[012])[-](0[1-9]|[12][0-9]|3[01])$/; //regular expression for yyyy-mm-dd
-        var regexp2 = /^(0[1-9]|1[012])[-](0[1-9]|[12][0-9]|3[01])[-](19|20)\d\d$/; //regular expression for mm-dd-yyyy
-        var regexp3 = /^(19|20)\d\d[-](0[1-9]|[12][0-9]|3[01])[-](0[1-9]|1[012])$/; //regular expression for yyyy-dd-mm
-        var regexp4 = /^(0[1-9]|[12][0-9]|3[01])[.](0[1-9]|[12][0-9]|3[01])[.](19|20)\d\d$/; //regular expression for dd.mm.yyyy
-        //    while (excelParser.next()) {
-
-        //        var rowValue = excelParser.getRow();
-        //         gs.info('rakesh line 26' + JSON.stringify(rowValue));
-        //         var vendorColVal = rowValue["Vendor Code"];
-        //         var PriorityVal = rowValue["Priority Type"];
-        //         gs.info('rakesh line 28' + vendorColVal);
-        //         if (PriorityVal == "" || PriorityVal == "null" || PriorityVal == null) {
-        //             obj.push({
-        //                 "process_no": rowValue["Process No"].toString(),
-        //                 "header": "Priority Type"
-        //             });
-        //         }
-        //         if (vendorColVal == "" || vendorColVal == "null" || vendorColVal == null) {
-        //             obj.push({
-        //                 "process_no": rowValue["Process No"].toString(),
-        //                 "header": "Vendor Code"
-        //             });
-
-        //             /* if (obj2 != '') {
-        //                  obj.push(obj2);
-        //              }*/
-        //         }
-        //     }
-        //     if (obj != '') {
-        //         return JSON.stringify(obj);
-        //     } else {
-        //         var copyAtt = new GlideSysAttachment();
-        //         copyAtt.copy('incident', 'd71f7935c0a8016700802b64c67c11c6', 'sys_data_source', '04876492c38a121044643eec0501313e');
-
-        //     }
-        //if (vendorType == 'single') {
-        /*  while (excelParser.next()) {
-
-              gs.info("inside line 9");
-              var rowValue = excelParser.getRow();
-              if (rowValue["Vendor Code"] != null && rowValue["Vendor Code"] != '') {
-                  vendorCode = rowValue["Vendor Code"];
-                  vendorLength.push(vendorCode);
-                  gs.info("inside line 13" + vendorCode);
-              }
-              arr.push(rowValue);
-          }*/
-        //gs.info("inside line 15" + vendorCode);
-        /*if (vendorCode != null && vendorCode != "") {
-            for (var i = 0; i < arr.length; i++) {
-                var PriorityVal = arr[i]["Priority Type"];
-                gs.info("inside line 17" + PriorityVal);
-                if (PriorityVal != null && PriorityVal.trim() != "") {
-                    gs.info("inside line 18");
-                    nonEmptyCount++;
-                } else {
-                    gs.info("inside line 20");
-                    gs.info('rakesh line 33' + arr[i]["Process No"]);
-                    obj.push("Process No" + "-" + arr[i]["Process No"] + "-" + "Priority Type is Missing");
-                    // gs.info('rakesh line 36' + obj);
-                    //return obj;
-                }
-            }
-
-        } else {
-            obj.push("Please Provide the vendor");
-            var deleteAttachment = new GlideRecord('sys_attachment');
-            deleteAttachment.get(attachmentID);
-            if (deleteAttachment.next()) {
-                deleteAttachment.deleteRecord();
-            }
-        }*/
-
-        // } else {
-        while (excelParser.next()) {
-
-            var rowValue = excelParser.getRow();
-            gs.info('rakesh line 26' + JSON.stringify(rowValue));
-            var vendorColVal = rowValue["Vendor Code"];
-            var PriorityVal = rowValue["Priority Type"];
-            var TaxId = rowValue["Tax ID"];
-            var DocumentType = rowValue["Document Type"];
-            var CompanyCode = rowValue["Company Code"];
-            var Taxamount = rowValue["Tax Amount"];
-            var InvoiceNumber = rowValue["Invoice Number"];
-            var DocumentDate = rowValue["Document Date"];
-            gs.info('rakesh line 28' + vendorColVal);
-            if (vendorLength.indexOf(vendorColVal) == -1) {
-                vendorLength.push(vendorColVal);
-            }
-            gs.info('vendorLength line 114' + vendorLength);
-            var createVendor = new GlideRecord('x_1097202_invoices_vendor');
-            createVendor.addEncodedQuery('number=' + vendorColVal);
-            createVendor.query();
-            if (createVendor.next()) {
-                nonEmptyCount++;
-            } else {
-                obj.push("Process No" + "-" + rowValue["Process No"] + "-" + "Vendor Code is not Present in the system");
-            }
-            if (InvoiceNumber != null && InvoiceNumber.trim() != "") {
-                if (pattern.test(InvoiceNumber)) {
-                    nonEmptyCount++;
-                } else {
-                    obj.push("Process No" + "-" + rowValue["Process No"] + "-" + "Invoice Number should be Numeric");
-                }
-            } else {
-                gs.info('rakesh line 33' + rowValue["Process No"]);
-                obj.push("Process No" + "-" + rowValue["Process No"] + "-" + "Invoice Number is Missing");
-                gs.info('rakesh line 36' + obj);
-                //return obj;
-            }
-            if (vendorColVal != null && vendorColVal.trim() != "") {
-                nonEmptyCount++;
-            } else {
-                gs.info('rakesh line 33' + rowValue["Process No"]);
-                obj.push("Process No" + "-" + rowValue["Process No"] + "-" + "Vendor Code is Missing");
-                gs.info('rakesh line 36' + obj);
-                //return obj;
-            }
-            if (PriorityVal != null && PriorityVal.trim() != "") {
-                nonEmptyCount++;
-            } else {
-                gs.info('rakesh line 33' + rowValue["Process No"]);
-                obj.push("Process No" + "-" + rowValue["Process No"] + "-" + "Priority Type is Missing");
-                gs.info('rakesh line 36' + obj);
-                //return obj;
-            }
-            if (TaxId != null && TaxId.trim() != "") {
-                nonEmptyCount++;
-            } else {
-                gs.info('rakesh line 33' + rowValue["Process No"]);
-                obj.push("Process No" + "-" + rowValue["Process No"] + "-" + "Tax ID is Missing");
-                gs.info('rakesh line 36' + obj);
-                //return obj;
-            }
-            if (DocumentType != null && DocumentType.trim() != "") {
-                if (DocumentType.toLowerCase() == 'invoice' || DocumentType.toLowerCase() == 'po') {
-                    nonEmptyCount++;
-                } else {
-                    obj.push("Process No" + "-" + rowValue["Process No"] + "-" + "Document Type Should be either Invoice / PO");
-                }
-            } else {
-                gs.info('rakesh line 33' + rowValue["Process No"]);
-                obj.push("Process No" + "-" + rowValue["Process No"] + "-" + "Document Type is Missing");
-                gs.info('rakesh line 36' + obj);
-                //return obj;
-            }
-            if (CompanyCode != null && CompanyCode.trim() != "") {
-                nonEmptyCount++;
-            } else {
-                gs.info('rakesh line 33' + rowValue["Process No"]);
-                obj.push("Process No" + "-" + rowValue["Process No"] + "-" + "Company Code is Missing");
-                gs.info('rakesh line 36' + obj);
-                //return obj;
-            }
-            if (Taxamount != null && Taxamount.trim() != "") {
-                nonEmptyCount++;
-            } else {
-                gs.info('rakesh line 33' + rowValue["Process No"]);
-                obj.push("Process No" + "-" + rowValue["Process No"] + "-" + "Taxamount is Missing");
-                gs.info('rakesh line 36' + obj);
-                //return obj;
-            }
-            if (DocumentDate != null && DocumentDate.trim() != "") {
-                if (!regexp.test(DocumentDate) && !regexp2.test(DocumentDate) && !regexp4.test(DocumentDate)) {
-                    obj.push("Process No" + "-" + rowValue["Process No"] + "-" + "Document Date should be either yyyy.mm.dd , mm.dd.yyyy format");
-                } else {
-                    nonEmptyCount++;
-                }
-            } else {
-                gs.info('rakesh line 33' + rowValue["Process No"]);
-                obj.push("Process No" + "-" + rowValue["Process No"] + "-" + "Document Date is Missing");
-                gs.info('rakesh line 36' + obj);
-                //return obj;
-            }
-
-        }
-        gs.info("inside line 200" + obj.toString());
-        // }
-        obj1.vendorTypes = vendorLength.length;
-        obj1.errors = obj.toString();
-        if (obj1 != '') {
-            return JSON.stringify(obj1);
-        } else {
-            return '';
-
-        }
     },
 
     createrecords: function() {
@@ -370,8 +177,8 @@ CreateInvoiceDupli.prototype = Object.extendsObject(global.AbstractAjaxProcessor
                 if (invoicedata.next()) {
                     gs.info("inside line 276");
                     getSys_id = invoicedata.getUniqueValue();
-                    invoicedata.total_invoice_amount_before_tax = parseFloat( invoicedata.total_invoice_amount_before_tax) + parseFloat( arr[i]["Amount Before Tax"]);
-                    invoicedata.total_tax_amount = parseFloat( invoicedata.total_tax_amount) + parseFloat( arr[i]["Total Amount"]);
+                    invoicedata.total_invoice_amount_before_tax = parseFloat(invoicedata.total_invoice_amount_before_tax) + parseFloat(arr[i]["Amount Before Tax"]);
+                    invoicedata.total_tax_amount = parseFloat(invoicedata.total_tax_amount) + parseFloat(arr[i]["Total Amount"]);
                     invoicedata.total_invoice_amount_after_tax = parseFloat(invoicedata.total_invoice_amount_after_tax) + parseFloat(arr[i]["Amount Before Tax"]);
                     invoicedata.update();
                 } else {
@@ -412,13 +219,24 @@ CreateInvoiceDupli.prototype = Object.extendsObject(global.AbstractAjaxProcessor
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-12-13 11:00:43</sys_created_on>
         <sys_id>22733880c3e6d21044643eec05013123</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>CreateInvoiceDupli</sys_name>
         <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
         <sys_update_name>sys_script_include_22733880c3e6d21044643eec05013123</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-12-13 11:01:59</sys_updated_on>
+        <sys_updated_on>2025-01-30 13:54:18</sys_updated_on>
     </sys_script_include>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>22733880c3e6d21044643eec05013123</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-30 13:54:17</sys_created_on>
+        <sys_id>158728a3c3971210c5d75242b4013181</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-30 13:54:17</sys_updated_on>
+        <table>sys_script_include</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
 </record_update>

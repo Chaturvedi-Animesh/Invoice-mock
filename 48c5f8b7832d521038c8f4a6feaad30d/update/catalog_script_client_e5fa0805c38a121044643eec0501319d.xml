@@ -22,20 +22,22 @@
     if (isLoading || newValue === '') {
         return;
     }
-    //alert(newValue);
+    // alert(newValue);
     var ga = new GlideAjax('x_1097202_invoices.CreateInvoice');
     ga.addParam('sysparm_name', 'validateExcelValues');
     ga.addParam('sysparm_attachmentID', newValue);
-    ga.addParam('sysparm_vendor', g_form.getValue('single_multiple'));
+    // ga.addParam('sysparm_vendor', g_form.getValue('single_multiple'));
     ga.getXML(parseRestorationDateResult);
 
     function parseRestorationDateResult(response) {
         var answer = response.responseXML.documentElement.getAttribute("answer");
         var parse = JSON.parse(answer);
-		alert(parse);
-        //var getanswer = answer.replaceAll(',', '\n');
-        // alert(parse.vendorTypes);
-        // alert(parse.errors);
+        //alert("Line15" + parse.invoiceitemerrors);
+        // alert("Line16" + parse.errors);
+        // alert("Line17" + parse.lineitemerrors);
+        var getanswer = answer.replaceAll(',', '\n');
+        //alert(parse.vendorTypes);
+        //alert(parse.errors);
         // if (parse.vendorTypes != '1') {
         //     //alert("18");
         //     g_form.clearValue('single_multiple');
@@ -44,38 +46,80 @@
         //     g_form.clearValue('single_multiple');
         //     g_form.setValue('single_multiple', 'single');
         // }
-        // g_form.clearValue('error');
-        // var getanswer = parse.errors.split(',');
         // alert(getanswer);
-        // if (getanswer != '') {
-        //     // alert("line 18");
-        //     g_form.setVisible('error', true);
-        //     g_form.setDisplay('error', true);
-        //     for (var i = 0; i < getanswer.length; i++) {
-        //         var old = g_form.getValue('error');
-        //         var newvalue = old + '\n' + getanswer[i];
-        //         g_form.setValue('error', newvalue);
-        //     }
-        //     //if (newValue != oldValue) {
+        g_form.clearValue('error');
+        var getanswers = parse.invoiceitemerrors.split(',');
+        // alert(getanswers);
+        if (getanswers != '') {
+            // alert("line 18");
+            g_form.setVisible('error', true);
+            g_form.setDisplay('error', true);
+			g_form.setValue("error", "Invoice Errors :");
+            // alert("Line 38");
+            for (var i = 0; i < getanswers.length; i++) {
+                var old = g_form.getValue('error');
+                var newvalue = old + '\n' + getanswers[i];
+                g_form.setValue('error', newvalue);
+            }
+            //if (newValue != oldValue) {
 
-        //     //}
-        //     g_form.clearValue('upload_a_file');
-        // } 
-		// else {
-        //     // alert("line 31");
-        //     //parseRestorationDateResults();
-        //     g_form.setDisplay('error', false);
-        //     /*var ga = new GlideAjax('x_1097202_invoices.CreateInvoice');
-        //     ga.addParam('sysparm_name', 'createrecords');
-        //     ga.addParam('sysparm_attachmentID', newValue);
-        //     ga.getXML(parseRestorationDateResults);
+            //}
+            g_form.clearValue('upload_a_file');
+        }
+        var getanswe = parse.errors.split(',');
+        // alert("line 49" + getanswe);
+        //alert(getanswer);
+        if (getanswe != '') {
+            // alert("line 18");
+            g_form.setVisible('error', true);
+            g_form.setDisplay('error', true);
+            g_form.setValue("error", "InvoiceItem Errors :");
+            // alert("Line 55");
+            for (var j = 0; j < getanswe.length; j++) {
+                var pre = g_form.getValue('error');
+                var latest = pre + '\n' + getanswe[j];
+                g_form.setValue('error', latest);
+            }
+            //if (newValue != oldValue) {
+
+            //}
+            g_form.clearValue('upload_a_file');
+        }
+        // alert("line 67" + g_form.getValue('error'));
+        var getanswerss = parse.lineitemerrors.split(',');
+        // alert("line 68" + getanswerss);
+        if (getanswerss != '') {
+            // alert("line 18");
+            g_form.setVisible('error', true);
+            g_form.setDisplay('error', true);
+            var lineolds = g_form.getValue('error');
+            var linenewvalues = lineolds + '\n' + '\n' + "LineItem Errors :";
+            g_form.setValue("error", linenewvalues);
+            for (var k = 0; k < getanswerss.length; k++) {
+                var lineold = g_form.getValue('error');
+                // alert("Value in error " + lineold);
+                var linenewvalue = lineold + '\n' + getanswerss[k];
+                g_form.setValue('error', linenewvalue);
+            }
+            //if (newValue != oldValue) {
+
+            //}
+            g_form.clearValue('upload_a_file');
+        } else if (getanswerss == '' && getanswer == '' && getanswers == '') {
+            // alert("line 31");
+            //parseRestorationDateResults();
+            g_form.setDisplay('error', false);
+            /*var ga = new GlideAjax('x_1097202_invoices.CreateInvoice');
+            ga.addParam('sysparm_name', 'createrecords');
+            ga.addParam('sysparm_attachmentID', newValue);
+            ga.getXML(parseRestorationDateResults);
         
 		
-		// function parseRestorationDateResults(response) {
-        //         var answer = response.responseXML.documentElement.getAttribute("answer");
-        //         alert(answer);
-        //     }*/
-        // }
+		function parseRestorationDateResults(response) {
+                var answer = response.responseXML.documentElement.getAttribute("answer");
+                alert(answer);
+            }*/
+        }
     }
 }
 
@@ -99,7 +143,7 @@ function parseRestorationDateResults() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e5fa0805c38a121044643eec0501319d</sys_id>
-        <sys_mod_count>82</sys_mod_count>
+        <sys_mod_count>113</sys_mod_count>
         <sys_name>Validate Uploaded Excel</sys_name>
         <sys_overrides/>
         <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
@@ -107,7 +151,7 @@ function parseRestorationDateResults() {
         <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
         <sys_update_name>catalog_script_client_e5fa0805c38a121044643eec0501319d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-23 07:23:16</sys_updated_on>
+        <sys_updated_on>2025-02-03 03:38:58</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>
