@@ -23,7 +23,7 @@
         <sys_updated_on>2025-01-30 10:39:50</sys_updated_on>
         <template_feedback/>
         <use_same_feedback_in_template>true</use_same_feedback_in_template>
-        <wizard display_value="Create New Invoice">2549548fc3b5121044643eec05013179</wizard>
+        <wizard display_value="Create NON-PO Invoices">2549548fc3b5121044643eec05013179</wizard>
     </sc_wizard_step>
     <sys_translated_text action="delete_multiple" query="documentkey=181624dec34a121044643eec05013120"/>
 </record_update>

@@ -23,6 +23,10 @@
         return;
     }
     // alert(newValue);
+    g_form.clearValue('error');
+    g_form.setDisplay('error', false);
+    g_form.setDisplay('clear_the_following_errors_in_the_excell_template_to_submit_the_request', false);
+    g_form.setVisible('clear_the_following_errors_in_the_excell_template_to_submit_the_request', false);
     var ga = new GlideAjax('x_1097202_invoices.CreateInvoice');
     ga.addParam('sysparm_name', 'validateExcelValues');
     ga.addParam('sysparm_attachmentID', newValue);
@@ -32,9 +36,10 @@
     function parseRestorationDateResult(response) {
         var answer = response.responseXML.documentElement.getAttribute("answer");
         var parse = JSON.parse(answer);
-        //alert("Line15" + parse.invoiceitemerrors);
+        // alert("Line15" + parse.invoiceitemerrors);
         // alert("Line16" + parse.errors);
         // alert("Line17" + parse.lineitemerrors);
+        // alert("Line17" + parse.templateErrors);
         var getanswer = answer.replaceAll(',', '\n');
         //alert(parse.vendorTypes);
         //alert(parse.errors);
@@ -48,13 +53,35 @@
         // }
         // alert(getanswer);
         g_form.clearValue('error');
+        var getans = parse.templateErrors.split(',');
+        // alert(getanswers);
+        if (getans != '') {
+            // alert("line 18");
+            g_form.setVisible('clear_the_following_errors_in_the_excell_template_to_submit_the_request', true);
+            g_form.setDisplay('clear_the_following_errors_in_the_excell_template_to_submit_the_request', true);
+            g_form.setVisible('error', true);
+            g_form.setDisplay('error', true);
+            g_form.setValue("error", "Invoice Template Error(s) :");
+            // alert("Line 38");
+            for (var l = 0; l < getans.length; l++) {
+                var old = g_form.getValue('error');
+                var newvalue = old + '\n' + getans[l];
+                g_form.setValue('error', newvalue);
+            }
+            //if (newValue != oldValue) {
+
+            //}
+            g_form.clearValue('upload_a_file');
+        }
         var getanswers = parse.invoiceitemerrors.split(',');
         // alert(getanswers);
         if (getanswers != '') {
             // alert("line 18");
+            g_form.setVisible('clear_the_following_errors_in_the_excell_template_to_submit_the_request', true);
+            g_form.setDisplay('clear_the_following_errors_in_the_excell_template_to_submit_the_request', true);
             g_form.setVisible('error', true);
             g_form.setDisplay('error', true);
-			g_form.setValue("error", "Invoice Errors :");
+            g_form.setValue("error", "Invoice Header Error(s) :");
             // alert("Line 38");
             for (var i = 0; i < getanswers.length; i++) {
                 var old = g_form.getValue('error');
@@ -71,9 +98,11 @@
         //alert(getanswer);
         if (getanswe != '') {
             // alert("line 18");
+            g_form.setVisible('clear_the_following_errors_in_the_excell_template_to_submit_the_request', true);
+            g_form.setDisplay('clear_the_following_errors_in_the_excell_template_to_submit_the_request', true);
             g_form.setVisible('error', true);
             g_form.setDisplay('error', true);
-            g_form.setValue("error", "InvoiceItem Errors :");
+            g_form.setValue("error", "Invoice Header Error(s) :");
             // alert("Line 55");
             for (var j = 0; j < getanswe.length; j++) {
                 var pre = g_form.getValue('error');
@@ -90,10 +119,12 @@
         // alert("line 68" + getanswerss);
         if (getanswerss != '') {
             // alert("line 18");
+            g_form.setVisible('clear_the_following_errors_in_the_excell_template_to_submit_the_request', true);
+            g_form.setDisplay('clear_the_following_errors_in_the_excell_template_to_submit_the_request', true);
             g_form.setVisible('error', true);
             g_form.setDisplay('error', true);
             var lineolds = g_form.getValue('error');
-            var linenewvalues = lineolds + '\n' + '\n' + "LineItem Errors :";
+            var linenewvalues = lineolds + '\n' + '\n' + "Invoice Line Item Error(s) :";
             g_form.setValue("error", linenewvalues);
             for (var k = 0; k < getanswerss.length; k++) {
                 var lineold = g_form.getValue('error');
@@ -106,7 +137,7 @@
             //}
             g_form.clearValue('upload_a_file');
         } else if (getanswerss == '' && getanswer == '' && getanswers == '') {
-            // alert("line 31");
+            // alert("line 108");
             //parseRestorationDateResults();
             g_form.setDisplay('error', false);
             /*var ga = new GlideAjax('x_1097202_invoices.CreateInvoice');
@@ -143,7 +174,7 @@ function parseRestorationDateResults() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e5fa0805c38a121044643eec0501319d</sys_id>
-        <sys_mod_count>113</sys_mod_count>
+        <sys_mod_count>124</sys_mod_count>
         <sys_name>Validate Uploaded Excel</sys_name>
         <sys_overrides/>
         <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
@@ -151,7 +182,7 @@ function parseRestorationDateResults() {
         <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
         <sys_update_name>catalog_script_client_e5fa0805c38a121044643eec0501319d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-03 03:38:58</sys_updated_on>
+        <sys_updated_on>2025-02-07 11:21:32</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

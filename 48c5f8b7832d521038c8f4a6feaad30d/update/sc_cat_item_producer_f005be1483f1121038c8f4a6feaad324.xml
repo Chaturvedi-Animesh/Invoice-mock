@@ -91,14 +91,14 @@ new global.VariableUtil().copyAttachment(producer.upload_a_file,'x_1097202_invoi
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-07 08:18:02</sys_created_on>
         <sys_id>f005be1483f1121038c8f4a6feaad324</sys_id>
-        <sys_mod_count>295</sys_mod_count>
+        <sys_mod_count>329</sys_mod_count>
         <sys_name>Upload Invoice</sys_name>
         <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
         <sys_update_name>sc_cat_item_producer_f005be1483f1121038c8f4a6feaad324</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2025-02-03 03:44:33</sys_updated_on>
+        <sys_updated_on>2025-02-07 11:21:33</sys_updated_on>
         <table_name>x_1097202_invoices_record_producer_input</table_name>
         <taxonomy_topic/>
         <template/>
@@ -106,7 +106,7 @@ new global.VariableUtil().copyAttachment(producer.upload_a_file,'x_1097202_invoi
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>295</version>
+        <version>329</version>
         <view/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

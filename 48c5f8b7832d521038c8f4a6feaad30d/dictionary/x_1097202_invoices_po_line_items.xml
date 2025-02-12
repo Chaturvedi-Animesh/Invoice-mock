@@ -7,15 +7,15 @@
         <element default="PC" label="Withholding Tax Type 1" max_length="40" name="order_unit" read_only="true" type="string"/>
         <element label="Withholding Tax Code 3" max_length="40" name="reference_doc" read_only="true" type="string"/>
         <element label="Expense Amount" max_length="40" name="purchase_order" read_only="true" type="string"/>
-        <element default="Expenseto buy tools" label="Item Text" max_length="40" name="text" read_only="true" type="string"/>
-        <element label="Profit Center" max_length="40" name="profit_center" read_only="true" type="string"/>
+        <element label="Item Text" max_length="40" name="text" read_only="true" type="string"/>
+        <element label="Profit Center" max_length="40" name="profit_center" read_only="true" reference="u_profit_center" type="reference"/>
         <element label="Withholding Tax Code 1" max_length="40" name="gl_code" read_only="true" type="string"/>
         <element label="Withholding Tax Type 3" max_length="40" name="qty" read_only="true" type="string"/>
         <element label="Withholding Tax Code 4" max_length="40" name="withholding_tax_code_4" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded" label="S/N" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element label="WBS Element" max_length="40" name="wbs_element" read_only="true" type="string"/>
         <element label="Material Group" max_length="40" name="asset" read_only="true" type="string"/>
-        <element label="GL account" max_length="40" name="amount" read_only="true" type="string"/>
+        <element label="GL account" max_length="40" name="amount" read_only="true" reference="u_gl_account" type="reference"/>
         <index name="index">
             <element name="invoice_for"/>
         </index>

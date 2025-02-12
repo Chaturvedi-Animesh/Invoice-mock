@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>delete</operation>
+        <source_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</source_scope>
+        <status>requested</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-06 02:57:44</sys_created_on>
+        <sys_id>9214dae9c32b5210c5d75242b40131f4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sys_attachment</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_scope_privilege_9214dae9c32b5210c5d75242b40131f4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-06 04:55:38</sys_updated_on>
+        <target_name>sys_attachment</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</application>
+        <file_path/>
+        <instance_id>3185c048db32f9d4b1eb9027c596191d</instance_id>
+        <instance_name>dev222928</instance_name>
+        <name>sys_scope_privilege_9214dae9c32b5210c5d75242b40131f4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>delete</operation><source_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</source_scope><status>requested</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-06 02:57:44</sys_created_on><sys_id>9214dae9c32b5210c5d75242b40131f4</sys_id><sys_mod_count>1</sys_mod_count><sys_name>sys_attachment</sys_name><sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package><sys_policy/><sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope><sys_update_name>sys_scope_privilege_9214dae9c32b5210c5d75242b40131f4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-06 04:55:38</sys_updated_on><target_name>sys_attachment</target_name><target_scope display_value="Global">global</target_scope><target_type>sys_db_object</target_type></sys_scope_privilege></record_update>]]></payload>
+        <payload_hash>-104862334</payload_hash>
+        <record_name>sys_attachment</record_name>
+        <reverted_from/>
+        <source>60cbdb93c3131210c5d75242b40131b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-06 04:55:38</sys_created_on>
+        <sys_id>8f5feaadc3ab5210c5d75242b401316b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194d99d16ff0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-06 04:55:38</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>075feaad76ab5210fd62b47de5648e6b</update_guid>
+        <update_guid_history>075feaad76ab5210fd62b47de5648e6b:-104862334,0064d6692a2b521028626c96933133d6:-703680196</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-06 04:55:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>94ac5c068f67450fa35a486ea3faa479</sys_id>
+        <sys_metadata>9214dae9c32b5210c5d75242b40131f4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_attachment</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_scope_delete display_value="">06eacfb531f84c0c80adc050aaeca810</sys_scope_delete>
+        <sys_update_name>sys_scope_privilege_9214dae9c32b5210c5d75242b40131f4</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_9214dae9c32b5210c5d75242b40131f4">8f5feaadc3ab5210c5d75242b401316b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-06 04:55:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

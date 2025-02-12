@@ -5,13 +5,13 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Balance Amount</column_label>
+        <column_label>Total Invoice Amount Before Tax</column_label>
         <comments/>
         <create_roles/>
-        <default_value>0.00</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -47,13 +47,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-11-05 15:06:41</sys_created_on>
-        <sys_name>Balance Amount</sys_name>
+        <sys_name>Total Invoice Amount Before Tax</sys_name>
         <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
         <sys_update_name>sys_dictionary_x_1097202_invoices_invoice_balance_amount</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-11-08 08:48:55</sys_updated_on>
+        <sys_updated_on>2025-02-07 06:59:25</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

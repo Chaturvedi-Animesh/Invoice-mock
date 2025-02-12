@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Create Header Invoice">e9a03d95c3a31210c5d75242b4013123</map>
+        <reference_value_field/>
+        <source_field>u_total_amount</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_1097202_invoices_single_vendor</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 06:48:46</sys_created_on>
+        <sys_id>4ad29086c367d210c5d75242b4013188</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_total_amount</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_transform_entry_4ad29086c367d210c5d75242b4013188</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 06:48:46</sys_updated_on>
+        <target_field>tax_aamount</target_field>
+        <target_table>x_1097202_invoices_invoice_items</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+</record_update>

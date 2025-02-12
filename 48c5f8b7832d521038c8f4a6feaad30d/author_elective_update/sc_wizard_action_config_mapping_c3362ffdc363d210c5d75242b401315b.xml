@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_wizard_action_config_mapping">
+    <sc_wizard_action_config_mapping action="DELETE">
+        <hide_action>false</hide_action>
+        <sys_class_name>sc_wizard_action_config_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 03:33:52</sys_created_on>
+        <sys_id>c3362ffdc363d210c5d75242b401315b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create PO Invoices.Submit</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sc_wizard_action_config_mapping_c3362ffdc363d210c5d75242b401315b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 03:33:52</sys_updated_on>
+        <wizard display_value="Create PO Invoices">2549548fc3b5121044643eec05013179</wizard>
+        <wizard_action_config display_value="Submit">b4d583cac382121044643eec05013118</wizard_action_config>
+    </sc_wizard_action_config_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</application>
+        <file_path/>
+        <instance_id>3185c048db32f9d4b1eb9027c596191d</instance_id>
+        <instance_name>dev222928</instance_name>
+        <name>sc_wizard_action_config_mapping_c3362ffdc363d210c5d75242b401315b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_wizard_action_config_mapping"><sc_wizard_action_config_mapping action="INSERT_OR_UPDATE"><hide_action>false</hide_action><sys_class_name>sc_wizard_action_config_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-07 03:33:52</sys_created_on><sys_id>c3362ffdc363d210c5d75242b401315b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create PO Invoices.Submit</sys_name><sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package><sys_policy/><sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope><sys_update_name>sc_wizard_action_config_mapping_c3362ffdc363d210c5d75242b401315b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-07 03:33:52</sys_updated_on><wizard display_value="Create PO Invoices">2549548fc3b5121044643eec05013179</wizard><wizard_action_config display_value="Submit">b4d583cac382121044643eec05013118</wizard_action_config></sc_wizard_action_config_mapping></record_update>]]></payload>
+        <payload_hash>-2042389367</payload_hash>
+        <record_name>Create PO Invoices.Submit</record_name>
+        <reverted_from/>
+        <source>60cbdb93c3131210c5d75242b40131b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 03:33:52</sys_created_on>
+        <sys_id>07362ffdc363d210c5d75242b401315d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194de7896c90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 03:33:52</sys_updated_on>
+        <type>Wizard Action Configuration Mapping</type>
+        <update_guid>0b362ffdf063d210e691236eb767a45c</update_guid>
+        <update_guid_history>0b362ffdf063d210e691236eb767a45c:-2042389367</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create PO Invoices.Submit">85e62331c3a3d210c5d75242b401319c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-07 03:36:44</sys_created_on>
+        <sys_db_object display_value="" name="sc_wizard_action_config_mapping">sc_wizard_action_config_mapping</sys_db_object>
+        <sys_id>b13addab482940db8ab8d698ab429011</sys_id>
+        <sys_metadata>c3362ffdc363d210c5d75242b401315b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create PO Invoices.Submit</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_scope_delete display_value="">06eacfb531f84c0c80adc050aaeca810</sys_scope_delete>
+        <sys_update_name>sc_wizard_action_config_mapping_c3362ffdc363d210c5d75242b401315b</sys_update_name>
+        <sys_update_version display_value="sc_wizard_action_config_mapping_c3362ffdc363d210c5d75242b401315b">07362ffdc363d210c5d75242b401315d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-07 03:36:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

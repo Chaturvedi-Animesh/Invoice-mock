@@ -6,7 +6,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <catalog_conditions>IO:6972fb9dc31a121044643eec0501319bINptp,rtr^EQ</catalog_conditions>
+        <catalog_conditions>IO:6972fb9dc31a121044643eec0501319bISEMPTY^EQ</catalog_conditions>
         <catalog_item display_value="Upload Invoice">f005be1483f1121038c8f4a6feaad324</catalog_item>
         <conditions/>
         <description/>
@@ -34,7 +34,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1341a8ecc3131210c5d75242b4013195</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>hide variables</sys_name>
         <sys_overrides/>
         <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
@@ -42,7 +42,7 @@
         <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
         <sys_update_name>catalog_ui_policy_1341a8ecc3131210c5d75242b4013195</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-01-27 04:22:15</sys_updated_on>
+        <sys_updated_on>2025-02-04 03:29:14</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
         <va_supported>true</va_supported>

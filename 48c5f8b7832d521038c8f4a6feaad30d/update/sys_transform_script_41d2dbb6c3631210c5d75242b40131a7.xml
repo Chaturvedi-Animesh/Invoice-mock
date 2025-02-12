@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="Create Header Invoice">e9a03d95c3a31210c5d75242b4013123</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+    gs.info("line 2 on start started");
+    var createSuperInvoice = new GlideRecord('x_1097202_invoices_invoice');
+    createSuperInvoice.initialize();
+    // createSuperInvoice.id = source.u_tax_id.toString();
+    var getSysid = createSuperInvoice.insert();
+    gs.info("line 7 on start started" + getSysid);
+    var propertyName = 'x_1097202_invoices.super invoice sysid'; // Replace with your scoped system property name
+    gs.setProperty(propertyName, getSysid);
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-10 04:43:16</sys_created_on>
+        <sys_id>41d2dbb6c3631210c5d75242b40131a7</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>onStart</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_transform_script_41d2dbb6c3631210c5d75242b40131a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-10 06:42:58</sys_updated_on>
+        <when>onStart</when>
+    </sys_transform_script>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>41d2dbb6c3631210c5d75242b40131a7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-10 04:43:15</sys_created_on>
+        <sys_id>e8e2d7bec3231210c5d75242b401315a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-10 04:43:15</sys_updated_on>
+        <table>sys_transform_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

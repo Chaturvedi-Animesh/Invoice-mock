@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <map display_value="Create Header Invoice">e9a03d95c3a31210c5d75242b4013123</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+    var glAccountsysid = '';
+    var profitCentersysid = '';
+    var parenteinvoicesysid = '';
+    if (source.u_vendor_code.trim() === '') {
+        ignore = true;
+    } else {
+        var getParent = new GlideRecord("x_1097202_invoices_invoice_items");
+        getParent.addEncodedQuery("invoice_no=" + source.u_invoice_number.toString());
+        getParent.query();
+        if (getParent.next()) {
+            parenteinvoicesysid = getParent.getUniqueValue();
+        }
+        var getglAccount = new GlideRecord('u_gl_account');
+        getglAccount.addEncodedQuery('u_glcode=' + source.u_gl_account.trim());
+        getglAccount.query();
+        if (getglAccount.next()) {
+            glAccountsysid = getglAccount.getUniqueValue();
+        }
+        var getprofitCentert = new GlideRecord('u_profit_center');
+        getprofitCentert.addEncodedQuery('u_code=' + source.u_profit_center.trim());
+        getprofitCentert.query();
+        if (getprofitCentert.next()) {
+            profitCentersysid = getprofitCentert.getUniqueValue();
+        }
+        var childinvoicedata = new GlideRecord('x_1097202_invoices_po_line_items');
+        childinvoicedata.initialize();
+        childinvoicedata.amount = glAccountsysid;
+        childinvoicedata.profit_center = profitCentersysid;
+        childinvoicedata.purchase_order = source.u_expense_amount.trim();
+        childinvoicedata.text = source.u_item_text.trim();
+        childinvoicedata.wbs_element = source.u_wbs_element.trim();
+        childinvoicedata.invoice_for = parenteinvoicesysid;
+        childinvoicedata.insert();
+    }
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-05 07:24:30</sys_created_on>
+        <sys_id>8146c65dc3e31210c5d75242b401312d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>onAfter</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_transform_script_8146c65dc3e31210c5d75242b401312d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-05 09:47:58</sys_updated_on>
+        <when>onAfter</when>
+    </sys_transform_script>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>8146c65dc3e31210c5d75242b401312d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-05 07:24:29</sys_created_on>
+        <sys_id>39d7829dc3e31210c5d75242b4013183</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-05 07:24:29</sys_updated_on>
+        <table>sys_transform_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

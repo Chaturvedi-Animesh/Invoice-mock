@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_1097202_invoices.super invoice sysid</name>
+        <read_roles/>
+        <suffix>super invoice sysid</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-10 04:03:10</sys_created_on>
+        <sys_id>5999c7fac3231210c5d75242b401318a</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_name>x_1097202_invoices.super invoice sysid</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_properties_5999c7fac3231210c5d75242b401318a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-12 03:45:44</sys_updated_on>
+        <type>string</type>
+        <value>81e89127c3231210c5d75242b4013132</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=5999c7fac3231210c5d75242b401318a"/>
+</record_update>

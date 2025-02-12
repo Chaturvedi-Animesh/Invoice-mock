@@ -13,7 +13,7 @@
         <label>Invoice</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_1097202_invoices_invoice</name>
-        <number_ref display_value="INV">bbc83cbb832d521038c8f4a6feaad37e</number_ref>
+        <number_ref display_value="eINV">bbc83cbb832d521038c8f4a6feaad37e</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

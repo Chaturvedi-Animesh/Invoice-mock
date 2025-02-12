@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_wizard_action_config">
+    <sc_wizard_action_config action="INSERT_OR_UPDATE">
+        <applies_to>normal</applies_to>
+        <button_type_override/>
+        <declarative_action display_value="Global Wizard Save">bfabc4f343021110bbc664746ab8f288</declarative_action>
+        <force_save>false</force_save>
+        <global>false</global>
+        <label_override/>
+        <name>Hide</name>
+        <overflow>false</overflow>
+        <sys_class_name>sc_wizard_action_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-04 03:37:13</sys_created_on>
+        <sys_id>071a848dc3231210c5d75242b401318e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hide</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sc_wizard_action_config_071a848dc3231210c5d75242b401318e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-04 03:37:13</sys_updated_on>
+    </sc_wizard_action_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=071a848dc3231210c5d75242b401318e"/>
+</record_update>

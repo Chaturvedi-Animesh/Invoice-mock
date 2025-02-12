@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="DELETE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Create Super Invoice">b14265d9c3231210c5d75242b40131cc</map>
+        <reference_value_field/>
+        <source_field>u_vendor_code</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_1097202_invoices_single_vendor</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-05 04:54:10</sys_created_on>
+        <sys_id>37652d55c3631210c5d75242b40131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_vendor_code</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_transform_entry_37652d55c3631210c5d75242b40131df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-05 04:54:10</sys_updated_on>
+        <target_field>vendor_code</target_field>
+        <target_table>x_1097202_invoices_invoice</target_table>
+        <use_source_script>false</use_source_script>
+    </sys_transform_entry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</application>
+        <file_path/>
+        <instance_id>3185c048db32f9d4b1eb9027c596191d</instance_id>
+        <instance_name>dev222928</instance_name>
+        <name>sys_transform_entry_37652d55c3631210c5d75242b40131df</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_entry"&gt;&lt;sys_transform_entry action="INSERT_OR_UPDATE"&gt;&lt;choice_action&gt;create&lt;/choice_action&gt;&lt;coalesce&gt;false&lt;/coalesce&gt;&lt;coalesce_case_sensitive&gt;false&lt;/coalesce_case_sensitive&gt;&lt;coalesce_empty_fields&gt;false&lt;/coalesce_empty_fields&gt;&lt;date_format&gt;yyyy-MM-dd HH:mm:ss&lt;/date_format&gt;&lt;map display_value="Create Super Invoice"&gt;b14265d9c3231210c5d75242b40131cc&lt;/map&gt;&lt;reference_value_field/&gt;&lt;source_field&gt;u_vendor_code&lt;/source_field&gt;&lt;source_script&gt;&lt;![CDATA[answer = (function transformEntry(source) {
+
+	// Add your code here
+	return ""; // return the value to be put into the target field
+
+})(source);]]&gt;&lt;/source_script&gt;&lt;source_table&gt;x_1097202_invoices_single_vendor&lt;/source_table&gt;&lt;sys_class_name&gt;sys_transform_entry&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-05 04:54:10&lt;/sys_created_on&gt;&lt;sys_id&gt;37652d55c3631210c5d75242b40131df&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_vendor_code&lt;/sys_name&gt;&lt;sys_package display_value="Invoices" source="x_1097202_invoices"&gt;48c5f8b7832d521038c8f4a6feaad30d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Invoices"&gt;48c5f8b7832d521038c8f4a6feaad30d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_entry_37652d55c3631210c5d75242b40131df&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-05 04:54:10&lt;/sys_updated_on&gt;&lt;target_field&gt;vendor_code&lt;/target_field&gt;&lt;target_table&gt;x_1097202_invoices_invoice&lt;/target_table&gt;&lt;use_source_script&gt;false&lt;/use_source_script&gt;&lt;/sys_transform_entry&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>637876931</payload_hash>
+        <record_name>u_vendor_code</record_name>
+        <reverted_from/>
+        <source>60cbdb93c3131210c5d75242b40131b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-05 04:54:10</sys_created_on>
+        <sys_id>7365ad95c3631210c5d75242b4013160</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>194d47564690000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-05 04:54:10</sys_updated_on>
+        <type>Field Map</type>
+        <update_guid>3765ad95a6631210c6c18b0e00b2f35f</update_guid>
+        <update_guid_history>3765ad95a6631210c6c18b0e00b2f35f:637876931</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-05 04:56:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_entry">sys_transform_entry</sys_db_object>
+        <sys_id>34d6f67c24b940509f8c32a8ab3ab664</sys_id>
+        <sys_metadata>37652d55c3631210c5d75242b40131df</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_vendor_code</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_scope_delete display_value="">06eacfb531f84c0c80adc050aaeca810</sys_scope_delete>
+        <sys_update_name>sys_transform_entry_37652d55c3631210c5d75242b40131df</sys_update_name>
+        <sys_update_version display_value="sys_transform_entry_37652d55c3631210c5d75242b40131df">7365ad95c3631210c5d75242b4013160</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-05 04:56:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

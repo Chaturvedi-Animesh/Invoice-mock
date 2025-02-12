@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="Create Header Invoice">e9a03d95c3a31210c5d75242b4013123</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+    gs.info("inside line 2 TMM" + source.u_vendor_code);
+    if (source.u_vendor_code != '') {
+        var vendorsysid = '';
+        var currencyType = '';
+        var taxCodesysid = '';
+        var companyCodesysid = '';
+        // var getParent = new GlideRecord("x_1097202_invoices_invoice");
+        //gs.info("inside line 7 TM" + source.u_vendor_code);
+        //getParent.addEncodedQuery('tex0=' + source.u_vendor_code);
+        // getParent.query();
+        var getParent = gs.getProperty('x_1097202_invoices.super invoice sysid');
+
+        gs.info("inside line 12 TM" + getParent);
+        target.parent_invoice = getParent;
+
+        var createVendor = new GlideRecord('u_vendor');
+        createVendor.addEncodedQuery('u_vendor_code=' + source.u_vendor_code + '^u_vendor_name=' + source.u_vendor_name);
+        createVendor.query();
+        if (createVendor.next()) {
+            gs.info("line 10 in TM" + createVendor.getUniqueValue());
+            target.vendor_code = createVendor.getUniqueValue();
+        }
+        var currencydata = new GlideRecord('fx_currency');
+        currencydata.addEncodedQuery('code=' + source.u_currency);
+        currencydata.query();
+        if (currencydata.next()) {
+            gs.info("line 17 in TM" + currencydata.getUniqueValue());
+            target.currency = currencydata.getUniqueValue();
+        }
+        var gettaxCode = new GlideRecord('u_tax_code');
+        gettaxCode.addEncodedQuery('u_tax_code=' + source.u_tax_code);
+        gettaxCode.query();
+        if (gettaxCode.next()) {
+            gs.info("line 23 in TM" + gettaxCode.getUniqueValue());
+            target.tax_code = gettaxCode.getUniqueValue();
+        }
+        var getcompanyCode = new GlideRecord('u_company_code');
+        getcompanyCode.addEncodedQuery('u_company_code=' + source.u_company_code);
+        getcompanyCode.query();
+        if (getcompanyCode.next()) {
+            gs.info("line 30 in TM" + getcompanyCode.getUniqueValue());
+            target.company_code = getcompanyCode.getUniqueValue();
+        }
+    } else {
+        ignore = true;
+    }
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-05 06:04:32</sys_created_on>
+        <sys_id>54a3f159c3a31210c5d75242b40131e4</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_transform_script_54a3f159c3a31210c5d75242b40131e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-10 10:43:11</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>54a3f159c3a31210c5d75242b40131e4</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-05 06:04:32</sys_created_on>
+        <sys_id>6a8535d9c3a31210c5d75242b401311f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-05 06:04:32</sys_updated_on>
+        <table>sys_transform_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

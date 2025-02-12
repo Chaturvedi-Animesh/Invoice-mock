@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="790afd2dc3a75210c5d75242b40131b3" label="Invoice Attachments" max_length="40" name="x_1097202_invoices_invoice_attachments" type="collection"/>
+</database>

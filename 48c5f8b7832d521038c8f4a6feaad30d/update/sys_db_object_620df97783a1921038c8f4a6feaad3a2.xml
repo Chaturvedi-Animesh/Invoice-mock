@@ -13,7 +13,7 @@
         <label>PO Line Items</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_1097202_invoices_po_line_items</name>
-        <number_ref display_value="POLI">760df97783a1921038c8f4a6feaad3f7</number_ref>
+        <number_ref display_value="INVPO">760df97783a1921038c8f4a6feaad3f7</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

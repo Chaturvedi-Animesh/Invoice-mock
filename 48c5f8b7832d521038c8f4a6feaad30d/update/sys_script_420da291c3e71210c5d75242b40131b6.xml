@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1097202_invoices_record_producer_input</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Copy attachment to data source</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    GlideSysAttachment.copy('x_1097202_invoices_record_producer_input', current.sys_id, 'sys_data_source', 'cdb1e151c3631210c5d75242b40131a6');
+    var exportGr = new GlideRecord("scheduled_import_set");
+    exportGr.addQuery("sys_id", "9aca461dc312121044643eec05013161"); // sys_id of the record which you will be creating for scheduled import in step (a)
+    exportGr.query();
+    if (exportGr.next()) {
+        gs.executeNow(exportGr); // this is for scoped app
+        //SncTriggerSynchronizer.executeNow(exportGr); // this is for non scoped app
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-05 10:08:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>420da291c3e71210c5d75242b40131b6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Copy attachment to data source</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_script_420da291c3e71210c5d75242b40131b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-05 11:58:12</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=420da291c3e71210c5d75242b40131b6"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>420da291c3e71210c5d75242b40131b6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-05 10:08:29</sys_created_on>
+        <sys_id>cc6d2a51c3e71210c5d75242b4013189</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-05 10:08:29</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

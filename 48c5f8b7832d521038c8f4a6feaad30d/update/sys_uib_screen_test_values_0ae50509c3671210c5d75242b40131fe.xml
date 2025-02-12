@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+    "table": "x_1097202_invoices_invoice_items",
+    "sysId": "1ec0e0c9c3a31210c5d75242b40131ae",
+    "query": "",
+    "extraParams": "",
+    "views": "",
+    "selectedTab": "",
+    "029f04e053610110ac9bddeeff7b1294": {
+        "activityLogs": null,
+        "detailsContext": null,
+        "fields": null,
+        "forcedViewName": null,
+        "inputExtraParams": null,
+        "inputQuery": null,
+        "inputSysId": "1ec0e0c9c3a31210c5d75242b40131ae",
+        "inputTable": "x_1097202_invoices_invoice_items",
+        "isMappedToAppShell": true,
+        "screen": null,
+        "shouldSuppressGlobalEvents": true,
+        "userPrefs": null,
+        "view": "workspace-invoice-workspace-0"
+    },
+    "activityLogs": "",
+    "screen": "",
+    "fields": "",
+    "userPrefs": "",
+    "selectedTabIndex": ""
+}</macroponent_config>
+        <screen display_value="LINE ITEM">4ae50509c3671210c5d75242b40131f9</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-04 07:57:57</sys_created_on>
+        <sys_id>0ae50509c3671210c5d75242b40131fe</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_0ae50509c3671210c5d75242b40131fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-04 08:53:36</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>
