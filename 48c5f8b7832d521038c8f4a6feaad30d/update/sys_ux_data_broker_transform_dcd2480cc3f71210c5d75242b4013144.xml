@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_1097202_invoices.getSYSIDWS</api_name>
+        <batch_exclude>false</batch_exclude>
+        <description/>
+        <mutates_server_data>true</mutates_server_data>
+        <name>getSYSIDWS</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+        "name": "sysid",&#13;
+        "label": "Sys ID",&#13;
+        "description": "Additional comments",&#13;
+        "readOnly": false,&#13;
+        "fieldType": "string",&#13;
+        "mandatory": true,&#13;
+        "defaultValue": ""&#13;
+    }&#13;
+]</props>
+        <required_translations>[ {
+  "message" : "Additional comments",
+  "comment" : ""
+}, {
+  "message" : "Sys ID",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform(input) {
+    gs.info("inside line 2 TS");
+    var total = input.sysid;
+    gs.info("inside line 3 TS" + total);
+    var lineItemsysid = '';
+    var getParent = new GlideRecord('x_1097202_invoices_invoice_items');
+    getParent.addEncodedQuery('parent_invoice=' + total);
+    getParent.query();
+    while (getParent.next()) {
+        lineItemsysid = getParent.getUniqueValue();
+        var getParents = new GlideRecord('x_1097202_invoices_po_line_items');
+        getParents.addEncodedQuery('invoice_for=' + lineItemsysid);
+        getParents.query();
+        while (getParents.next()) {
+            getParents.deleteRecord();
+        }
+        getParent.deleteRecord();
+    }
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 10:46:55</sys_created_on>
+        <sys_id>dcd2480cc3f71210c5d75242b4013144</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>getSYSIDWS</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_dcd2480cc3f71210c5d75242b4013144</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 11:39:09</sys_updated_on>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=dcd2480cc3f71210c5d75242b4013144"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>dcd2480cc3f71210c5d75242b4013144</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-13 10:46:54</sys_created_on>
+        <sys_id>30e2880cc3f71210c5d75242b401312e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-13 10:46:54</sys_updated_on>
+        <table>sys_ux_data_broker_transform</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

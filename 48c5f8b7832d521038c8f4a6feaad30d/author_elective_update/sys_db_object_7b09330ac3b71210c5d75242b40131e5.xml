@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>true</is_extendable>
+        <label>Document</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_1097202_invoices_document</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-20 09:50:18</sys_created_on>
+        <sys_id>7b09330ac3b71210c5d75242b40131e5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Document</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_db_object_7b09330ac3b71210c5d75242b40131e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-21 06:45:26</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</application>
+        <file_path/>
+        <instance_id>3185c048db32f9d4b1eb9027c596191d</instance_id>
+        <instance_name>dev222928</instance_name>
+        <name>sys_db_object_7b09330ac3b71210c5d75242b40131e5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>true</actions_access><alter_access>true</alter_access><caller_access/><client_scripts_access>true</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><is_extendable>true</is_extendable><label>Document</label><live_feed_enabled>false</live_feed_enabled><name>x_1097202_invoices_document</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-20 09:50:18</sys_created_on><sys_id>7b09330ac3b71210c5d75242b40131e5</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Document</sys_name><sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package><sys_policy/><sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope><sys_update_name>sys_db_object_7b09330ac3b71210c5d75242b40131e5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-21 06:45:26</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>1616049959</payload_hash>
+        <record_name>Document</record_name>
+        <reverted_from/>
+        <source>60cbdb93c3131210c5d75242b40131b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-21 06:45:26</sys_created_on>
+        <sys_id>f158182ac3f31210c5d75242b4013183</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195274100d60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-21 06:45:26</sys_updated_on>
+        <type>Table</type>
+        <update_guid>7958182adbf31210ea615784c997e182</update_guid>
+        <update_guid_history>7958182adbf31210ea615784c997e182:1616049959,1d581ce6f9f3121075cd5bc96d94a948:1899465181,4419730acfb71210b81459e8a1a22635:1775522263</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-21 06:52:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>010b9f04a1a14584800463673246f224</sys_id>
+        <sys_metadata>7b09330ac3b71210c5d75242b40131e5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Document</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_scope_delete display_value="">06eacfb531f84c0c80adc050aaeca810</sys_scope_delete>
+        <sys_update_name>sys_db_object_7b09330ac3b71210c5d75242b40131e5</sys_update_name>
+        <sys_update_version display_value="sys_db_object_7b09330ac3b71210c5d75242b40131e5">f158182ac3f31210c5d75242b4013183</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-21 06:52:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

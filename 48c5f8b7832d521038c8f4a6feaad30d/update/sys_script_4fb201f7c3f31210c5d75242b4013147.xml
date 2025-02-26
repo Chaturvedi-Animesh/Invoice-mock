@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sys_attachment</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Remove the delete attachment</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    var invoiceAttachment = current.table_sys_id;
+    var parentSys_id = '';
+    var attachmentHash = current.hash;
+    var fileName = current.file_name;
+    var invoiceRecord = new GlideRecord('x_1097202_invoices_invoice_attachments');
+    if (invoiceRecord.get(invoiceAttachment)) {
+        parentSys_id = invoiceRecord.parent_invoice;
+        gs.info("1319091 inside line 8" + parentSys_id);
+        var at = new GlideRecord('sys_attachment');
+        at.addEncodedQuery('table_name=x_1097202_invoices_invoice^table_sys_id=' + parentSys_id + '^hash=' + attachmentHash + '^file_name=' + fileName);
+        at.orderByDesc('sys_created_on');
+        at.setLimit(1);
+        at.query();
+        if (at.next()) {
+            gs.info("1319091 inside line 14");
+            at.deleteRecord();
+        }
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 07:06:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4fb201f7c3f31210c5d75242b4013147</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Remove the delete attachment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_script_4fb201f7c3f31210c5d75242b4013147</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-26 06:02:52</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=4fb201f7c3f31210c5d75242b4013147"/>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>4fb201f7c3f31210c5d75242b4013147</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-25 07:06:35</sys_created_on>
+        <sys_id>9e8389f7c3f31210c5d75242b40131b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-25 07:06:35</sys_updated_on>
+        <table>sys_script</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

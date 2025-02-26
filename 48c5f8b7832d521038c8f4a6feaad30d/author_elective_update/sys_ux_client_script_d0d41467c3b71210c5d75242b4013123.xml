@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Home">a8cbcd0c58b1d210ea709b2df38a02bf</macroponent>
+        <name>New client script 2</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    
+
+    try{
+        var userSysId = api.context.session.user.sys_id
+        var clickedFilter = event?.payload?.params?.query || "assignment_group.manager="+userSysId
+        console.log("Changing Filter to "+clickedFilter)
+        api.setState('myTeamFilter',clickedFilter)
+    }catch(err){
+        console.log("error")
+        console.log(err)
+    
+
+}
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-24 10:42:45</sys_created_on>
+        <sys_id>d0d41467c3b71210c5d75242b4013123</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New client script 2</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_ux_client_script_d0d41467c3b71210c5d75242b4013123</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-24 10:42:45</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</application>
+        <file_path/>
+        <instance_id>3185c048db32f9d4b1eb9027c596191d</instance_id>
+        <instance_name>dev222928</instance_name>
+        <name>sys_ux_client_script_d0d41467c3b71210c5d75242b4013123</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="Home"&gt;a8cbcd0c58b1d210ea709b2df38a02bf&lt;/macroponent&gt;&lt;name&gt;New client script 2&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    
+
+    try{
+        var userSysId = api.context.session.user.sys_id
+        var clickedFilter = event?.payload?.params?.query || "assignment_group.manager="+userSysId
+        console.log("Changing Filter to "+clickedFilter)
+        api.setState('myTeamFilter',clickedFilter)
+    }catch(err){
+        console.log("error")
+        console.log(err)
+    
+
+}
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-02-24 10:42:45&lt;/sys_created_on&gt;&lt;sys_id&gt;d0d41467c3b71210c5d75242b4013123&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;New client script 2&lt;/sys_name&gt;&lt;sys_package display_value="Invoices" source="x_1097202_invoices"&gt;48c5f8b7832d521038c8f4a6feaad30d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Invoices"&gt;48c5f8b7832d521038c8f4a6feaad30d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_d0d41467c3b71210c5d75242b4013123&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-02-24 10:42:45&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-783372279</payload_hash>
+        <record_name>New client script 2</record_name>
+        <reverted_from/>
+        <source>60cbdb93c3131210c5d75242b40131b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-24 10:42:45</sys_created_on>
+        <sys_id>0f6b6427c33b1210c5d75242b401318f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>195378d59410000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-24 10:42:45</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>cf6b6427703b12104d680c27dcb40d8e</update_guid>
+        <update_guid_history>cf6b6427703b12104d680c27dcb40d8e:-783372279</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-24 10:45:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>1b872ac3dd8c45b2974760db8af3b181</sys_id>
+        <sys_metadata>d0d41467c3b71210c5d75242b4013123</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New client script 2</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_scope_delete display_value="">06eacfb531f84c0c80adc050aaeca810</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_d0d41467c3b71210c5d75242b4013123</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_d0d41467c3b71210c5d75242b4013123">0f6b6427c33b1210c5d75242b401318f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-24 10:45:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="d0193b86c3b71210c5d75242b401319d" sys_domain="global" table="x_1097202_invoices_document" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-20 10:31:26</sys_created_on>
+            <sys_id>ea724c16c3f71210c5d75242b4013115</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_document" sys_domain="global" view="Default view">d0193b86c3b71210c5d75242b401319d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-20 10:31:26</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>uploaded_by</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-20 10:31:26</sys_created_on>
+            <sys_id>ea724c16c3f71210c5d75242b4013116</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_document" sys_domain="global" view="Default view">d0193b86c3b71210c5d75242b401319d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-20 10:31:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>upload_date_and_time</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-20 10:31:26</sys_created_on>
+            <sys_id>e2724c16c3f71210c5d75242b4013117</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_document" sys_domain="global" view="Default view">d0193b86c3b71210c5d75242b401319d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-20 10:31:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>invoice_number</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-20 10:31:26</sys_created_on>
+            <sys_id>ea724c16c3f71210c5d75242b4013117</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_document" sys_domain="global" view="Default view">d0193b86c3b71210c5d75242b401319d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-20 10:31:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-20 10:31:26</sys_created_on>
+            <sys_id>e2724c16c3f71210c5d75242b4013118</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_document" sys_domain="global" view="Default view">d0193b86c3b71210c5d75242b401319d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-20 10:31:26</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-20 10:31:26</sys_created_on>
+            <sys_id>ea724c16c3f71210c5d75242b4013118</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_document" sys_domain="global" view="Default view">d0193b86c3b71210c5d75242b401319d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-20 10:31:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>document</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-20 10:31:26</sys_created_on>
+            <sys_id>e2724c16c3f71210c5d75242b4013119</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_document" sys_domain="global" view="Default view">d0193b86c3b71210c5d75242b401319d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-20 10:31:26</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-20 10:31:26</sys_created_on>
+            <sys_id>ea724c16c3f71210c5d75242b4013119</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_document" sys_domain="global" view="Default view">d0193b86c3b71210c5d75242b401319d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-20 10:31:26</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-21 06:45:25</sys_created_on>
+            <sys_id>e958182ac3f31210c5d75242b4013152</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_document" sys_domain="global" view="Default view">d0193b86c3b71210c5d75242b401319d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-21 06:45:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1097202_invoices_document</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-20 09:50:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d0193b86c3b71210c5d75242b401319d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1097202_invoices_document</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+            <sys_update_name>sys_ui_section_d0193b86c3b71210c5d75242b401319d</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-20 09:50:20</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</application>
+        <file_path/>
+        <instance_id>3185c048db32f9d4b1eb9027c596191d</instance_id>
+        <instance_name>dev222928</instance_name>
+        <name>sys_ui_section_d0193b86c3b71210c5d75242b401319d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="d0193b86c3b71210c5d75242b401319d" sys_domain="global" table="x_1097202_invoices_document" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-20 10:31:26</sys_created_on><sys_id>ea724c16c3f71210c5d75242b4013115</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_document" sys_domain="global" view="Default view">d0193b86c3b71210c5d75242b401319d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-20 10:31:26</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>uploaded_by</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-20 10:31:26</sys_created_on><sys_id>ea724c16c3f71210c5d75242b4013116</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_document" sys_domain="global" view="Default view">d0193b86c3b71210c5d75242b401319d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-20 10:31:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>upload_date_and_time</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-20 10:31:26</sys_created_on><sys_id>e2724c16c3f71210c5d75242b4013117</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_document" sys_domain="global" view="Default view">d0193b86c3b71210c5d75242b401319d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-20 10:31:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>invoice_number</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-20 10:31:26</sys_created_on><sys_id>ea724c16c3f71210c5d75242b4013117</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_document" sys_domain="global" view="Default view">d0193b86c3b71210c5d75242b401319d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-20 10:31:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-20 10:31:26</sys_created_on><sys_id>e2724c16c3f71210c5d75242b4013118</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_document" sys_domain="global" view="Default view">d0193b86c3b71210c5d75242b401319d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-20 10:31:26</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>vendor</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-20 10:31:26</sys_created_on><sys_id>ea724c16c3f71210c5d75242b4013118</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_document" sys_domain="global" view="Default view">d0193b86c3b71210c5d75242b401319d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-20 10:31:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>document</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-20 10:31:26</sys_created_on><sys_id>e2724c16c3f71210c5d75242b4013119</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_document" sys_domain="global" view="Default view">d0193b86c3b71210c5d75242b401319d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-20 10:31:26</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-20 10:31:26</sys_created_on><sys_id>ea724c16c3f71210c5d75242b4013119</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_document" sys_domain="global" view="Default view">d0193b86c3b71210c5d75242b401319d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-20 10:31:26</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-21 06:45:25</sys_created_on><sys_id>e958182ac3f31210c5d75242b4013152</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_document" sys_domain="global" view="Default view">d0193b86c3b71210c5d75242b401319d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-21 06:45:25</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1097202_invoices_document</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-20 09:50:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d0193b86c3b71210c5d75242b401319d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1097202_invoices_document</sys_name><sys_overrides/><sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package><sys_policy/><sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope><sys_update_name>sys_ui_section_d0193b86c3b71210c5d75242b401319d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-20 09:50:20</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>400791149</payload_hash>
+        <record_name>Document</record_name>
+        <reverted_from/>
+        <source>60cbdb93c3131210c5d75242b40131b5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-21 06:45:25</sys_created_on>
+        <sys_id>2158182ac3f31210c5d75242b4013156</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1952740fe570000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-21 06:45:25</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>2558182a8ff312103a3f520537131855</update_guid>
+        <update_guid_history>2558182a8ff312103a3f520537131855:400791149,6e724c16c6f71210aa42c1721facef1b:67100087,2c193b860db71210966b4373982bfea0:-1095511305</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-21 06:52:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>6c1b9260acf14f88ae429f124283a2c9</sys_id>
+        <sys_metadata>d0193b86c3b71210c5d75242b401319d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1097202_invoices_document</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_parent display_value="">7b09330ac3b71210c5d75242b40131e5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_scope_delete display_value="">06eacfb531f84c0c80adc050aaeca810</sys_scope_delete>
+        <sys_update_name>sys_ui_section_d0193b86c3b71210c5d75242b401319d</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_d0193b86c3b71210c5d75242b401319d">2158182ac3f31210c5d75242b4013156</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-21 06:52:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

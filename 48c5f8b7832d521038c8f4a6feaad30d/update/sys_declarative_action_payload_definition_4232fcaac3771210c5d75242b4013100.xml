@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_definition">
+    <sys_declarative_action_payload_definition action="INSERT_OR_UPDATE">
+        <action_key>Attach file</action_key>
+        <applicable_to>c3547169534723003eddddeeff7b126c</applicable_to>
+        <description/>
+        <label>Attach file</label>
+        <payload_field_table>var__m_sys_declarative_action_payload_field_4232fcaac3771210c5d75242b4013100</payload_field_table>
+        <payload_template>{"record_ids":"","count":""}</payload_template>
+        <sys_class_name>sys_declarative_action_payload_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-21 08:39:25</sys_created_on>
+        <sys_id>4232fcaac3771210c5d75242b4013100</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Attach file</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_definition_4232fcaac3771210c5d75242b4013100</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-21 09:59:18</sys_updated_on>
+    </sys_declarative_action_payload_definition>
+</record_update>

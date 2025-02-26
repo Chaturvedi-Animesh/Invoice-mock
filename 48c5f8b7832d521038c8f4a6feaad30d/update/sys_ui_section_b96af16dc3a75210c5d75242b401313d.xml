@@ -1,5 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="b96af16dc3a75210c5d75242b401313d" sys_domain="global" table="x_1097202_invoices_invoice_attachments" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor_name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-25 05:50:03</sys_created_on>
+            <sys_id>d102f8b7c3b31210c5d75242b4013127</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_invoice_attachments" sys_domain="global" view="Default view">b96af16dc3a75210c5d75242b401313d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-25 05:50:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supporting_document</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-25 05:50:03</sys_created_on>
+            <sys_id>5102f8b7c3b31210c5d75242b4013128</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_invoice_attachments" sys_domain="global" view="Default view">b96af16dc3a75210c5d75242b401313d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-25 05:50:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>parent_invoice</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-25 05:50:03</sys_created_on>
+            <sys_id>5902f8b7c3b31210c5d75242b4013128</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_invoice_attachments" sys_domain="global" view="Default view">b96af16dc3a75210c5d75242b401313d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-25 05:50:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor_code</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-25 05:50:03</sys_created_on>
+            <sys_id>5102f8b7c3b31210c5d75242b4013129</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_invoice_attachments" sys_domain="global" view="Default view">b96af16dc3a75210c5d75242b401313d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-25 05:50:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>uploaded_by</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-25 05:50:03</sys_created_on>
+            <sys_id>5902f8b7c3b31210c5d75242b4013129</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_invoice_attachments" sys_domain="global" view="Default view">b96af16dc3a75210c5d75242b401313d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-25 05:50:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>uploaded_date_time</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-25 05:50:03</sys_created_on>
+            <sys_id>5102f8b7c3b31210c5d75242b401312a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1097202_invoices_invoice_attachments" sys_domain="global" view="Default view">b96af16dc3a75210c5d75242b401313d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-25 05:50:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

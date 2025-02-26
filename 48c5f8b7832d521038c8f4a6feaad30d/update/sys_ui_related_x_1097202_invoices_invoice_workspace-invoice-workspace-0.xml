@@ -2,45 +2,31 @@
     <sys_ui_related sys_domain="global" table="x_1097202_invoices_invoice" version="2" view="workspace-invoice-workspace-0">
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Invoice - Workspace Invoice Workspace 0" name="x_1097202_invoices_invoice" related_list="NULL" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">67013585c36b1210c5d75242b4013172</list_id>
+            <list_id display_value="Invoice - Workspace Invoice Workspace 0" name="x_1097202_invoices_invoice" related_list="NULL" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">8b9bd46ec3f31210c5d75242b401312d</list_id>
             <order_by/>
             <position>0</position>
             <related_list>x_1097202_invoices_approval_routing_preview.parent</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-04 11:06:28</sys_created_on>
-            <sys_id>67013585c36b1210c5d75242b4013173</sys_id>
+            <sys_created_on>2025-02-21 06:59:43</sys_created_on>
+            <sys_id>8b9bd46ec3f31210c5d75242b401312e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-04 11:06:28</sys_updated_on>
+            <sys_updated_on>2025-02-21 06:59:43</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
-            <list_id display_value="Invoice - Workspace Invoice Workspace 0" name="x_1097202_invoices_invoice" related_list="NULL" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">67013585c36b1210c5d75242b4013172</list_id>
+            <list_id display_value="Invoice - Workspace Invoice Workspace 0" name="x_1097202_invoices_invoice" related_list="NULL" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">8b9bd46ec3f31210c5d75242b401312d</list_id>
             <order_by/>
             <position>1</position>
             <related_list>u_approval_history.parent</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-04 11:06:28</sys_created_on>
-            <sys_id>6f013585c36b1210c5d75242b4013173</sys_id>
+            <sys_created_on>2025-02-21 06:59:43</sys_created_on>
+            <sys_id>839bd46ec3f31210c5d75242b401312f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-04 11:06:28</sys_updated_on>
-        </sys_ui_related_list_entry>
-        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
-            <filter/>
-            <list_id display_value="Invoice - Workspace Invoice Workspace 0" name="x_1097202_invoices_invoice" related_list="NULL" sys_domain="global" view="28cbcd0cb5b1d210eb7aabb8a6081ec4">67013585c36b1210c5d75242b4013172</list_id>
-            <order_by/>
-            <position>2</position>
-            <related_list>REL:b9edf0ca0a0a0b010035de2d6b579a03</related_list>
-            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-04 11:06:28</sys_created_on>
-            <sys_id>63013585c36b1210c5d75242b4013174</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-04 11:06:28</sys_updated_on>
+            <sys_updated_on>2025-02-21 06:59:43</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Invoice - Workspace Invoice Workspace 0</calculated_name>
@@ -51,10 +37,10 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2025-02-04 11:06:28</sys_created_on>
+            <sys_created_on>2025-02-21 06:59:43</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>67013585c36b1210c5d75242b4013172</sys_id>
+            <sys_id>8b9bd46ec3f31210c5d75242b401312d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Invoice - Workspace Invoice Workspace 0</sys_name>
             <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
@@ -62,7 +48,7 @@
             <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
             <sys_update_name>sys_ui_related_x_1097202_invoices_invoice_workspace-invoice-workspace-0</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2025-02-04 11:06:28</sys_updated_on>
+            <sys_updated_on>2025-02-21 06:59:43</sys_updated_on>
             <sys_user/>
             <view display_value="Workspace Invoice Workspace 0" name="workspace-invoice-workspace-0">28cbcd0cb5b1d210eb7aabb8a6081ec4</view>
             <view_name/>

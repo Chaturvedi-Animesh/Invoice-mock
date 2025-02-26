@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9d737144c3886210c5d75242b4013157" label="Invoice Documents History" max_length="40" name="x_1097202_invoices_invoice_documents_history" type="collection">
+        <element label="Uploaded by" max_length="32" name="uploaded_by" reference="sys_user" type="reference"/>
+        <element label="Uploaded Date &amp; Time" max_length="40" name="uploaded_date_time" type="glide_date_time"/>
+        <element label="Supporting Document" max_length="100" name="supporting_document" type="string_full_utf8"/>
+        <element label="Vendor Code" max_length="50" name="vendor_code" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Parent Invoice" max_length="32" name="parent_invoice" reference="x_1097202_invoices_invoice" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="parent_invoice"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+        <index name="index3">
+            <element name="uploaded_by"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping">
+    <sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE">
+        <action_payload_definition display_value="Attach file">4232fcaac3771210c5d75242b4013100</action_payload_definition>
+        <label>null List</label>
+        <model display_value="List">c3547169534723003eddddeeff7b126c</model>
+        <payload_map>count=^record_ids=^EQ</payload_map>
+        <required_translations/>
+        <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-21 08:39:26</sys_created_on>
+        <sys_id>276234eac3771210c5d75242b4013172</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>null List</sys_name>
+        <sys_package display_value="Invoices" source="x_1097202_invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Invoices">48c5f8b7832d521038c8f4a6feaad30d</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_mapping_276234eac3771210c5d75242b4013172</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-21 09:59:20</sys_updated_on>
+    </sys_declarative_action_payload_mapping>
+</record_update>
